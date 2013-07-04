@@ -62,8 +62,8 @@
           <a href="/">Home</a>
           <!--<a href="/about.html">About</a>-->
           <a href="/events/">Events</a>
-          <!--<a href="/press.html">Press</a>
-          <a href="/contact.html">Contact</a>-->
+          <a href="/press.html">Press</a>
+          <a href="/contact.html">Contact</a>
           <a href="/developers.html">Developers</a>
         </nav>
       </header>
