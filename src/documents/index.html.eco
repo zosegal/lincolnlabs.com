@@ -3,56 +3,47 @@ layout: 'default'
 title: 'Home'
 ---
 
+<h1>
+LincolnLabs is a gathering of like minded technologists who believe in advancing liberty and technology in the public domain. 
+</h1>
+
+<div class="signup">
+  <h2>Sign up for email updates on future events &amp; hackathons</h2
+  <form action="">
+  <input type="text" name="" value="example@domain.com"><br>
+  <input type="submit" value="Sign Up">
+</form>
+
+</div>
+
+<h2>
 On June 22nd, 150 hackers competed to build the best application in 24 hours to advance liberty. The following were our winners that walked away with $5000 in cash.
+</h2>
 
-<div class="cf"></div>
-<h1 class="ribbon">1st - CheckBox<span class="ribbon-shadow"></span></h1>
-<div class="cf"></div>
+<div class="box first">
+  <p>
+  It’s 2013. Everyday we trust the Internet to process billions of dollars, keep our social security numbers safe, as well as our medical information. Yet still, to cast a vote we need to drive to a polling station, wait in line, and fill in little bubbles with a pencil. We built CheckBox to change that. CheckBox combines new open source technology with a unique ID delivered by mail so that voting districts can easily create a secure ballot for voters to vote from home.
+  </p>
+  <span class="team">Cameron Urban, Breck Yunits</span>
+</div>
 
-<p>
-It’s 2013. Everyday we trust the Internet to process billions of dollars, keep our social security numbers safe, as well as our medical information. Yet still, to cast a vote we need to drive to a polling station, wait in line, and fill in little bubbles with a pencil. We built CheckBox to change that. CheckBox combines new open source technology with a unique ID delivered by mail so that voting districts can easily create a secure ballot for voters to vote from home.
-</p>
 
-Members:
-<ul>  
-  <li>Cameron Urban</li>
-  <li>Breck Yunits</li>
-</ul>
+<div class="box second">
+  <p>
+  Newspora is a crowdfunding news platform. On our platform journalists can raise funds from the 'crowd' to investigate topics/issues, which are not covered or not fully-covered by news organizations. These will be issues that people care about, since they are funded by people. Once the idea is funded, the journalist investigates the story, and the article is written, we will publish it on our platform and in one of the traditional media to get more attention to the issue. Our partnership with traditional media will give us their distribution channel and will provide them our content.
+  </p>
 
-<div class="cf"></div>
-<h1 class="ribbon">2nd - Newspora<span class="ribbon-shadow"></h1>
-<div class="cf"></div>
+  <span class="team">
+  Brantley Beaird, Siddartha, Luis Chiang, Sergey Astretsov, Diana Wong, Michael Revell, Nora Akl, Danish Mughal, Raymond M
+  </span>
+</div>
 
-<p>
-Newspora is a crowdfunding news platform. On our platform journalists can raise funds from the 'crowd' to investigate topics/issues, which are not covered or not fully-covered by news organizations. These will be issues that people care about, since they are funded by people. Once the idea is funded, the journalist investigates the story, and the article is written, we will publish it on our platform and in one of the traditional media to get more attention to the issue. Our partnership with traditional media will give us their distribution channel and will provide them our content.
-</p>
+<div class="box third">
+  <p>
+  Codename Progress (<a href="http://codenameprogress.org" target="_new">codenameprogress.org</a>) is the coaching platform to make you better. You invest 10 minutes a day, anywhere, on any device, and you get video training from public figures and world experts with clear action steps to improve in the areas you so desire.
+  </p>
 
-Members:
-<ul>
-  <li>Brantley Beaird</li>
-  <li>Siddartha P</li>
-  <li>Luis Chiang</li>
-  <li>Sergey Astretsov</li>
-  <li>Diana Wong</li>
-  <li>Michael Revell</li>
-  <li>Nora Akl</li>
-  <li>Danish Mughal</li>
-  <li>Raymond M</li>
-</ul>
-
-<div class="cf"></div>
-<h1 class="ribbon">3rd - CodeName Progress<span class="ribbon-shadow"></h1>
-<div class="cf"></div>
-
-<p>
-Codename Progress (<a href="http://codenameprogress.org" target="_new">codenameprogress.org</a>) is the coaching platform to make you better. You invest 10 minutes a day, anywhere, on any device, and you get video training from public figures and world experts with clear action steps to improve in the areas you so desire.
-</p>
-
-Members:
-<ul>
-  <li>Zeal Caiden</li>
-  <li>Stefan Broda</li>
-  <li>Alyssa Reese</li>
-  <li>Clara Simpatica</li>
-  <li>Hana Phung</li>
-</ul>
+  <span class="team">
+  Zeal Caiden, Stefan Broda, Alyssa Reese, Clara Simpatica, Hana Phung
+  </span>
+</div>
