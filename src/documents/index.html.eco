@@ -21,29 +21,30 @@ On June 22nd, 150 hackers competed to build the best application in 24 hours to 
 </h2>
 
 <div class="box first">
+  <h4>Checkbox</h4>
+  <span class="team">Cameron Urban, Breck Yunits</span>
   <p>
   It’s 2013. Everyday we trust the Internet to process billions of dollars, keep our social security numbers safe, as well as our medical information. Yet still, to cast a vote we need to drive to a polling station, wait in line, and fill in little bubbles with a pencil. We built CheckBox to change that. CheckBox combines new open source technology with a unique ID delivered by mail so that voting districts can easily create a secure ballot for voters to vote from home.
   </p>
-  <span class="team">Cameron Urban, Breck Yunits</span>
 </div>
 
 
 <div class="box second">
-  <p>
-  Newspora is a crowdfunding news platform. On our platform journalists can raise funds from the 'crowd' to investigate topics/issues, which are not covered or not fully-covered by news organizations. These will be issues that people care about, since they are funded by people. Once the idea is funded, the journalist investigates the story, and the article is written, we will publish it on our platform and in one of the traditional media to get more attention to the issue. Our partnership with traditional media will give us their distribution channel and will provide them our content.
-  </p>
-
-  <span class="team">
+  <h4 class="right-team">Newspora</h4>
+  <span class="team right-team">
   Brantley Beaird, Siddartha, Luis Chiang, Sergey Astretsov, Diana Wong, Michael Revell, Nora Akl, Danish Mughal, Raymond M
   </span>
+  <p class="right-content">
+  Newspora is a crowdfunding news platform. On our platform journalists can raise funds from the 'crowd' to investigate topics/issues, which are not covered or not fully-covered by news organizations. These will be issues that people care about, since they are funded by people. Once the idea is funded, the journalist investigates the story, and the article is written, we will publish it on our platform and in one of the traditional media to get more attention to the issue. Our partnership with traditional media will give us their distribution channel and will provide them our content.
+  </p>
 </div>
 
 <div class="box third">
-  <p>
-  Codename Progress (<a href="http://codenameprogress.org" target="_new">codenameprogress.org</a>) is the coaching platform to make you better. You invest 10 minutes a day, anywhere, on any device, and you get video training from public figures and world experts with clear action steps to improve in the areas you so desire.
-  </p>
-
+  <h4>Codename Progress</h4>
   <span class="team">
   Zeal Caiden, Stefan Broda, Alyssa Reese, Clara Simpatica, Hana Phung
   </span>
+  <p>
+  Codename Progress (<a href="http://codenameprogress.org" target="_new">codenameprogress.org</a>) is the coaching platform to make you better. You invest 10 minutes a day, anywhere, on any device, and you get video training from public figures and world experts with clear action steps to improve in the areas you so desire.
+  </p>
 </div>

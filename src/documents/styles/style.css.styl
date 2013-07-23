@@ -31,7 +31,7 @@ a
 
 body
     background-color #eee
-    font-family 'Open Sans', Avenir Next', 'allerregular', Arial, sans-serif
+    font-family 'Avenir Next', 'allerregular', Arial, sans-serif
     -webkit-font-smoothing antialiased
 
 .ribbon
@@ -202,7 +202,7 @@ h1
     font-weight 600
 
 h2
-    font-size 24px
+    font-size 23px
     font-weight 600
     color #333
 
@@ -213,6 +213,15 @@ h4
 
 .box
     padding 55px
+    overflow hidden
+
+.box p
+    color #fff
+    width 60%
+    text-align justify
+
+.right-content
+    float right
 
 .box.first
     background-color #3b458f
@@ -223,10 +232,27 @@ h4
 .box.third
     background-color #a6abc9
 
+.box a
+    color #fff
+
+.box a:hover
+    text-decoration underline
+    color #f0f0f0
+
 .team
-    color 255,255,255,.5
+    color #fff
+    opacity .6
     text-transform uppercase
     font-size 12px
+    letter-spacing 3px
+    padding-bottom 30px
+    display inline-block
+
+.right-team
+    width 60%
+    display inline-block
+    float right
+    text-align right
 
 #footer-wrapper
     color #999
