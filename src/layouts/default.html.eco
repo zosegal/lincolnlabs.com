@@ -55,7 +55,7 @@
       <header>
         <h1 id="logo">
           <a href="/">
-            <span id="logo-name">LincolnLabs<span class="ribbon-shadow-large"></span></span>
+            <span id="logo-name">Lincoln Labs<span class="ribbon-shadow-large"></span></span>
             <!--<span id="logo-event">Liberty Hackathon</span>-->
           </a>
         </h1>
@@ -79,7 +79,7 @@
   
   <div id="footer-wrapper" class="wrapper">
     <div class="container">
-      <footer><span>&copy; Copyright 2013 LincolnLabs. All rights reserved. Email us at: <a href="mailto:about@lincolnlabs.com">about@lincolnlabs.com</a></span></footer>
+      <footer><span>&copy; Copyright 2013 Lincoln Labs. All rights reserved.  <a href="mailto:about@lincolnlabs.com" class="email-link">about@lincolnlabs.com</a></span></footer>
     </div>
   </div>
 

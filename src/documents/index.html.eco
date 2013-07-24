@@ -4,14 +4,14 @@ title: 'Home'
 ---
 
 <h1>
-LincolnLabs is a gathering of like minded technologists who believe in advancing liberty and technology in the public domain. 
+Lincoln Labs is a gathering of like minded technologists who believe in advancing liberty and technology in the public domain. 
 </h1>
 
 <div class="signup">
-  <h2>Sign up for email updates on future events &amp; hackathons</h2
+  <h3>Sign up for email updates on future events &amp; hackathons</h3>
   <form action="">
-  <input type="text" name="" value="example@domain.com"><br>
-  <input type="submit" value="Sign Up">
+  <input type="text" name="" value="example@domain.com" class="form-textinput"><br>
+  <input type="submit" value="Sign Up" class="form-button">
 </form>
 
 </div>

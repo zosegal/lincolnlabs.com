@@ -97,9 +97,10 @@ form
         font-size 16px
         height 32px
         margin-right 5px
-        padding 4px 8px
+        padding 20px 10px
         outline none
-        width 430px
+        width 310px
+        float left
 
     input[type="text"].half
         margin-right 6px
@@ -149,14 +150,18 @@ form
         position absolute
         right 0
         top 36px
-        width 400px
+        width 410px
 
         a
             color #222
             cursor pointer
             display inline-block
-            font-size 14px
-            margin-right 14px
+            font-size 21px
+            margin-right 34px
+            font-weight 600
+
+        a:hover
+            border-bottom 3px solid red
 
 #header-wrapper
     background-color dark-purple
@@ -172,7 +177,7 @@ form
 #logo-name
     background-color dark-red
     display inline-block
-    font-family 'Rockwell'
+    /*font-family 'Rockwell'*/
     font-size 26px
     height 56px
     line-height 56px
@@ -196,20 +201,67 @@ form
     .container
         padding 20px 10px 10px
 
+/* Headings */
+
 h1
-    font-size 36px
+    font-size 32px
     color #333
     font-weight 600
+    letter-spacing -1px
 
 h2
     font-size 23px
-    font-weight 600
+    font-weight 500
     color #333
+    text-align center
+
+h3
+    color #fff
+    font-size 26px
+    font-weight 600
+    text-align center
 
 h4
     font-size 28px
     weight 700
     color #fff
+
+/* Sign Up Box */
+
+.signup
+    background-color #3b458f
+    padding 55px 55px 100px 55px
+    margin 55px 0
+
+.form-textinput
+    margin-top 28px
+    width 300px
+
+.form-button
+    background-color #ef4642
+    color #fff
+    font-weight 500
+    padding 10px 25px
+    text-align center
+    border-bottom 2px solid #283065
+    border-top none
+    border-left none
+    border-right none
+    border-radius 4px
+    font-size 19px
+    letter-spacing 1px
+    float left
+
+.form-button:hover
+    background-color #fe6b68
+
+.form-button:active
+    background-color #e13e3a
+    border-top 2px solid #283065
+    border-bottom none
+
+
+/* Teams */
 
 .box
     padding 55px
@@ -225,6 +277,7 @@ h4
 
 .box.first
     background-color #3b458f
+    margin-top 50px
 
 .box.second
     background-color #767ba4
@@ -264,3 +317,12 @@ h4
 
         span
             line-height 100px
+
+        a
+            text-transform uppercase
+
+        a:hover
+            border-bottom: 2px solid #f0f0f0
+
+        .email-link
+            margin-left 40px
