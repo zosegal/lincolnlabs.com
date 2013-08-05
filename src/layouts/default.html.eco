@@ -60,13 +60,13 @@
           </a>
         </h1>
 
-        <nav id="navigation">
+<!--         <nav id="navigation">
           <a href="/">Home</a>
-          <!--<a href="/about.html">About</a>-->
+          <a href="/about.html">About</a>
           <a href="/events/">Events</a>
           <a href="/press.html">Press</a>
           <a href="/contact.html">Contact</a>
-        </nav>
+        </nav> -->
       </header>
     </div>
   </div>

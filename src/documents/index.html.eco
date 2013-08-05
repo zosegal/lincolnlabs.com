@@ -3,21 +3,22 @@ layout: 'default'
 title: 'Home'
 ---
 
-<h1>
-Lincoln Labs is a gathering of like minded technologists who believe in advancing liberty and technology in the public domain. 
+<h1 class="headline">
+Lincoln Labs was created to support a community of like minded technologist who believe in advancing liberty and technology.
 </h1>
 
 <div class="signup">
   <h3>Sign up for email updates on future events &amp; hackathons</h3>
-  <form action="">
-  <input type="text" name="" value="example@domain.com" class="form-textinput"><br>
-  <input type="submit" value="Sign Up" class="form-button">
-</form>
-
+  <div class="centered-content">
+    <form action="">
+    <input type="text" name="" value="example@domain.com" class="form-textinput"><br>
+    <input type="submit" value="Sign Up" class="form-button">
+    </form>
+  </div>
 </div>
 
 <h2>
-On June 22nd, 150 hackers competed to build the best application in 24 hours to advance liberty. The following were our winners that walked away with $5000 in cash.
+On June 21 & 22, 150 hackers competed to build the best application in 24 hours that advanced economic and individual liberty. The following are the winning teams who walked away with $5000 in cash.
 </h2>
 
 <div class="box first">
