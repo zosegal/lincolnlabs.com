@@ -34,6 +34,8 @@
   <!-- For third-generation iPad with high-resolution Retina display: -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/apple-touch-icon-144x144-precomposed.png" />
 
+  <link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+
   <script>
    var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-41140288-1']);
