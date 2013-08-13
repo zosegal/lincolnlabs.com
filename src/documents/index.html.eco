@@ -10,10 +10,21 @@ Lincoln Labs was created to support a community of like minded technologist who 
 <div class="signup">
   <h3>Sign up for email updates on future events &amp; hackathons</h3>
   <div class="centered-content">
-    <form action="">
-    <input type="text" name="" value="example@domain.com" class="form-textinput"><br>
-    <input type="submit" value="Sign Up" class="form-button">
+
+    <div id="mc_embed_signup">
+      <form action="http://lincolnlabs.us7.list-manage2.com/subscribe/post?u=5a298124dd214a5b4e12dbf7e&amp;id=3e3467b86e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </form>
+    </div>
+
+    <!--
+    <form action="mailto:mail@chrisabrams.com" enctype="text/plain" method="post">
+      <input type="text" name="" value="example@domain.com" class="form-textinput"><br>
+      <input type="submit" value="Sign Up" class="form-button">
     </form>
+    -->
   </div>
 </div>
 
