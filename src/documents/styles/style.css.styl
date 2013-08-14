@@ -242,8 +242,8 @@ h4
     width 300px
     height 48px
 
-.form-button
-    background-color #ef4642
+#mc_embed_signup .button
+    background-color #ef4642 !important
     color #fff
     font-weight 500
     padding 10px 25px
@@ -255,7 +255,7 @@ h4
     border-radius 4px
     font-size 19px
     letter-spacing 1px
-    float left
+    float left !important
 
 .form-button:hover
     background-color #fe6b68
@@ -272,7 +272,7 @@ h4
 /* Teams */
 
 .box
-    padding 55px
+    padding 40px 55px
     overflow hidden
 
 .box p
@@ -284,17 +284,23 @@ h4
     float right
 
 .box.first
+    background-image url('team-1st.png')
     background-color #3b458f
+    background-repeat no-repeat
+    background-position right
     margin-top 50px
-    background url('team-1st.png') right no-repeat
 
 .box.second
     background-color #767ba4
-    background url('team-2nd.png') left no-repeat
+    background-image url('team-2nd.png')
+    background-repeat no-repeat
+    background-position left
 
 .box.third
     background-color #a6abc9
-    background url('team-3rd.png') right no-repeat
+    background-image url('team-3rd.png')
+    background-repeat no-repeat
+    background-position right
 
 .box a
     color #fff
