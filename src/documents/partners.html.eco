@@ -1,0 +1,112 @@
+---
+layout: 'default'
+title: 'API Partners'
+---
+
+<div class="banner banner-about">
+  <div class="container">
+    <h1>API Partners</h1>
+    <p>Short H2 heading.</p>
+  </div>
+</div>
+<div id="colors"></div>
+
+<div class="container content-box">
+  <h3>H3 Content</h3>
+  <p>Lorem Ipsum.</p>
+</div>
+
+<div class="container bg-white">
+
+  <div class="row api-partner">
+    <div class="col-lg-6">
+      <div class="img right">
+        <img src="/img/partner_sh_large.jpg" />
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <h3>Sendhub</h3>
+      <p>SendHub gives you a free business phone system with calls and texts for your entire organization.  You can view analytics, manage users, etc.</p>
+      <a href="#">View API Documentation <span class="ex"></span></a>
+    </div>
+  </div>
+
+  <div class="row api-partner">
+    <div class="col-lg-6">
+      <div class="img right">
+        <img src="/img/partner_fb_large.jpg" />
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <h3>Facebook</h3>
+      <p>SendHub gives you a free business phone system with calls and texts for your entire organization.  You can view analytics, manage users, etc.</p>
+      <a href="#">View API Documentation <span class="ex"></span></a>
+    </div>
+  </div>
+
+  <div class="row api-partner">
+    <div class="col-lg-6">
+      <div class="img right">
+        <img src="/img/partner_sf_large.jpg" />
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <h3>Sunlight Foundation</h3>
+      <p>SendHub gives you a free business phone system with calls and texts for your entire organization.  You can view analytics, manage users, etc.</p>
+      <a href="#">View API Documentation <span class="ex"></span></a>
+    </div>
+  </div>
+
+  <div class="row api-partner">
+    <div class="col-lg-6">
+      <div class="img right">
+        <img src="/img/partner_sh_large.jpg" />
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <h3>Sendhub</h3>
+      <p>SendHub gives you a free business phone system with calls and texts for your entire organization.  You can view analytics, manage users, etc.</p>
+      <a href="#">View API Documentation <span class="ex"></span></a>
+    </div>
+  </div>
+
+  <div class="row api-partner">
+    <div class="col-lg-6">
+      <div class="img right">
+        <img src="/img/partner_su_large.jpg" />
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <h3>StumbleUpon</h3>
+      <p>SendHub gives you a free business phone system with calls and texts for your entire organization.  You can view analytics, manage users, etc.</p>
+      <a href="#">View API Documentation <span class="ex"></span></a>
+    </div>
+  </div>
+
+  <div class="row api-partner">
+    <div class="col-lg-6">
+      <div class="img right">
+        <img src="/img/partner_tc_large.jpg" />
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <h3>TechCrunch</h3>
+      <p>SendHub gives you a free business phone system with calls and texts for your entire organization.  You can view analytics, manage users, etc.</p>
+      <a href="#">View API Documentation <span class="ex"></span></a>
+    </div>
+  </div>
+
+  <div class="row api-partner">
+    <div class="col-lg-6">
+      <div class="img right">
+        <img src="/img/partner_sc_large.jpg" />
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <h3>Sequoia Capital</h3>
+      <p>SendHub gives you a free business phone system with calls and texts for your entire organization.  You can view analytics, manage users, etc.</p>
+      <a href="#">View API Documentation <span class="ex"></span></a>
+    </div>
+  </div>
+
+</div>

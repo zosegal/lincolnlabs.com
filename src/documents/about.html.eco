@@ -1,0 +1,51 @@
+---
+layout: 'default'
+title: 'About'
+---
+
+<div class="banner banner-about">
+  <div class="container">
+    <h1>About</h1>
+    <p>How Lincoln Labs was born.</p>
+  </div>
+</div>
+<div id="colors"></div>
+
+<div class="container content-box">
+  <h3>Hackathon for liberty</h3>
+  <p>Lorem Ipsum.</p>
+</div>
+
+<div class="character container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="left">
+        <img src="/img/aaron.png" />
+      </div>
+      <div class="right">
+        <h3>Aaron Ginn</h3>
+
+        <p class="first">Aaron used to work for Mitt Romney. <br />Now he works at StumbleUpon as growth PM.</p>
+        
+        <p class="second">"There was a huge gap and under-representation in the tech community. I created Lincoln Labs as the way for people who believe in the free markets to express themselves. This is a little more text so it looks more flush."</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="character container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="left">
+        <img src="/img/garrett.png" />
+      </div>
+      <div class="right">
+        <h3>Garrett Johnson</h3>
+
+        <p class="first">Some sort of description would be placed here<br />Co-founder at SendHub</p>
+        
+        <p class="second">"There was a huge gap and under-representation in the tech community. I created Lincoln Labs as the way for people who believe in the free markets to express themselves. and under-representation in the tech community. I created Lincoln Labs as a way.”</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -3,26 +3,18 @@ layout: 'default'
 title: 'Contact'
 ---
 
-<h1 class="ribbon">Contact<span class="ribbon-shadow"></h1><div class="cf"></div>
-Fill out the form below or send us an email at: <a href="mailto:about@lincolnlabs.com">lincolnlabs.com</a>
-
-<form>
-
-  <div class="row">
-    <input id="input-first-name" class="half" name="first_name" type="text" placeholder="First Name" autofocus="autofocus" />
-
-    <input id="input-last-name" class="half" name="last_name" type="text" placeholder="Last Name" />
+<div class="banner banner-about">
+  <div class="container">
+    <h1>Contact</h1>
+    <p>How to reach us</p>
   </div>
+</div>
+<div id="colors"></div>
 
-  <div class="row">
-    <input id="input-email" name="email" type="email" placeholder="Email" />
-    <!--<label for="email">So we know where to reply to.</label>-->
-  </div>
+<div id="contact-box" class="container bg-white">
+  <p>Would you like to help out in the next event?<br />Have a question? Need an interview?</p>
 
-  <div class="row">
-    <textarea id="input-message" name="message" placeholer="Your message or comment."></textarea>
-  </div>
+  <img src="/img/at.png" />
 
-  <button id="contact-submit" type="submit">Submit</button>
-
-</form>
+  <p><b>Contact Us</b><br /><a href="mailto:about@lincolnlabs.com">about@lincolnlabs.com</a></p>
+</div>

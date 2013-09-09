@@ -1,0 +1,36 @@
+---
+layout: 'default'
+title: 'Miami'
+---
+
+<div class="banner banner-hackathon banner-miami-full">
+  <div class="container banner-miami">
+    <div class="col-lg-6">
+      <h1>Miami Hackathon</h1>
+      <h2>Reforming Education</h2>
+
+      <p>
+      Friday Oct. 21 7pm - Saturday Oct. 22 7pm<br />
+      Hosted at Venture.io<br />
+      1234 Miami Blvd 2nd Floor 94404
+      </p>
+
+      <a class="gmap-btn" href="#"><span class="plmk"></span> <span>View on Google Maps</span></a>
+    </div>
+
+    <div class="col-lg-6">
+      <h1>Did you just miss us?</h1>
+      <p>Subscribe to get the latest news.</p>
+
+      <form action="http://lincolnlabs.us7.list-manage2.com/subscribe/post?u=5a298124dd214a5b4e12dbf7e&amp;id=3e3467b86e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
+        <div></div>
+        <input type="text" value="" name="ZIP" class="zip" id="mce-ZIP" placeholder="Zip Code" />
+        <div></div>
+        <input type="submit" value="Get Updates" name="subscribe" id="mc-embedded-subscribe" class="button email-button">
+      </form>
+    </div>
+  </div>
+</div>
+<div id="colors"></div>
