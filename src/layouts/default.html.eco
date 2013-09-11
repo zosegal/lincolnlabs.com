@@ -74,25 +74,21 @@
     <%- @content %>
 
     <footer class="container">
-<<<<<<< HEAD
-      
+
       <!--
+
       <div id="footer-social" class="row">
-=======
-<!--       <div id="footer-social" class="row">
->>>>>>> e7495cf3f6e31a4bf4a73b1defc2bd4e91047694
+
         <div class="col-lg-12">
           <a id="social-g" class="social-btn" href="#"><img src="/img/social_g.jpg" /></a>
           <a id="social-s" class="social-btn" href="#"><img src="/img/social_s.jpg" /></a>
           <a id="social-t" class="social-btn" href="#"><img src="/img/social_t.jpg" /></a>
           <a id="social-f" class="social-btn last" href="#"><img src="/img/social_f.jpg" /></a>
         </div>
-<<<<<<< HEAD
+
       </div>
+
       -->
-=======
-      </div> -->
->>>>>>> e7495cf3f6e31a4bf4a73b1defc2bd4e91047694
 
       <div class="row">
         <div id="footer-top-border" class="col-lg-12"></div>
