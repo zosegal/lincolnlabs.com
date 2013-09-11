@@ -42,10 +42,18 @@ title: 'Miami Hackathon'
 
       <p>That's the percentage by which paying your way through college increased from 1985 to 2012. Meanwhile, the value of a bachelor's degree has decreased – the gap between salaries for high school and college graduates continues to shrink. Furthermore, recent international assessments ranked 15-year-olds in the U.S. 25th out of 30 countries in math performance and 21st in science performance.</p>
 
+<<<<<<< HEAD
       <p>This hackathon will provide a diverse group of innovators the opportunity build creative products within 24 hours to address critical challenges facing America's edcuation system. Teams will have access to awesome mentors and a panel of expert judges will award $5000 in cash prizes.</p>
-    </div>
+=======
+      <p>These statistics point to one reality – the quality and accessibility of education in the U.S. needs to improve, and we don't have any time left to waste.</p>
 
-    <div class="col-lg-6">
+      <p>Coders, engineers, entrepreneurs,and educators: if you're ready to collaborate with others and turn your ability and ideas into solutions for improving our education system, then we invite you to join us October 11th and 12th at Venture Hive in downtown Miami for our Liberty Hackathon.</p>
+
+      <p> We believe your talent and innovation are the missing pieces in our education puzzle. By bringing together Miami's talented and innovative minds at this event, we can create opportunities to solve problems and improve lives.</p>
+
+      <p>At this hackathon, you'll have 24 hours to create teams, build ideas, and present your solutions to a panel of education and technology experts. Our panel of experts will rank all solutions for future investment, and award over $5000 in cash prizes to the 1st, 2nd, and 3rd place teams.</p>
+>>>>>>> 1d86d8645efc5a3de48b3ff549108ec855a127e7
+
       <p><strong>We Supply:</strong> Free food (breakfast, lunch, and dinner), wifi, access to industry leaders, code samples, APIs, power cords, working space, and lots of caffeine to keep everyone buzzing.</p> 
 
       <p><strong>You Bring:</strong> Your laptop, ideas & energy. Whether you are a backend person and code in Ruby/PHP/.NET or are a designer and only work with Illustrator, you are invited to attend this event.</p>
