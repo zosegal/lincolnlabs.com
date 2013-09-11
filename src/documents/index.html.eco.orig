@@ -5,8 +5,8 @@ title: 'Home'
 
 <div class="banner banner-home">
   <div class="container">
-    <h1>Homepage</h1>
-    <p>Some sort of title.</p>
+    <h1>Home</h1>
+    <p>Lincoln Labs</p>
   </div>
 </div>
 <div id="colors"></div>
@@ -27,7 +27,7 @@ title: 'Home'
 
 </div>
 
-<div id="home-social" class="container">
+<!-- <div id="home-social" class="container">
   <div class="row">
     <div class="col-lg-12">
       <a id="social-g" class="social-btn" href="#"><img src="/img/social_g.jpg" /></a>
@@ -36,7 +36,7 @@ title: 'Home'
       <a id="social-f" class="social-btn last" href="#"><img src="/img/social_f.jpg" /></a>
     </div>
   </div>
-</div>
+</div> -->
 
 <div id="home-content" class="container bg-white">
   <div class="row">
@@ -52,7 +52,7 @@ title: 'Home'
   </div>
 </div>
 
-<div id="home-partners" class="container">
+<!-- <div id="home-partners" class="container">
   <div class="row">
     <div class="col-lg-12">
       
@@ -71,5 +71,4 @@ title: 'Home'
       </div>
     </div>
   </div>
-</div>
--->
+</div> -->
