@@ -36,16 +36,21 @@ title: 'Miami'
 <div id="colors"></div>
 
 <div class="container">
-  <p>Are you an entrepreneur or engineer with creative ideas for increasing the number of students who are college or career ready? If the answer is yes, join us!</p>
+  <div class="row">
+    <div class="col-lg-6">
+      <p>Are you an entrepreneur or engineer with creative ideas for increasing the number of students who are college or career ready? If the answer is yes, join us!</p>
 
-  <p>Recent international assessments ranked 15-year-olds in the U.S. 25th out of 30 countries in math performance and 21st in science performance. From 1985 to 2012, the cost of college tuition increased approximately 500%, nearly two and half times faster than inflation.</p>
+      <p>Recent international assessments ranked 15-year-olds in the U.S. 25th out of 30 countries in math performance and 21st in science performance. From 1985 to 2012, the cost of college tuition increased approximately 500%, nearly two and half times faster than inflation.</p>
 
-  <p>This hackathon will provide a diverse group of innovators the opportunity build creative products within 24 hours to address critical challenges facing America's edcuation system. Teams will have access to awesome mentors and a panel of expert judges will award $5000 in cash prizes.</p>
+      <p>This hackathon will provide a diverse group of innovators the opportunity build creative products within 24 hours to address critical challenges facing America's edcuation system. Teams will have access to awesome mentors and a panel of expert judges will award $5000 in cash prizes.</p>
+    </div>
 
-  <p><strong>We Supply:</strong> Free food (breakfast, lunch, and dinner), wifi, access to industry leaders, code samples, APIs, power cords, working space, and lots of caffeine to keep everyone buzzing.</p> 
+    <div class="col-lg-6">
+      <p><strong>We Supply:</strong> Free food (breakfast, lunch, and dinner), wifi, access to industry leaders, code samples, APIs, power cords, working space, and lots of caffeine to keep everyone buzzing.</p> 
 
-  <p><strong>You Bring:</strong> Your laptop, ideas & energy. Whether you are a backend person and code in Ruby/PHP/.NET or are a designer and only work with Illustrator, you are invited to attend this event.</p>
+      <p><strong>You Bring:</strong> Your laptop, ideas & energy. Whether you are a backend person and code in Ruby/PHP/.NET or are a designer and only work with Illustrator, you are invited to attend this event.</p>
 
-  <p><strong>Judges:</strong>Coming soon</p>
-
+      <p><strong>Judges:</strong> Coming soon</p>
+    </div>
+  </div>
 </div>
