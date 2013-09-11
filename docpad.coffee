@@ -32,16 +32,15 @@ docpadConfig = {
 
 			# The website's styles
 			styles: [
-				'/vendor/normalize.css'
-				'/vendor/h5bp.css'
+				'/vendor/bootstrap.min.css'
+				'/vendor/bootstrap-theme.css'
 				'/styles/style.css'
 			]
 
 			# The website's scripts
 			scripts: [
 				'/vendor/log.js'
-				'/vendor/modernizr.js'
-				'/scripts/script.js'
+				'/vendor/bootstrap.min.js'
 			]
 
 

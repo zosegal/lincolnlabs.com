@@ -3,49 +3,76 @@ layout: 'default'
 title: 'Home'
 ---
 
-<h1 class="headline">
-Lincoln Labs was created to support a community of like minded technologist who believe in advancing liberty and technology.
-</h1>
+<div class="banner banner-home">
+  <div class="container">
+    <h1>Home</h1>
+    <p>Lincoln Labs</p>
+  </div>
+</div>
+<div id="colors"></div>
+<div id="home-email-container" class="container">
 
-<div class="signup">
-  <h3>Sign up for email updates on future events &amp; hackathons</h3>
+  <div class="row">
+    <div class="col-lg-12">
+      <form action="http://lincolnlabs.us7.list-manage2.com/subscribe/post?u=5a298124dd214a5b4e12dbf7e&amp;id=3e3467b86e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
-  <form action="http://lincolnlabs.us7.list-manage2.com/subscribe/post?u=5a298124dd214a5b4e12dbf7e&amp;id=3e3467b86e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    
-    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button email-button">
-  </form>
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
+
+        <input type="text" value="" name="ZIP" class="zip" id="mce-ZIP" placeholder="Zip Code" />
+
+        <input type="submit" value="Get Updates" name="subscribe" id="mc-embedded-subscribe" class="button email-button">
+      </form>
+    </div>
+  </div>
+
 </div>
 
-<h2>
-On June 21 & 22, 150 hackers competed to build the best application in 24 hours that advanced economic and individual liberty. The following are the winning teams who walked away with $5000 in cash.
-</h2>
+<!--
+<div id="home-social" class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <a id="social-g" class="social-btn" href="#"><img src="/img/social_g.jpg" /></a>
+      <a id="social-s" class="social-btn" href="#"><img src="/img/social_s.jpg" /></a>
+      <a id="social-t" class="social-btn" href="#"><img src="/img/social_t.jpg" /></a>
+      <a id="social-f" class="social-btn last" href="#"><img src="/img/social_f.jpg" /></a>
+    </div>
+  </div>
+</div>
+-->
 
-<div class="box first">
-  <h4>Checkbox</h4>
-  <span class="team">Cameron Urban, Breck Yunits</span>
-  <p>
-  It’s 2013. Everyday we trust the Internet to process billions of dollars, keep our social security numbers safe, as well as our medical information. Yet still, to cast a vote we need to drive to a polling station, wait in line, and fill in little bubbles with a pencil. We built CheckBox to change that. CheckBox combines new open source technology with a unique ID delivered by mail so that voting districts can easily create a secure ballot for voters to vote from home.
-  </p>
+<div id="home-content" class="container bg-white">
+  <div class="row">
+    <div class="col-lg-12">
+      <p>We hosted the first ever Liberty Hackathon in June 2013 at Eventbrite’s San Francisco offices. With over 150 engineers, designers and entrepreneurs participating, the event was a <a href="http://www.google.com/url?q=http%3A%2F%2Fpandodaily.com%2F2013%2F06%2F26%2Fwhat-really-happened-at-the-right-wing-hackathon%2F&sa=D&sntz=1&usg=AFQjCNGVILm4fIHAWapR0Ph-T5KppMdm-A" target="_blank">HUGE success</a>...plus teams walked away with $5000 in cash prizes.</p>
+
+      <p>We’ve decided to take the show on the road! We’re looking for the best innovators to make cool stuff and make an impact.</p>
+
+      <p>In the next few months, Liberty Hackathons will be held in Miami, Chicago and Seattle. $20,000 in cash prizes will be award.  We can’t promise that your team will win, but all participants can count on enjoying excellent food, plenty of energy drinks and awesome people.</p>
+
+      <p>Be sure to register early, as space is limited!</p>
+    </div>
+  </div>
 </div>
 
+<!--
+<div id="home-partners" class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      
 
-<div class="box second">
-  <h4 class="right-team">Newspora</h4>
-  <span class="team right-team">
-  Brantley Beaird, Siddartha, Luis Chiang, Sergey Astretsov, Diana Wong, Michael Revell, Nora Akl, Danish Mughal, Raymond M
-  </span>
-  <p class="right-content">
-  Newspora is a crowdfunding news platform. On our platform journalists can raise funds from the 'crowd' to investigate topics/issues, which are not covered or not fully-covered by news organizations. These will be issues that people care about, since they are funded by people. Once the idea is funded, the journalist investigates the story, and the article is written, we will publish it on our platform and in one of the traditional media to get more attention to the issue. Our partnership with traditional media will give us their distribution channel and will provide them our content.
-  </p>
-</div>
+      <div id="partners">
+        <h3>Sponsors &amp; Partners</h3>
 
-<div class="box third">
-  <h4>Codename Progress</h4>
-  <span class="team">
-  Zeal Caiden, Stefan Broda, Alyssa Reese, Clara Simpatica, Hana Phung
-  </span>
-  <p>
-  Codename Progress (<a href="http://codenameprogress.org" target="_new">codenameprogress.org</a>) is the coaching platform to make you better. You invest 10 minutes a day, anywhere, on any device, and you get video training from public figures and world experts with clear action steps to improve in the areas you so desire.
-  </p>
+        <a class="partner-btn" href="#"><img src="/img/partner_sh.jpg" /></a>
+        <a class="partner-btn" href="#"><img src="/img/partner_fb.jpg" /></a>
+        <a class="partner-btn" href="#"><img src="/img/partner_sf.jpg" /></a>
+        <a class="partner-btn last" href="#"><img src="/img/partner_su.jpg" /></a>
+        <a class="partner-btn" href="#"><img src="/img/partner_sc.jpg" /></a>
+        <a class="partner-btn" href="#"><img src="/img/partner_tc.jpg" /></a>
+        <a class="partner-btn" href="#"><img src="/img/partner_sh2.jpg" /></a>
+        <a class="partner-btn last" href="#"><img src="/img/partner_su2.jpg" /></a>
+      </div>
+    </div>
+  </div>
 </div>
+-->
