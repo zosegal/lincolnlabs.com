@@ -5,8 +5,8 @@ title: 'Home'
 
 <div class="banner banner-home">
   <div class="container">
-    <h1>Homepage</h1>
-    <p>Some sort of title.</p>
+    <h1>Home</h1>
+    <p>Lincoln Labs</p>
   </div>
 </div>
 <div id="colors"></div>
