@@ -18,6 +18,9 @@ maroon       = #75201e
 .bg-white
     background-color #fff
 
+.center
+    text-align center
+
 .padding-60
     padding 60px
 
@@ -272,6 +275,9 @@ h1, h2, h3, h4, h5, h6
     background-color #f9f9f9
     border 0
 
+#home-content
+    padding-top 40px
+
 #home-partners
     background-color #fff
     text-align center
@@ -371,6 +377,19 @@ footer
         right -45px
         top -40px
 
+#judges
+    margin-bottom 40px
+    margin-top 40px
+
+    p
+        margin-bottom 20px
+
+    img
+        margin-right 20px
+
+        &.last
+            margin-right 0
+
 @media (max-width: 568px)
 
     .banner
@@ -416,7 +435,19 @@ footer
     #contact-box a, #contact-box p
         font-size 20px
 
-    // Hackathons - San Francisco
+    // Hackathons
+
+    // Miami
+    #judges
+
+        img
+            display block
+            margin 0 auto 20px
+
+            &.last
+                margin 0 auto 20px
+
+    // San Francisco
 
     .hackathon-winners .col-lg-6.text.team2
         height 470px
