@@ -1,21 +1,20 @@
 ---
 layout: 'default'
-title: 'Miami Hackathon'
+title: 'Virtual Hackathon'
 ---
 
 <div class="banner banner-hackathon banner-miami-full">
   <div class="container banner-miami">
     <div class="col-lg-6">
-      <h1>Miami Hackathon</h1>
+      <h1>Virtual Hackathon</h1>
       <h2>Reforming Education</h2>
 
       <p>
-      October 11th and 12th<br />
-      Hosted at <a href="http://venturehive.co/" target="_blank">VentureHive</a><br />
-      1010 NE 2nd Ave Miami, FL 33132
+      October 7th - 12th<br />
+      This is an online hackathon.<br />Compete anywhere remotely in the U.S.
       </p>
 
-      <a class="gmap-btn" href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1010+NE+2nd+Ave+Miami,+FL+33132&aq=&sll=40.742624,-73.987384&sspn=0.010356,0.022724&vpsrc=0&ie=UTF8&hq=&hnear=1010+NE+2nd+Ave,+Miami,+Florida+33132&t=m&z=16&iwloc=A" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
+      <a class="gmap-btn" href="https://maps.google.com/maps?expflags=enable_star_based_justifications:true&ie=UTF8&cid=17597165017493082647&q=GiveForward&iwloc=A&gl=US&hl=en" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
     </div>
 
     <div class="col-lg-6">
@@ -38,11 +37,13 @@ title: 'Miami Hackathon'
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
-      <p><b>Are you an entrepreneur or engineer with creative ideas for increasing the number of students who are college or career ready? If the answer is yes, join us!</b></p>
+      <p><b>Are you an entrepreneur or engineer with innovative, market-based ideas for using technology to improve education?</b></p>
 
       <p>Recent international assessments ranked 15-year-olds in the U.S. 25th out of 30 countries in math performance and 21st in science performance. From 1985 to 2012, the cost of college tuition increased approximately 500%, nearly two and half times faster than inflation.</p>
 
-      <p>This hackathon will provide a diverse group of innovators the opportunity build creative products within 24 hours to address critical challenges facing America's edcuation system. Teams will have access to awesome mentors and a panel of expert judges will award $5000 in cash prizes.</p>
+      <p>This moonlight hackathon is open to innovators, developers and doers who want to build, over 3 nights, creative market-based solutions to improve education. All teams will have access to awesome remote mentors, pitch their applications via YouTube to the American public and the top three will receive $5000 in cash prizes.</p>
+
+      <p>Teams of 2-4 are invited to signup today. If you don't yet have a team, an online team meetup page will be setup prior to the event and whether you are a backend person and code in Node/Ruby/Go or are a designer and only work with Illustrator, you are invited to participate.</p>
 
       <p><strong>We Supply:</strong> Free food (breakfast, lunch, and dinner), wifi, access to industry leaders, code samples, APIs, power cords, working space, and lots of caffeine to keep everyone buzzing.</p> 
 

@@ -50,7 +50,8 @@
                   <li><a href="/hackathons/chicago.html">Chicago</a></li>
                   <li><a href="/hackathons/miami.html">Miami</a></li>
                   <li><a href="/hackathons/san_francisco.html">San Francisco Winners</a></li>
-                  <!-- <li><a href="/hackathons/seattle.html">Seattle</a></li> -->
+                  <li><a href="/hackathons/seattle.html">Seattle</a></li>
+                  <li><a href="/hackathons/virtual.html">Virtual</a></li>
                 </ul>
               </li>
               <li class="dropdown">
@@ -106,7 +107,8 @@
           <a href="/hackathons/chicago.html">Chicago</a>
           <a href="/hackathons/miami.html">Miami</a>
           <a href="/hackathons/san_francisco.html">San Francisco</a>
-          <!-- <a href="/hackathons/seattle.html">Seattle</a> -->
+          <a href="/hackathons/seattle.html">Seattle</a>
+          <a href="/hackathons/virtual.html">Virtual</a>
         </div>
 
         <div class="col-lg-4">
