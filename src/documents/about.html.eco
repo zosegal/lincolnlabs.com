@@ -49,3 +49,20 @@ title: 'About'
     </div>
   </div>
 </div>
+
+<div class="character container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="left">
+        <img src="/img/chris.png" />
+      </div>
+      <div class="right">
+        <h3>Chris Abrams</h3>
+
+        <p class="first">Garrett worked on the Hill, but now much prefers his life in Silicon Valley<br />He's now a co-founder at SendHub</p>
+        
+        <p class="second">I’m an engineer currently working in the 3D printing space. My desire is to use technology to increase communication and collaboration between people. Previously I lead the re-boot of Delicious, which allows millions of users to collaborate on links. I’ve also helped many smaller campaigns develop their technical team.</p>
+      </div>
+    </div>
+  </div>
+</div>
