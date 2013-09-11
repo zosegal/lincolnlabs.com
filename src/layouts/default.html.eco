@@ -47,7 +47,7 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hackathons <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <!-- <li><a href="/hackathons/chicago.html">Chicago</a></li> -->
+                  <li><a href="/hackathons/chicago.html">Chicago</a></li>
                   <li><a href="/hackathons/miami.html">Miami</a></li>
                   <li><a href="/hackathons/san_francisco.html">San Francisco Winners</a></li>
                   <!-- <li><a href="/hackathons/seattle.html">Seattle</a></li> -->
@@ -103,7 +103,7 @@
 
         <div class="col-lg-4">
           <h6>Hackathons</h6>
-          <!--<a href="/hackathons/chicago.html">Chicago</a> -->
+          <a href="/hackathons/chicago.html">Chicago</a>
           <a href="/hackathons/miami.html">Miami</a>
           <a href="/hackathons/san_francisco.html">San Francisco</a>
           <!-- <a href="/hackathons/seattle.html">Seattle</a> -->

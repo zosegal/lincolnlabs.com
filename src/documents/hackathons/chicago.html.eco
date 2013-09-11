@@ -10,12 +10,12 @@ title: 'Chicago Hackathon'
       <h2>Re-imagining Cities</h2>
 
       <p>
-      Friday Oct. 21 7pm - Saturday Oct. 22 7pm<br />
-      Hosted at Venture.io<br />
-      1234 Miami Blvd 2nd Floor 94404
+      Friday Oct. 25th - Saturday Oct. 26th<br />
+      Hosted at Giveforward<br />
+      1564 N. Damen Suite 303 Chicago, IL 60622
       </p>
 
-      <a class="gmap-btn" href="#"><span class="plmk"></span> <span>View on Google Maps</span></a>
+      <a class="gmap-btn" href="https://maps.google.com/maps?expflags=enable_star_based_justifications:true&ie=UTF8&cid=17597165017493082647&q=GiveForward&iwloc=A&gl=US&hl=en" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
     </div>
 
     <div class="col-lg-6">
@@ -38,11 +38,11 @@ title: 'Chicago Hackathon'
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
-      <p>Are you an entrepreneur or engineer with creative ideas for increasing the number of students who are college or career ready? If the answer is yes, join us!</p>
+      <p>Are you an entrepreneur or engineer with innovative, market-based ideas for rebuilding Chicago, Detroit or countless other American cities confronted by significant economic and structural challenges?</p>
 
-      <p>Recent international assessments ranked 15-year-olds in the U.S. 25th out of 30 countries in math performance and 21st in science performance. From 1985 to 2012, the cost of college tuition increased approximately 500%, nearly two and half times faster than inflation.</p>
+      <p>The triple-drop in Chicago’s bond rating in July 2013 was noted as the most significant of a major U.S. city in recent history. The city has the highest unemployment rate in the Midwest.</p>
 
-      <p>This hackathon will provide a diverse group of innovators the opportunity build creative products within 24 hours to address critical challenges facing America's edcuation system. Teams will have access to awesome mentors and a panel of expert judges will award $5000 in cash prizes.</p>
+      <p>This hackathon is open to top innovators, developers and doers who want to build, within 24 hours, creative market-based solutions that promote individualism and to empower citizens to improve their lives, fix problems from the ground up, and positively impact their local community. All teams will have access to awesome mentors, present their applications to a panel of experts judges and three will receive cash prizes.</p>
 
       <p><strong>We Supply:</strong> Free food (breakfast, lunch, and dinner), wifi, access to industry leaders, code samples, APIs, power cords, working space, and lots of caffeine to keep everyone buzzing.</p> 
 
