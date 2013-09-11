@@ -1,21 +1,19 @@
 ---
 layout: 'default'
-title: 'Miami Hackathon'
+title: 'Seattle Hackathon'
 ---
 
 <div class="banner banner-hackathon banner-miami-full">
   <div class="container banner-miami">
     <div class="col-lg-6">
-      <h1>Miami Hackathon</h1>
-      <h2>Reforming Education</h2>
+      <h1>Chicago Hackathon</h1>
+      <h2>Re-imagining Cities</h2>
 
       <p>
-      Friday Oct. 21 7pm - Saturday Oct. 22 7pm<br />
-      Hosted at Venture.io<br />
-      1234 Miami Blvd 2nd Floor 94404
+      Friday - Saturday November 2013<br />
       </p>
 
-      <a class="gmap-btn" href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1234+Miami+Blvd+2nd+Floor+94404+miami,+fl&aq=&sll=40.660316,-73.947267&sspn=0.010369,0.022724&vpsrc=0&ie=UTF8&hq=&hnear=1234+NE+2nd+Ave,+Miami,+Miami-Dade,+Florida+33132&t=m&z=16&iwloc=A" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
+      <a class="gmap-btn" href="https://maps.google.com/maps?expflags=enable_star_based_justifications:true&ie=UTF8&cid=17597165017493082647&q=GiveForward&iwloc=A&gl=US&hl=en" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
     </div>
 
     <div class="col-lg-6">
@@ -38,14 +36,12 @@ title: 'Miami Hackathon'
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
-      <p>500%.</p>
+      <p>Are you an entrepreneur or engineer with innovative, market-based ideas for rebuilding Chicago, Detroit or countless other American cities confronted by significant economic and structural challenges?</p>
 
-      <p>That's the percentage by which paying your way through college increased from 1985 to 2012. Meanwhile, the value of a bachelor's degree has decreased – the gap between salaries for high school and college graduates continues to shrink. Furthermore, recent international assessments ranked 15-year-olds in the U.S. 25th out of 30 countries in math performance and 21st in science performance.</p>
+      <p>The triple-drop in Chicago’s bond rating in July 2013 was noted as the most significant of a major U.S. city in recent history. The city has the highest unemployment rate in the Midwest.</p>
 
-      <p>This hackathon will provide a diverse group of innovators the opportunity build creative products within 24 hours to address critical challenges facing America's edcuation system. Teams will have access to awesome mentors and a panel of expert judges will award $5000 in cash prizes.</p>
-    </div>
+      <p>This hackathon is open to top innovators, developers and doers who want to build, within 24 hours, creative market-based solutions that promote individualism and to empower citizens to improve their lives, fix problems from the ground up, and positively impact their local community. All teams will have access to awesome mentors, present their applications to a panel of experts judges and three will receive cash prizes.</p>
 
-    <div class="col-lg-6">
       <p><strong>We Supply:</strong> Free food (breakfast, lunch, and dinner), wifi, access to industry leaders, code samples, APIs, power cords, working space, and lots of caffeine to keep everyone buzzing.</p> 
 
       <p><strong>You Bring:</strong> Your laptop, ideas & energy. Whether you are a backend person and code in Ruby/PHP/.NET or are a designer and only work with Illustrator, you are invited to attend this event.</p>
