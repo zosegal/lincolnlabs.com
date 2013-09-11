@@ -7,3 +7,9 @@
     docpad run
 
 [Open http://localhost:9778/](http://localhost:9778/)
+
+## Deploying
+
+    docpad install gh-pages
+
+    docpad deploy-ghpages
