@@ -6,7 +6,7 @@ title: 'API Partners'
 <div class="banner banner-about">
   <div class="container">
     <h1>API Partners</h1>
-    <p>Short H2 heading.</p>
+    <p>Recommended platforms</p>
   </div>
 </div>
 <div id="colors"></div>
@@ -25,8 +25,8 @@ title: 'API Partners'
       </div>
     </div>
     <div class="col-lg-6">
-      <h3>Sendhub</h3>
-      <p>SendHub is the Phone System for the Mobile World. Setup is instant, there’s no hardware to install and your team can access their phone line for texting and calls from any device: iOS, Android, Web and even feature phones.</p>
+      <h3>SendHub</h3>
+      <p>SendHub is the Business Phone System for the Mobile World. Setup is instant, there’s no hardware to install and your team can access their phone line for texting and calls from any device: iOS, Android, Web and even feature phones.</p>
       <a href="http://apidocs.sendhub.com/" target="_blank">View API Documentation <span class="ex"></span></a>
     </div>
   </div>
@@ -86,26 +86,13 @@ title: 'API Partners'
   <div class="row api-partner">
     <div class="col-lg-6">
       <div class="img right">
-        <img src="/img/partner_tc_large.jpg" />
+        <img src="/img/partner_as_large.png" />
       </div>
     </div>
     <div class="col-lg-6">
-      <h3>TechCrunch</h3>
-      <p>SendHub gives you a free business phone system with calls and texts for your entire organization.  You can view analytics, manage users, etc.</p>
-      <a href="#">View API Documentation <span class="ex"></span></a>
-    </div>
-  </div>
-
-  <div class="row api-partner">
-    <div class="col-lg-6">
-      <div class="img right">
-        <img src="/img/partner_sc_large.jpg" />
-      </div>
-    </div>
-    <div class="col-lg-6">
-      <h3>Sequoia Capital</h3>
-      <p>SendHub gives you a free business phone system with calls and texts for your entire organization.  You can view analytics, manage users, etc.</p>
-      <a href="#">View API Documentation <span class="ex"></span></a>
+      <h3>Aristotle</h3>
+      <p>Aristotle has delivered smarter tools to political campaigns since 1983. Every U.S. President -- Democrat and Republican -- from Reagan through Obama, has used Aristotle products and/or services, as have many U.S. Senators, members of the U.S. House of Representatives, Democratic and Republican state party organizations and other major campaigns worldwide.</p>
+      <a href="http://integrity.aristotle.com/products/" target="_blank">View API Documentation <span class="ex"></span></a>
     </div>
   </div>
 
