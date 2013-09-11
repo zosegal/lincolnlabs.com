@@ -73,6 +73,8 @@
     <%- @content %>
 
     <footer class="container">
+      
+      <!--
       <div id="footer-social" class="row">
         <div class="col-lg-12">
           <a id="social-g" class="social-btn" href="#"><img src="/img/social_g.jpg" /></a>
@@ -81,6 +83,7 @@
           <a id="social-f" class="social-btn last" href="#"><img src="/img/social_f.jpg" /></a>
         </div>
       </div>
+      -->
 
       <div class="row">
         <div id="footer-top-border" class="col-lg-12"></div>
