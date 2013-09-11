@@ -6,15 +6,15 @@ title: 'About'
 <div class="banner banner-about">
   <div class="container">
     <h1>About</h1>
-    <p>How Lincoln Labs was born.</p>
+    <p>The people behind Lincoln Labs.</p>
   </div>
 </div>
 <div id="colors"></div>
 
-<div class="container content-box">
+<!-- <div class="container content-box">
   <h3>Hackathon for liberty</h3>
   <p>Lorem Ipsum.</p>
-</div>
+</div> -->
 
 <div class="character container">
   <div class="row">
@@ -27,7 +27,7 @@ title: 'About'
 
         <p class="first">Aaron used to work for Mitt Romney. <br />Now he works at StumbleUpon as growth PM.</p>
         
-        <p class="second">"There was a huge gap and under-representation in the tech community. I created Lincoln Labs as the way for people who believe in the free markets to express themselves. This is a little more text so it looks more flush."</p>
+        <p class="second">I am a growth hacker. I apply my study of people and metaphysics to marketing, product development, and entrepreneurship. I live and breathe distribution. My approach is product driven, data inspired, and cross-disciplinary (pulling in my experience with philosophy and behavioral economics).I’ve helped grow the Romney Campaign to the millions and Stumbled Upon’s users to the tens of millions.</p>
       </div>
     </div>
   </div>
@@ -42,9 +42,9 @@ title: 'About'
       <div class="right">
         <h3>Garrett Johnson</h3>
 
-        <p class="first">Some sort of description would be placed here<br />Co-founder at SendHub</p>
+        <p class="first">Garrett worked on the Hill, but now much prefers his life in Silicon Valley<br />He's now a co-founder at SendHub</p>
         
-        <p class="second">"There was a huge gap and under-representation in the tech community. I created Lincoln Labs as the way for people who believe in the free markets to express themselves. and under-representation in the tech community. I created Lincoln Labs as a way.”</p>
+        <p class="second">Co-Founder of SendHub.com, a venture-backed startup based in Silicon Valley that is replacing antiquated land-line business phone systems with elegant, eco-friendly web and mobile apps. Served as professional staff to the Ranking Member of the U.S. Senate Foreign Relations Committee, where oversight portfolio included Afghanistan, Pakistan and Haiti. Originally from (Tampa) Florida, graduated in 2005 from Florida State University and was the 2006 NCAA Indoor and Outdoor Shot Put champion. Read for the degree of Master of Philosophy in Migration Studies at the University of Oxford, England as a Rhodes Scholar.</p>
       </div>
     </div>
   </div>
