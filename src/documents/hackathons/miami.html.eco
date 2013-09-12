@@ -16,6 +16,8 @@ title: 'Miami Hackathon'
       </p>
 
       <a class="gmap-btn" href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1010+NE+2nd+Ave+Miami,+FL+33132&aq=&sll=40.742624,-73.987384&sspn=0.010356,0.022724&vpsrc=0&ie=UTF8&hq=&hnear=1010+NE+2nd+Ave,+Miami,+Florida+33132&t=m&z=16&iwloc=A" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
+      <br />
+      <a class="signup-btn" href="https://reformingeducation.eventbrite.com/" target="_blank"><span>Register Now</span></a>
     </div>
 
     <div class="col-lg-6">
