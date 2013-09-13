@@ -5,7 +5,7 @@ title: 'Miami Hackathon'
 
 <div class="banner banner-hackathon banner-miami-full">
   <div class="container banner-miami">
-    <div class="col-lg-6">
+    <div class="col-lg-12">
       <h1>Miami Hackathon</h1>
       <h2>Reforming Education</h2>
 
@@ -20,7 +20,7 @@ title: 'Miami Hackathon'
       <a class="signup-btn" href="https://reformingeducation.eventbrite.com/" target="_blank"><span>Register Now</span></a>
     </div>
 
-    <div class="col-lg-6">
+    <!-- <div class="col-lg-6">
       <h1>Did you just miss us?</h1>
       <p>Subscribe to get the latest news.</p>
 
@@ -32,7 +32,7 @@ title: 'Miami Hackathon'
         <div></div>
         <input type="submit" value="Get Updates" name="subscribe" id="mc-embedded-subscribe" class="button email-button">
       </form>
-    </div>
+    </div> -->
   </div>
 </div>
 <div id="colors"></div>
