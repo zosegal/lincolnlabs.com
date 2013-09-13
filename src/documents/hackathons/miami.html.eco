@@ -5,7 +5,7 @@ title: 'Miami Hackathon'
 
 <div class="banner banner-hackathon banner-miami-full">
   <div class="container banner-miami">
-    <div class="col-lg-6">
+    <div class="col-lg-12">
       <h1>Miami Hackathon</h1>
       <h2>Reforming Education</h2>
 
@@ -15,12 +15,13 @@ title: 'Miami Hackathon'
       1010 NE 2nd Ave Miami, FL 33132
       </p>
 
-      <a class="gmap-btn" href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1010+NE+2nd+Ave+Miami,+FL+33132&aq=&sll=40.742624,-73.987384&sspn=0.010356,0.022724&vpsrc=0&ie=UTF8&hq=&hnear=1010+NE+2nd+Ave,+Miami,+Florida+33132&t=m&z=16&iwloc=A" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
-      <br />
       <a class="signup-btn" href="https://reformingeducation.eventbrite.com/" target="_blank"><span>Register Now</span></a>
+      <br />
+      <a class="gmap-btn" href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1010+NE+2nd+Ave+Miami,+FL+33132&aq=&sll=40.742624,-73.987384&sspn=0.010356,0.022724&vpsrc=0&ie=UTF8&hq=&hnear=1010+NE+2nd+Ave,+Miami,+Florida+33132&t=m&z=16&iwloc=A" target="_blank"><span class="plmk"></span> <span>Google Map</span></a>
+
     </div>
 
-    <div class="col-lg-6">
+    <!-- <div class="col-lg-6">
       <h1>Did you just miss us?</h1>
       <p>Subscribe to get the latest news.</p>
 
@@ -32,7 +33,7 @@ title: 'Miami Hackathon'
         <div></div>
         <input type="submit" value="Get Updates" name="subscribe" id="mc-embedded-subscribe" class="button email-button">
       </form>
-    </div>
+    </div> -->
   </div>
 </div>
 <div id="colors"></div>
