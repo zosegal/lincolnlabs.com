@@ -5,7 +5,7 @@ title: 'Virtual Hackathon'
 
 <div class="banner banner-hackathon banner-miami-full">
   <div class="container banner-miami">
-    <div class="col-lg-6">
+    <div class="col-lg-12">
       <h1>Virtual Hackathon</h1>
       <h2>Reforming Education</h2>
 
@@ -19,7 +19,7 @@ title: 'Virtual Hackathon'
       <a class="gmap-btn" href="https://maps.google.com/maps?expflags=enable_star_based_justifications:true&ie=UTF8&cid=17597165017493082647&q=GiveForward&iwloc=A&gl=US&hl=en" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
     </div>
 
-    <div class="col-lg-6">
+    <!--<div class="col-lg-6">
       <h1>Did you just miss us?</h1>
       <p>Subscribe to get the latest news.</p>
 
@@ -31,7 +31,7 @@ title: 'Virtual Hackathon'
         <div></div>
         <input type="submit" value="Get Updates" name="subscribe" id="mc-embedded-subscribe" class="button email-button">
       </form>
-    </div>
+    </div>-->
   </div>
 </div>
 <div id="colors"></div>
