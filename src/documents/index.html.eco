@@ -14,7 +14,7 @@ title: 'Home'
 
   <div class="row">
     <div class="col-lg-12">
-      <!-- <h3>$25,000 in cash prizes!</h3> -->
+      <!-- <h3><b>$25,000 in cash prizes!</b></h3> -->
       <form action="http://lincolnlabs.us7.list-manage2.com/subscribe/post?u=5a298124dd214a5b4e12dbf7e&amp;id=3e3467b86e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
         <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
