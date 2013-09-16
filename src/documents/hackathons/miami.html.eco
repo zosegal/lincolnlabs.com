@@ -84,13 +84,13 @@ title: 'Miami Hackathon'
 
   <div id="judges" class="row">
     <div class="col-lg-12 center">
-      <p class="center">We'll announce the judges soon!</p>
-
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
+      <img src="/img/xavier_g.png" alt="Xavier Gonzalez, Executive Director at Technology Foundation of the Americas" />
+      <img src="/img/peter_k.png" alt="Peter B. Kellner, Richmond Global LLC, Founder & Managing Partner; Endeavor Global, Co-Founder" />
       <img src="/img/judge-empty.png" />
       <img src="/img/judge-empty.png" />
       <img class="last" src="/img/judge-empty.png" />
+      <br><br><br>
+      <p class="center">We'll announce more judges soon!</p>
     </div>
   </div>
 </div>
