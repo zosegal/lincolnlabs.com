@@ -51,6 +51,15 @@ title: 'Home'
       <p>In the next few months, Liberty Hackathons will be held in Miami, Chicago and Seattle with a total of $20,000 in cash prizes awarded. We can’t promise that your team will win, but all participants can count on enjoying excellent food, plenty of energy drinks, and awesome people.</p>
  
       <p>Be sure to register early, as space is limited!</p>
+
+      <br><br>
+
+      <p><strong>Upcoming Hackathons:</strong></p>
+      <ul>
+          <li><a href="/hackathons/virtual.html">Virtual Hackathon:</a> October 7th - 12th</li>
+          <li><a href="/hackathons/miami.html">Miami, FL:</a> October 11th and 12th</li>
+          <li><a href="/hackathons/chicago.html">Chicago, IL:</a> October 25th and 26th</li>
+      </ul>
     </div>
   </div>
 </div>
