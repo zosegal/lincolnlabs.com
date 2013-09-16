@@ -15,6 +15,8 @@ title: 'Chicago Hackathon'
       1564 N. Damen Suite 303 Chicago, IL 60622
       </p>
 
+      <a class="signup-btn" href="http://reimaginingcities.eventbrite.com/" target="_blank"><span>Register Now</span></a>
+      <br />
       <a class="gmap-btn" href="https://maps.google.com/maps?expflags=enable_star_based_justifications:true&ie=UTF8&cid=17597165017493082647&q=GiveForward&iwloc=A&gl=US&hl=en" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
     </div>
 
