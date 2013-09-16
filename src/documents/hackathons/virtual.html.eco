@@ -14,7 +14,7 @@ title: 'Virtual Hackathon'
       This is an online hackathon.<br />Compete anywhere remotely in the U.S.
       </p>
 
-      <a class="signup-btn" href="https://virtualhackathon.eventbrite.com/" target="_blank"><span>Register Now</span></a>
+      <a class="signup-btn" href="https://virtual-hackathon.eventbrite.com/" target="_blank"><span>Register Now</span></a>
       <br />
       <a class="gmap-btn" href="https://maps.google.com/maps?expflags=enable_star_based_justifications:true&ie=UTF8&cid=17597165017493082647&q=GiveForward&iwloc=A&gl=US&hl=en" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
     </div>
