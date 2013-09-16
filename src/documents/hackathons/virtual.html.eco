@@ -49,16 +49,4 @@ title: 'Virtual Hackathon'
 
     </div>
   </div>
-
-  <div id="judges" class="row">
-    <div class="col-lg-12 center">
-      <p class="center">We'll announce the judges soon!</p>
-
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img class="last" src="/img/judge-empty.png" />
-    </div>
-  </div>
 </div>
