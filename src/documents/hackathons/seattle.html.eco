@@ -5,7 +5,7 @@ title: 'Seattle Hackathon'
 
 <div class="banner banner-hackathon banner-miami-full">
   <div class="container banner-miami">
-    <div class="col-lg-12">
+    <div class="col-lg-6">
       <h1>Seattle Hackathon</h1>
       <h2>Help us decide the theme!</h2>
 
@@ -17,8 +17,8 @@ title: 'Seattle Hackathon'
       <a class="gmap-btn" href="https://maps.google.com/maps?expflags=enable_star_based_justifications:true&ie=UTF8&cid=17597165017493082647&q=GiveForward&iwloc=A&gl=US&hl=en" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
     </div>
 
-    <!--<div class="col-lg-6">
-      <h1>Did you just miss us?</h1>
+    <div class="col-lg-6">
+      <h1>Be the first to know!</h1>
       <p>Subscribe to get the latest news.</p>
 
       <form action="http://lincolnlabs.us7.list-manage2.com/subscribe/post?u=5a298124dd214a5b4e12dbf7e&amp;id=3e3467b86e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -29,7 +29,7 @@ title: 'Seattle Hackathon'
         <div></div>
         <input type="submit" value="Get Updates" name="subscribe" id="mc-embedded-subscribe" class="button email-button">
       </form>
-    </div>-->
+    </div>
   </div>
 </div>
 <div id="colors"></div>
