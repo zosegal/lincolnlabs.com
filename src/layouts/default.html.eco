@@ -39,7 +39,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">Lincoln Labs</a>
+          <a id="logo" class="navbar-brand" href="/"><img src="/img/logo.png" alt="Lincoln Labs" /></a>
         </div>
         <div class="navbar-collapse collapse">
           <div class="navbar-right">
