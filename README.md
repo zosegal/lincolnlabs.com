@@ -24,4 +24,4 @@ You'll need a plugin to deploy:
 
 Then run:
 
-    docpad deploy-ghpages
+    docpad deploy-ghpages --env static
