@@ -95,5 +95,44 @@ title: 'API Partners'
       <a href="http://integrity.aristotle.com/products/" target="_blank">View API Documentation <span class="ex"></span></a>
     </div>
   </div>
+  
+  <div class="row api-partner">
+    <div class="col-lg-6">
+      <div class="img right">
+        <img src="/img/partner_nudge_large.png" />
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <h3>Udemy</h3>
+      <p>Udemy is the world's largest destination for online courses.</p>
+      <a href="https://developers.udemy.com/" target="_blank">View API Documentation <span class="ex"></span></a>
+    </div>
+  </div>
+  
+  <div class="row api-partner">
+    <div class="col-lg-6">
+      <div class="img right">
+        <img src="/img/partner_nudge_large.png" />
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <h3>Clever</h3>
+      <p>Building an app for schools or districts? Don't reinvest the wheel! Clever is the most widely used API in education for student and teacher data.  You can rest assured that software built on Clever will easily integrate with the student information system of any district in the US.</p>
+      <a href="https://getclever.com/developers/docs/" target="_blank">View API Documentation <span class="ex"></span></a>
+    </div>
+  </div>
+  
+  <div class="row api-partner">
+    <div class="col-lg-6">
+      <div class="img right">
+        <img src="/img/partner_nudge_large.png" />
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <h3>Nudge</h3>
+      <p>Nudge makes NudgePad, an open source operating system for quickly building websites in your browser.</p>
+      <a href="https://github.com/nudgepad/nudgepad" target="_blank">View API Documentation <span class="ex"></span></a>
+    </div>
+  </div>
 
 </div>
