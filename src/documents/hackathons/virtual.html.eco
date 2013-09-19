@@ -17,6 +17,7 @@ title: 'Virtual Hackathon'
       <a class="signup-btn" href="https://virtual-hackathon.eventbrite.com/" target="_blank"><span>Register Now</span></a>
   
     </div>
+  
 
     <!--<div class="col-lg-6">
       <h1>Did you just miss us?</h1>
@@ -47,5 +48,19 @@ title: 'Virtual Hackathon'
       <p>Teams of 2-4 are invited to signup today. If you don't yet have a team, there is <a href="https://github.com/lincolnlabs/lincolnlabs.com/wiki/Virtual-Hackathon-Team-Formation-Page">an online team formation page</a>.  Whether you are a backend person and code in Node/Ruby/Go or are a designer and only work with Illustrator, you are invited to participate.</p>
 
     </div>
+    
+    <div class="col-lg-6">
+      
+      <p><strong>Schedule</strong></p>
+      
+      <p>Now - October 6th &nbsp;&nbsp;&nbsp; Sign up for the Hackathon</p>
+      <p>October 7th at 5pm PST &nbsp;&nbsp;&nbsp; Hacking begins</p>
+      <p>October 9th at 5pm PST &nbsp;&nbsp;&nbsp; Hacking stops</p>
+      <p>October 10th at 8am PST &nbsp;&nbsp;&nbsp; Voting begins</p>
+      <p>October 11th at 8pm PST &nbsp;&nbsp;&nbsp; Voting ends</p>
+      <o>October 12th at 8am PST &nbsp;&nbsp;&nbsp; Winners announced</p>
+      
+    </div>
+    
   </div>
 </div>
