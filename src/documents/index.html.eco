@@ -3,7 +3,7 @@ layout: 'default'
 title: 'Home'
 ---
 
-<div class="banner banner-home">
+<div class="banner banner-about">
   <div class="container">
     <h1>$25,000 in cash prizes!</h1>
     <p>Register for event updates</p>
