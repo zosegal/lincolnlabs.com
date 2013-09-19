@@ -41,6 +41,8 @@ title: 'Miami Hackathon'
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
+      <p><strong>Co-Sponsor:</strong> <a href="http://www.venturehive.co" target="_blank">Ventue Hive</a></p>
+      <a href="http://www.venturehive.co" target="_blank"><img src="/img/venturehive.png" /></a><br><br>
       <p><b>Are you an entrepreneur or engineer with creative ideas for increasing the number of students who are college or career ready? If the answer is yes, join us!</b></p>
 
       <p>Recent international assessments ranked 15-year-olds in the U.S. 25th out of 30 countries in math performance and 21st in science performance. From 1985 to 2012, the cost of college tuition increased approximately 500%, nearly two and half times faster than inflation.</p>
@@ -50,9 +52,6 @@ title: 'Miami Hackathon'
       <p><strong>We Supply:</strong> Free food (breakfast, lunch, and dinner), wifi, access to industry leaders, code samples, APIs, power cords, working space, and lots of caffeine to keep everyone buzzing.</p> 
 
       <p><strong>You Bring:</strong> Your laptop, ideas & energy. Whether you are a backend person and code in Ruby/PHP/.NET or are a designer and only work with Illustrator, you are invited to attend this event.</p>
-
-      <p><strong>Co-Sponsor:</strong> <a href="http://www.venturehive.co" target="_blank">Ventue Hive</a></p> <br>
-      <a href="http://www.venturehive.co" target="_blank"><img src="/img/venturehive.png" /></a>
     </div>
 
     <div class="col-lg-6">
