@@ -46,26 +46,12 @@ title: 'Miami Hackathon'
       <p>Hundreds of thousands of files released by Edward Snodwen exposed a massive program to mine private citizen information at an unpredecented scale. While some disagree on the merits and honor of Snowden's release, exposing such a big secret has started the discussion on the state of our privacy and civil rights when it comes to online information.</p>
 
       <p>Come out for a conversation with Bruce Fein, Snowden Family Lawyer and Constitutional & International Law Scholar, and hear his perspective on the state of our civil liberties and internet privacy.</p>
-      
-      <!-- insert photo of judge to be on the right of the content -->
+    </div>
 
     <div class="col-lg-6">
 
-      <p><strong>Friday</strong></p>
-
+      <img src="/img/brucefein.jpg" alt="" />
     
-    </div>
-  </div>
-
-  <div id="judges" class="row">
-    <div class="col-lg-12 center">
-      <p class="center">We'll announce the judges soon!</p>
-
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img class="last" src="/img/judge-empty.png" />
     </div>
   </div>
 </div>
