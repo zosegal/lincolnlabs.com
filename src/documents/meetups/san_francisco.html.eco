@@ -17,7 +17,7 @@ title: 'Miami Hackathon'
 
       <a class="signup-btn" href="https://nsavshacker.eventbrite.com/" target="_blank"><span>Register Now</span></a>
       <br />
-      <a class="gmap-btn" href="https://maps.google.com/maps?q=raven+bar&ie=UTF-8&ei=FKo_UtH4J82ZjAKf5YEI&ved=0CAoQ_AUoAg" target="_blank"><span class="plmk"></span> <span>Google Map</span></a>
+      <a class="gmap-btn" href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Raven+Bar,+Folsom+Street,+San+Francisco,+CA&aq=0&oq=raven+bar+san+fra&sll=40.697488,-73.979681&sspn=0.663226,1.454315&vpsrc=0&ie=UTF8&hq=Raven+Bar,&hnear=2099+Folsom+St,+San+Francisco,+California+94110&t=m&z=14&iwloc=A&cid=16999314492534797993" target="_blank"><span class="plmk"></span> <span>Google Map</span></a>
 
     </div>
 
