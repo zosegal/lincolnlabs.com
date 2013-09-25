@@ -4,7 +4,7 @@ title: 'Miami Hackathon'
 ---
 
 <div class="banner banner-hackathon banner-miami-full">
-  <div class="container banner-miami">
+  <div class="container banner-san-francisco">
     <div class="col-lg-12">
       <h1>The NSA vs. Individual Privacy</h1>
       <h2>Hear from Snowden's Family Lawyer</h2>
@@ -20,20 +20,6 @@ title: 'Miami Hackathon'
       <a class="gmap-btn" href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Raven+Bar,+Folsom+Street,+San+Francisco,+CA&aq=0&oq=raven+bar+san+fra&sll=40.697488,-73.979681&sspn=0.663226,1.454315&vpsrc=0&ie=UTF8&hq=Raven+Bar,&hnear=2099+Folsom+St,+San+Francisco,+California+94110&t=m&z=14&iwloc=A&cid=16999314492534797993" target="_blank"><span class="plmk"></span> <span>Google Map</span></a>
 
     </div>
-
-    <!-- <div class="col-lg-6">
-      <h1>Did you just miss us?</h1>
-      <p>Subscribe to get the latest news.</p>
-
-      <form action="http://lincolnlabs.us7.list-manage2.com/subscribe/post?u=5a298124dd214a5b4e12dbf7e&amp;id=3e3467b86e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
-        <div></div>
-        <input type="text" value="" name="ZIP" class="zip" id="mce-ZIP" placeholder="Zip Code" />
-        <div></div>
-        <input type="submit" value="Get Updates" name="subscribe" id="mc-embedded-subscribe" class="button email-button">
-      </form>
-    </div> -->
   </div>
 </div>
 <div id="colors"></div>
