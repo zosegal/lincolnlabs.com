@@ -39,11 +39,11 @@ title: 'Virtual Hackathon'
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
-      <p><b>Are you an entrepreneur or engineer with innovative, market-based ideas for using technology to improve education?</b></p>
+      <p><b>Are you an entrepreneur or engineer with innovative ideas for using technology to improve education?</b></p>
 
       <p>Recent international assessments ranked 15-year-olds in the U.S. 25th out of 30 countries in math performance and 21st in science performance. From 1985 to 2012, the cost of college tuition increased approximately 500%, nearly two and half times faster than inflation.</p>
 
-      <p>This moonlight hackathon is open to innovators, developers and doers who want to build, over 2 nights, creative market-based solutions to improve education. All teams will have access to awesome remote mentors.  At the end of the Hackathon, the teams will  pitch their applications via YouTube to the public and the top three winners will receive $5000 in cash prizes.</p>
+      <p>This hackathon is open to innovators, developers and doers who want to build, over 2 nights, creative solutions to improve education. All teams will have access to awesome remote mentors.  At the end of the Hackathon, the teams will  pitch their applications via YouTube to the public and the top three winners will receive $5000 in cash prizes.</p>
 
       <p>Teams of any size are invited to signup today. If you don't yet have a team, there is <a href="https://github.com/lincolnlabs/lincolnlabs.com/wiki/Virtual-Hackathon-Team-Formation-Page">an online team formation page</a>.  Whether you are a backend person and code in Node/Ruby/Go or are a designer and only work with Illustrator, you are invited to participate.</p>
       
@@ -57,7 +57,7 @@ title: 'Virtual Hackathon'
       <p>There may be up to 50 teams participating.</p>
 
       <p><strong>How does the submission and voting process work?</strong></p>
-      <p>Voting will begin on October 10th at 8am EST. Each submission must include the names and emails of all team members, a URL to a YouTube video presentation of your application (max 2 mins.), a URL to a prototype, and a URL to a Github project page for your application, which includes a readme describing the app in a sentence. The voting will end on October 11th at 8pm PST. The apps that receive the top number of votes will win.</p>
+      <p>Voting will begin on October 10th at 8am EST. Each submission must include the names and emails of all team members, a URL to a YouTube video presentation of your application, and a URL to a prototype. The voting will end on October 11th at 8pm PST. The apps that receive the top number of votes will win.</p>
 
       <p><strong> I have questions. Who can I contact?</strong></p>
       <p>Feel free to contact us <a href="http://lincolnlabs.com/contact.html">here</a> with any questions you have.</p>
