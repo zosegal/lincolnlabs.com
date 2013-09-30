@@ -60,6 +60,9 @@ title: 'Home'
           <li><a href="/hackathons/miami.html">Miami, FL:</a> October 11th and 12th</li>
           <li><a href="/hackathons/chicago.html">Chicago, IL:</a> October 25th and 26th</li>
       </ul>
+
+      <p class="sponsor-header"><strong>Sponsors</strong></p>
+      <p><a href="http://www.generationopportunity.org/" target="_blank"><img class="sponsor" src="/img/GenOpp-logo.png" alt="Generation Opportunity" /></a></p>
     </div>
   </div>
 </div>
