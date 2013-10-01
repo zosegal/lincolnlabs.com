@@ -101,7 +101,7 @@ title: 'Miami Hackathon'
       <div class="col-lg-2 center">
         <img src="/img/Miguel_Alonso.png" alt="Miguel Alonso" />
         <p>Miguel Alonso</p>
-        <span>Associate Professor & Chairperson, Engineering & Technology; Director, Computing Research Lab at Miami Dade College</span>
+        <span>Associate Professor & Chairperson, Engineering & Technology<br />Director, Computing Research Lab<br />Miami Dade College</span>
       </div>
       <div class="col-lg-2 center">
         <img class="last" src="/img/judge-empty.png" />
