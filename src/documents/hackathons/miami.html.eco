@@ -94,10 +94,14 @@ title: 'Miami Hackathon'
         <span>Richmond Global LLC, Founder & Managing Partner; Endeavor Global, Co-Founder</span>
       </div>
       <div class="col-lg-2 center">
-        <img src="/img/judge-empty.png" />
+        <img src="/img/Madeline_Pumariega.png" alt="Madeline Pumariega" />
+        <p>Madeline Pumariega</p>
+        <span>President and CEO of Take Stock in Children</span>
       </div>
       <div class="col-lg-2 center">
-        <img src="/img/judge-empty.png" />
+        <img src="/img/Miguel_Alonso.png" alt="Miguel Alonso" />
+        <p>Miguel Alonso</p>
+        <span>Associate Professor & Chairperson, Engineering & Technology; Director, Computing Research Lab at Miami Dade College</span>
       </div>
       <div class="col-lg-2 center">
         <img class="last" src="/img/judge-empty.png" />
