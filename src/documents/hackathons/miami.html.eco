@@ -104,7 +104,9 @@ title: 'Miami Hackathon'
         <span>Associate Professor & Chairperson, Engineering & Technology<br />Director, Computing Research Lab<br />Miami Dade College</span>
       </div>
       <div class="col-lg-2 center">
-        <img class="last" src="/img/judge-empty.png" />
+        <img src="/img/Ronald_Herbas.png" alt="Ronald Herbas" />
+        <p>Ronald Herbas</p>
+        <span>Founder and CEO of GEStrak.com</span>
       </div>
       <div class="col-lg-2 center">
         <img class="last" src="/img/judge-empty.png" />
