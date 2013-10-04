@@ -11,13 +11,13 @@ title: 'Chicago Hackathon'
 
       <p>
       October 25th and 26th<br />
-      Hosted at Giveforward<br />
-      1564 N. Damen Suite 303 Chicago, IL 60622
+      Hosted at Ifbyiphone<br />
+      300 West Adams, 9th Floor, Chicago IL 60606
       </p>
 
       <a class="signup-btn" href="http://reimaginingcities.eventbrite.com/" target="_blank"><span>Register Now</span></a>
       <br />
-      <a class="gmap-btn" href="https://maps.google.com/maps?expflags=enable_star_based_justifications:true&ie=UTF8&cid=17597165017493082647&q=GiveForward&iwloc=A&gl=US&hl=en" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
+      <a class="gmap-btn" href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=300+West+Adams,+9th+Floor,+Chicago+IL+60606&aq=&sll=37.7577,-122.4376&sspn=0.172903,0.363579&vpsrc=0&ie=UTF8&hq=&hnear=300+W+Adams+St,+Chicago,+Illinois+60606&t=m&z=16&iwloc=A" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
     </div>
 
     <!--<div class="col-lg-6">
