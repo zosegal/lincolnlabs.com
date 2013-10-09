@@ -109,7 +109,9 @@ title: 'Miami Hackathon'
         <span>Founder and CEO of GEStrak.com</span>
       </div>
       <div class="col-lg-2 center">
-        <img class="last" src="/img/judge-empty.png" />
+        <img src="/img/tj_ferrara.png" alt="TJ Ferrara" />
+        <p>TJ Ferrara</p>
+        <span>Founder of BlueLeaf and VP of Ecommerce</span>
       </div>
       <br>
     </div>
