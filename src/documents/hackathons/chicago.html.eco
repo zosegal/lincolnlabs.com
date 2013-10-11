@@ -82,13 +82,26 @@ title: 'Chicago Hackathon'
 
   <div id="judges" class="row">
     <div class="col-lg-12 center">
-      <p class="center">We'll announce the judges soon!</p>
-
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img class="last" src="/img/judge-empty.png" />
+      <div class="col-lg-2 center">
+        <img src="/img/judge-empty.png" alt="Bill Driegert" />
+        <p class="judge-name">Bill Driegert</p>
+        <span class="judge-desc">Chief Innovation Officer of Coyote Logistics</span>
+      </div>
+      <div class="col-lg-2 center">
+        <img src="/img/judge-empty.png" alt="Ethan Austin" />
+        <p class="judge-name">Ethan Austin</p>
+        <span class="judge-desc">Co-founder of Give Forward</span>
+      </div>
+      <div class="col-lg-2 center">
+        <img src="/img/judge-empty.png" alt="Wayne Boulais" />
+        <p class="judge-name">Wayne Boulais</p>
+        <span class="judge-desc">General Partner at Apex Venture Partners</span>
+      </div>
+      <div class="col-lg-2 center">
+        <img src="/img/judge-empty.png" alt="Fred Hoch" />
+        <p class="judge-name">Fred Hoch</p>
+        <span class="judge-desc">CEO of Illinois Technology Association and Founder of TechNexus</span>
+      </div>
     </div>
   </div>
 </div>
