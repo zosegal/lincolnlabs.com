@@ -37,7 +37,7 @@ title: 'Chicago Hackathon'
 </div>
 <div id="colors"></div>
 
-<div class="container">
+<div class="container hackathon-content">
   <div class="row">
     <div class="col-lg-6">
       <p><b>Are you an entrepreneur or engineer with innovative, market-based ideas for rebuilding Chicago, Detroit or countless other American cities confronted by significant economic and structural challenges?</b></p>
@@ -49,6 +49,16 @@ title: 'Chicago Hackathon'
       <p><strong>We Supply:</strong> Free food (breakfast, lunch, and dinner), wifi, access to industry leaders, code samples, APIs, power cords, working space, and lots of caffeine to keep everyone buzzing.</p> 
 
       <p><strong>You Bring:</strong> Your laptop, ideas & energy. Whether you are a backend person and code in Ruby/PHP/.NET or are a designer and only work with Illustrator, you are invited to attend this event.</p>
+
+      <div class="row">
+
+        <div class="col-lg-3 sponsor-group">
+          <p class="sponsor-header"><strong>Sponsors</strong></p>
+          <p><a href="http://digital.cityofchicago.org/index.php/developer-resources/" target="_blank"><img class="sponsor" src="/img/ChicagoDigital_125.jpg" alt="Generation Opportunity" /></a></p>
+          <p class="sponsor-desc"></p>
+        </div>
+
+      </div>
     </div>
 
     <div class="col-lg-6">
