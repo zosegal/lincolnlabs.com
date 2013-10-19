@@ -55,6 +55,7 @@ title: 'Miami Hackathon'
     </div>
 
     <div class="col-lg-6">
+      <p><a class="large" href="https://docs.google.com/a/chrisabrams.com/spreadsheet/ccc?key=0ArkviT3Z38CadDRPSUJXNlA0cEd2eTI1eHVXbDVzYWc" target="_blank">Judging Criteria</a></p>
 
       <p><strong>Friday</strong></p>
 
@@ -109,10 +110,11 @@ title: 'Miami Hackathon'
         <span>Founder and CEO of GEStrak.com</span>
       </div>
       <div class="col-lg-2 center">
-        <img class="last" src="/img/judge-empty.png" />
+        <img src="/img/tj_ferrara.png" alt="TJ Ferrara" />
+        <p>TJ Ferrara</p>
+        <span>Founder of BlueLeaf and VP of Ecommerce</span>
       </div>
       <br>
     </div>
   </div>
-  <p class="center">We'll announce more judges soon!</p>
 </div>
