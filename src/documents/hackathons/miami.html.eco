@@ -95,40 +95,4 @@ title: 'Miami Hackathon'
 
     </div>
   </div>
-
-  <div id="judges" class="row">
-    <div class="col-lg-12 center">
-      <div class="col-lg-2 center">
-        <img src="/img/xavier_g.png" alt="Xavier Gonzalez, Executive Director at Technology Foundation of the Americas" />
-        <p class="judge-name">Xavier Gonzalez</p>
-        <span class="judge-desc">Executive Director at Technology Foundation of the Americas</span>
-      </div>
-      <div class="col-lg-2 center">
-        <img src="/img/peter_k.png" alt="Peter B. Kellner, Richmond Global LLC, Founder & Managing Partner; Endeavor Global, Co-Founder" />
-        <p>Peter B. Kellner</p>
-        <span>Richmond Global LLC, Founder & Managing Partner; Endeavor Global, Co-Founder</span>
-      </div>
-      <div class="col-lg-2 center">
-        <img src="/img/Madeline_Pumariega.png" alt="Madeline Pumariega" />
-        <p>Madeline Pumariega</p>
-        <span>President and CEO of Take Stock in Children</span>
-      </div>
-      <div class="col-lg-2 center">
-        <img src="/img/Miguel_Alonso.png" alt="Miguel Alonso" />
-        <p>Miguel Alonso</p>
-        <span>Associate Professor & Chairperson, Engineering & Technology<br />Director, Computing Research Lab<br />Miami Dade College</span>
-      </div>
-      <div class="col-lg-2 center">
-        <img src="/img/Ronald_Herbas.png" alt="Ronald Herbas" />
-        <p>Ronald Herbas</p>
-        <span>Founder and CEO of GEStrak.com</span>
-      </div>
-      <div class="col-lg-2 center">
-        <img src="/img/tj_ferrara.png" alt="TJ Ferrara" />
-        <p>TJ Ferrara</p>
-        <span>Founder of BlueLeaf and VP of Ecommerce</span>
-      </div>
-      <br>
-    </div>
-  </div>
 </div>

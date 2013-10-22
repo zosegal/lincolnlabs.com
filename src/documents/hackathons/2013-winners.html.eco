@@ -1,0 +1,61 @@
+---
+layout: 'default'
+title: '2013 Hackathon Winners'
+---
+
+<div class="container padd">
+  <div class="row">
+    <div class="col-lg-6">
+
+      <h1>Miami</h1>
+
+      <h3>1st Place: Projectiv</h3>
+      <p>Projectiv is the best way to find awesome student projects.</p>
+      <p>Team Members: Rob Davis, Chris Scott, Daniel Prada, Carlos Ormachea, & Ali Smith</p>
+      <p>
+        <a href="http://www.youtube.com/watch?v=6Mf_DvENmWs" target="_blank">Watch</a>
+      </p>
+
+      <h3>2nd Place: Bridge</h3>
+      <p>Bridge is a simple, multi-lingual teacher-parent communication platform.</p>
+      <p>Team Members: Isaac Malca, Chase Olivieri, Mike Gonzalez, & Jessica</p>
+      <p>
+        <a href="http://www.youtube.com/watch?v=8yycQeBYtVo" target="_blank">Watch</a>
+      </p>
+
+      <h3>3rd Place: Edukation</h3>
+      <p>A tool that allow teachers to curate educational videos and students to find them easily.</p>
+      <p>Team Members: Dainel Vera, Joshua Martinez, & Alain Fontaine</p>
+      <p>
+        <a href="http://www.youtube.com/watch?v=uf_hrFvm7WM" target="_blank">Watch</a>
+      </p>
+
+      <h1>Virtual</h1>
+
+      <h3>1st Place: KittyByte Challenge</h3>
+      <p>Kitty Byte Challenge is a Java programming game where you try to solve problems faster than others. We want to make learning Java fun. Also, we want the Java learning experience to be accessible to students who only have web browsing devices (such as some tablets, phones, school computers). Although there are many online Javascript learning tools, Java is a different language from Javascript. Twenty six thousand high school students take the AP Computer Science exam in Java every year, and many more take Java classes. Additionally, Java is extremely popular in early university computer science programs. We are building this game for those students.</p>
+      <p>
+        <a href="http://www.youtube.com/watch?v=LWe6fVA7uLU&feature=youtu.be" target="_blank">Watch</a>
+      </p>
+
+      <h3>2nd Place: Bunyad</h3>
+      <p>Meaningful education is rare anywhere, but in large parts of the under-developed world, there are kids who go to schools daily, usually at a great expense and end up learning very little. Simply because the teachers are either not competent, or not interested. Others deliberately keep real understanding for private tuitions. The result is rote learning and early drop outs from primary and high schools.
+      <br /><br />
+      And if its something driven by the community, one person doesn't have to do it all. Someone can donate a space, another person can help with stationery etc, and someone willing to teach a bunch of kids can teach.</p>
+      <p>
+        <a href="http://www.youtube.com/watch?v=sVNsxLTp8wY&feature=youtu.be" target="_blank">Watch</a>
+      </p>
+
+      <h3>3rd Place: Mentor Buddies</h3>
+      <p>Mentorbuddies enables self-learners to seek human-level career advice and guidance from working professionals who are where they aspire to be.
+      <br /><br />
+      There is an explosion of online resources for self-learning however people still need to be encouraged and guided by real people in order to push through thoughts of aloneness, uncertainty, and feelings of being lost.
+      <br /><br />
+      Education and learning is very much about emotional strength and cultivation as it is about raw information exchange.</p>
+      <p>
+        <a href="http://www.youtube.com/watch?v=b_ykHSpIFs8&feature=youtu.be" target="_blank">Watch</a>
+      </p>
+
+    </div>
+  </div>
+</div>
