@@ -9,12 +9,7 @@ title: 'Virtual Hackathon'
       <h1>Virtual Hackathon - $5k in Prizes!</h1>
       <h2>Reforming Education</h2>
 
-      <p>
-      October 7th - 9th<br />
-      This is an online hackathon.<br />Compete anywhere remotely in the world
-      </p>
-
-      <a class="signup-btn" href="https://www.hackerleague.org/hackathons/virtual-hackathon-reforming-education/" target="_blank"><span>Register Now</span></a>
+      <p>October 7th - 9th<br /></p>
   
     </div>
   
@@ -39,52 +34,29 @@ title: 'Virtual Hackathon'
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
-      <p><b>Are you an entrepreneur or engineer with innovative ideas for using technology to improve education?</b></p>
+      <h1>1st Place: KittyByte Challenge</h1>
+      <p>Kitty Byte Challenge is a Java programming game where you try to solve problems faster than others. We want to make learning Java fun. Also, we want the Java learning experience to be accessible to students who only have web browsing devices (such as some tablets, phones, school computers). Although there are many online Javascript learning tools, Java is a different language from Javascript. Twenty six thousand high school students take the AP Computer Science exam in Java every year, and many more take Java classes. Additionally, Java is extremely popular in early university computer science programs. We are building this game for those students.</p>
+      <p>
+        <a href="http://www.youtube.com/watch?v=LWe6fVA7uLU&feature=youtu.be" target="_blank">Watch</a>
+      </p>
 
-      <p>Recent international assessments ranked 15-year-olds in the U.S. 25th out of 30 countries in math performance and 21st in science performance. From 1985 to 2012, the cost of college tuition increased approximately 500%, nearly two and half times faster than inflation.</p>
+      <h1>2nd Place: Bunyad</h1>
+      <p>Meaningful education is rare anywhere, but in large parts of the under-developed world, there are kids who go to schools daily, usually at a great expense and end up learning very little. Simply because the teachers are either not competent, or not interested. Others deliberately keep real understanding for private tuitions. The result is rote learning and early drop outs from primary and high schools.
+      <br /><br />
+      And if its something driven by the community, one person doesn't have to do it all. Someone can donate a space, another person can help with stationery etc, and someone willing to teach a bunch of kids can teach.</p>
+      <p>
+        <a href="http://www.youtube.com/watch?v=sVNsxLTp8wY&feature=youtu.be" target="_blank">Watch</a>
+      </p>
 
-      <p>This hackathon is open to innovators, developers and doers who want to build, over 2 nights, creative solutions to improve education. At the end of the Hackathon, the teams will  pitch their applications via YouTube to a panel of highly accomplished judges and the top three winners will receive $5000 in cash prizes.</p>
-
-      <p>Teams of any size are invited to signup today. If you don't yet have a team, there is <a href="https://www.hackerleague.org/hackathons/virtual-hackathon-reforming-education/">an online team formation page</a>.  Whether you are a backend person and code in Node/Ruby/Go or are a designer and only work with Illustrator, you are invited to participate.</p>
-      
-      <p><strong>What are the rules?</strong></p>
-      <p>The rules are the same as the other Hackathons. You can find them <a href="http://lincolnlabs.com/rules.html">here</a>.</p>
-
-      <p><strong>How many teams can participate?</strong></p>
-      <p>There may be up to 50 teams participating.</p>
-
-      <p><strong>How does the submission and voting process work?</strong></p>
-      <p>Voting will begin on October 10th at 8am EST. Each submission must include the names and emails of all team members, a URL to a YouTube video presentation of your application, and a URL to a prototype. The voting will end on October 11th at 8pm PST. The apps that receive the top number of votes will win.</p>
-
-      <p><strong> I have questions. Who can I contact?</strong></p>
-      <p>Feel free to contact us <a href="http://lincolnlabs.com/contact.html">here</a> with any questions you have.</p>
-
-      <p><strong>Who will the judges be?</strong></p>
-      <p>We have a great list of judges that will be announced in the first week of October.</p>
-
-      <p><strong>What if I don't have a teammate?</strong><p>
-      <p>You can find a teammate on our Ideas/Skills page.</p>
-
-      <p><strong>What are the prizes?</strong><p>
-      <p>1st place: $3,000<br>
-      2nd place: $1,500<br>
-      3rd pace: $500</p>
-      
-
+      <h1>3rd Place: Mentor Buddies</h1>
+      <p>Mentorbuddies enables self-learners to seek human-level career advice and guidance from working professionals who are where they aspire to be.
+      <br /><br />
+      There is an explosion of online resources for self-learning however people still need to be encouraged and guided by real people in order to push through thoughts of aloneness, uncertainty, and feelings of being lost.
+      <br /><br />
+      Education and learning is very much about emotional strength and cultivation as it is about raw information exchange.</p>
+      <p>
+        <a href="http://www.youtube.com/watch?v=b_ykHSpIFs8&feature=youtu.be" target="_blank">Watch</a>
+      </p>
     </div>
-    
-    <div class="col-lg-6">
-      
-      <p><strong>Schedule</strong></p>
-      
-      <p>Now - October 6th &nbsp;&nbsp;&nbsp; Sign up for the Hackathon</p>
-      <p>October 7th at 5pm PST &nbsp;&nbsp;&nbsp; Hacking begins</p>
-      <p>October 9th at 5pm PST &nbsp;&nbsp;&nbsp; Hacking stops</p>
-      <p>October 10th at 8am PST &nbsp;&nbsp;&nbsp; Voting begins</p>
-      <p>October 11th at 8pm PST &nbsp;&nbsp;&nbsp; Voting ends</p>
-      <o>October 12th at 8am PST &nbsp;&nbsp;&nbsp; Winners announced</p>
-      
-    </div>
-    
   </div>
 </div>

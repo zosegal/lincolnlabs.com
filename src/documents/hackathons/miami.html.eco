@@ -41,44 +41,58 @@ title: 'Miami Hackathon'
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
-      <p><strong>Co-Sponsor:</strong> <a href="http://www.venturehive.co" target="_blank">Ventue Hive</a></p>
-      <a href="http://www.venturehive.co" target="_blank"><img src="/img/venturehive.png" /></a><br><br>
-      <p><b>Are you an entrepreneur or engineer with creative ideas for increasing the number of students who are college or career ready? If the answer is yes, join us!</b></p>
 
-      <p>Recent international assessments ranked 15-year-olds in the U.S. 25th out of 30 countries in math performance and 21st in science performance. From 1985 to 2012, the cost of college tuition increased approximately 500%, nearly two and half times faster than inflation.</p>
+      <h1>1st Place: Projectiv</h1>
+      <p>Projectiv is the best way to find awesome student projects.</p>
+      <p>Team Members: Rob Davis, Chris Scott, Daniel Prada, Carlos Ormachea, & Ali Smith</p>
+      <p>
+        <a href="http://www.youtube.com/watch?v=6Mf_DvENmWs" target="_blank">Watch</a>
+      </p>
 
-      <p>This hackathon will provide a diverse group of innovators the opportunity build creative products within 24 hours to address critical challenges facing America's edcuation system. Teams will have access to awesome mentors and a panel of expert judges will award $5000 in cash prizes.</p>
+      <h1>2nd Place: Bridge</h1>
+      <p>Bridge is a simple, multi-lingual teacher-parent communication platform.</p>
+      <p>Team Members: Isaac Malca, Chase Olivieri, Mike Gonzalez, & Jessica</p>
+      <p>
+        <a href="http://www.youtube.com/watch?v=8yycQeBYtVo" target="_blank">Watch</a>
+      </p>
 
-      <p><strong>We Supply:</strong> Free food (breakfast, lunch, and dinner), wifi, access to industry leaders, code samples, APIs, power cords, working space, and lots of caffeine to keep everyone buzzing.</p> 
+      <h1>3rd Place: Edukation</h1>
+      <p>A tool that allow teachers to curate educational videos and students to find them easily.</p>
+      <p>Team Members: Dainel Vera, Joshua Martinez, & Alain Fontaine</p>
+      <p>
+        <a href="http://www.youtube.com/watch?v=uf_hrFvm7WM" target="_blank">Watch</a>
+      </p>
 
-      <p><strong>You Bring:</strong> Your laptop, ideas & energy. Whether you are a backend person and code in Ruby/PHP/.NET or are a designer and only work with Illustrator, you are invited to attend this event.</p>
-    </div>
+      <h2>Mantra</h2>
+      <p>Creating a web platform as an educational vehicle for self discovery.</p>
+      <p>Team Members: Trevor Helms, Kevin George, Sergio Pantoja, Diva Hurtado, Jennifer Yarboro, Jessica Plank</p>
+      <p><a href="http://www.youtube.com/watch?v=5pjujdg1iYU" target="_blank">Watch</a></p>
 
-    <div class="col-lg-6">
-      <p><a class="large" href="https://docs.google.com/a/chrisabrams.com/spreadsheet/ccc?key=0ArkviT3Z38CadDRPSUJXNlA0cEd2eTI1eHVXbDVzYWc" target="_blank">Judging Criteria</a></p>
+      <h2>Ocu-learn</h2>
+      <p>Immersive education through virtual reality.</p>
+      <p>Team Members: Damian Montero, Nelson Milian, & Katherine Martin</p>
+      <p><a href="http://www.youtube.com/watch?v=zZ5_6hgLqhk" target="_blank">Watch</a></p>
 
-      <p><strong>Friday</strong></p>
+      <h2>School Mode</h2>
+      <p>School Mode is an app that helps prevent misuse of technology in the classroom.</p>
+      <p>Team Members: Tim Reen, Richard Grundy, Boris Polania, & Sergio Pantoja</p>
+      <p><a href="http://www.youtube.com/watch?v=Nc2Goo3MO7k" target="_blank">Watch</a></p>
 
-      <p>6:00pm&nbsp;&nbsp;&nbsp;On-site Registration Starts</p>   
-      <p>7:00pm&nbsp;&nbsp;&nbsp;Dinner & Networking</p> 
-      <p>7:20pm&nbsp;&nbsp;&nbsp;Welcome & Speakers</p>
-      <p>7:30pm&nbsp;&nbsp;&nbsp;Pitch Ideas [Pre-determined during registration]</p>
-      <p>8:15pm&nbsp;&nbsp;&nbsp;All Attendees Join a Team and Hacking Begins</p>
+      <h2>Start Jr.</h2>
+      <p>Creating a platform to make startups accessible to Middle School students.</p>
+      <p>Team Members: Ryan Kopinsky, Rosie Contreras, David Deveney, Alex Callich, Michelle Rojas, Ryan Tucker</p>
+      <p><a href="http://www.youtube.com/watch?v=zW5ATnwfgrQ" target="_blank">Watch</a></p>
 
-      <p>Teams should take an inventory of skills. Be honest and direct about what resources and skills are needed for the 24hr challenge. Teams may stay and work as late as they wish.</p>
+      <h2>Theory Muse</h2>
+      <p>TheoryMuse is an iPhone application designed to develop the fundamental music theory skills of both musicians and music-lovers alike, especially those preparing for the AP Music Theory Exam.</p>
+      <p>Team Members: Matthew Ragonese & Sharif Ahmed</p>
+      <p><a href="http://www.youtube.com/watch?v=a8wsnuXHSEI" target="_blank">Watch</a></p>
 
-      <p><strong>Saturday</strong></p>
+      <!--<h2>Vehicle for Self Discovery</h2>
+      <p>A learning platform.</p>
+      <p>Team Members: Trevor Helms, Jennifer Yarboro, Kevin George, Sergio Pantoja, Diva Hurtado, & Jessica Plank</p>
+      <p></p>-->
 
-      <p>9:00am&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arrive, simple breakfast & coffee</p>
-      <p>10:00am&nbsp;&nbsp;&nbsp;Call for help (this is self motivated, so don’t be shy)</p>
-      <p>12:00pm&nbsp;&nbsp;&nbsp;Lunch</p>
-      <p>12:30pm&nbsp;&nbsp;&nbsp;Coaches arrive… ASK QUESTIONS</p>
-      <p>3:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gut check. Start prepping for presentations</p>
-      <p>5:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dinner</p>
-      <p>6:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FINAL PRESENTATIONS</p>
-      <p>7:30pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Judging & awards</p>
-      <p>8:30pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wrapup</p>
-      <p>9:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Go home!</p>
     </div>
   </div>
 

@@ -52,19 +52,31 @@ title: 'Home'
  
       <p>Be sure to register early, as space is limited!</p>
 
-      <br><br>
+      <br /><br />
 
-      <p><strong>Upcoming Hackathons:</strong></p>
-      <ul>
-          <li><a href="/hackathons/virtual.html">Virtual Hackathon:</a> October 7th - 12th</li>
-          <li><a href="/hackathons/miami.html">Miami, FL:</a> October 11th and 12th</li>
-          <li><a href="/hackathons/chicago.html">Chicago, IL:</a> October 25th and 26th</li>
-      </ul>
+      <div class="row">
+        <div class="col-lg-3">
+          <p><strong>Upcoming Hackathons:</strong></p>
+          <ul>
+            <li><a href="/hackathons/chicago.html">Chicago, IL:</a> October 25th and 26th</li>
+          </ul>
+        </div>
 
-      <div class="col-lg-3 sponsor-group">
-        <p class="sponsor-header"><strong>Sponsors</strong></p>
-        <p><a href="http://www.generationopportunity.org/" target="_blank"><img class="sponsor" src="/img/GenOpp-Logo.png" alt="Generation Opportunity" /></a></p>
-        <p class="sponsor-desc">Generation Opportunity is a non-partisan youth advocacy nonprofit. While the average age of our reps in Congress is 60, the average age of today’s entrepreneur is only 26! We believe that progress and innovation come from the individual creativity and entrepreneurial spirit in our generation, not from the government.</p>
+        <div class="col-lg-3">
+          <p><strong>Recent Hackathons:</strong></p>
+          <ul>
+            <li><a href="/hackathons/virtual.html">Virtual Hackathon:</a> October 7th - 12th</li>
+            <li><a href="/hackathons/miami.html">Miami, FL:</a> October 11th and 12th</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 sponsor-group">
+          <p class="sponsor-header"><strong>Sponsors</strong></p>
+          <p><a href="http://www.generationopportunity.org/" target="_blank"><img class="sponsor" src="/img/GenOpp-Logo.png" alt="Generation Opportunity" /></a></p>
+          <p class="sponsor-desc">Generation Opportunity is a non-partisan youth advocacy nonprofit. While the average age of our reps in Congress is 60, the average age of today’s entrepreneur is only 26! We believe that progress and innovation come from the individual creativity and entrepreneurial spirit in our generation, not from the government.</p>
+        </div>
       </div>
     </div>
   </div>
