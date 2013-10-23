@@ -36,7 +36,7 @@ title: 'Miami Hackathon'
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-6">
+    <div class="col-md-6 col-lg-6">
 
       <h1>1st Place: Projectiv</h1>
       <p>Projectiv is the best way to find awesome student projects.</p>
@@ -89,6 +89,11 @@ title: 'Miami Hackathon'
       <p>Team Members: Trevor Helms, Jennifer Yarboro, Kevin George, Sergio Pantoja, Diva Hurtado, & Jessica Plank</p>
       <p></p>-->
 
+    </div>
+
+    <div class="col-md-6 col-lg-6">
+      <h1>Resources</h1>
+      <a href="/hackathons/2013/miami/photos/">View event photos</a>
     </div>
   </div>
 </div>

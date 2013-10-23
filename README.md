@@ -9,9 +9,11 @@ Then run:
 
     npm install -g docpad
     npm install
+    docpad install partials
 
 ### Running
-
+    
+    ulimit -n 8192 # Yeah, we have lots of files now.
     docpad run
 
 [Open http://localhost:9778/](http://localhost:9778/) and you'll see the site!

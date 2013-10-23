@@ -1,0 +1,14 @@
+---
+layout: 'default'
+title: '2013 Miami Hackathon Photos - Finalists'
+---
+
+<div class="container photo-collection">
+  <div class="row">
+    <h1>2013 Miami Hackathon Photos - Finalists</h1>
+  </div>
+
+  <div class="row">
+    <%- @partial('photo_grid', {path: 'img/2013/miami/photos/finalists'}) %>
+  </div>
+</div>
