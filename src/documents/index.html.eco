@@ -58,7 +58,7 @@ title: 'Home'
         <div class="col-lg-3">
           <p><strong>Upcoming Hackathons:</strong></p>
           <ul>
-            <li><a href="/hackathons/chicago.html">Chicago, IL:</a> October 25th and 26th</li>
+            <li><a href="/hackathons/seattle.html">Seattle, WA:</a> December</li>
           </ul>
         </div>
 
@@ -67,6 +67,7 @@ title: 'Home'
           <ul>
             <li><a href="/hackathons/virtual.html">Virtual Hackathon:</a> October 7th - 12th</li>
             <li><a href="/hackathons/miami.html">Miami, FL:</a> October 11th and 12th</li>
+            <li><a href="/hackathons/chicago.html">Chicago, IL:</a> October 25th and 26th</li>
           </ul>
         </div>
       </div>

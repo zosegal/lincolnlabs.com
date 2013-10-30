@@ -14,10 +14,6 @@ title: 'Chicago Hackathon'
       Hosted at <a href="http://public.ifbyphone.com/" target="_blank">ifbyphone</a><br />
       300 West Adams, 9th Floor, Chicago IL 60606
       </p>
-
-      <a class="signup-btn" href="http://reimaginingcities.eventbrite.com/" target="_blank"><span>Register Now</span></a>
-      <br />
-      <a class="gmap-btn" href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=300+West+Adams,+9th+Floor,+Chicago+IL+60606&aq=&sll=37.7577,-122.4376&sspn=0.172903,0.363579&vpsrc=0&ie=UTF8&hq=&hnear=300+W+Adams+St,+Chicago,+Illinois+60606&t=m&z=16&iwloc=A" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
     </div>
 
     <!--<div class="col-lg-6">
@@ -37,80 +33,61 @@ title: 'Chicago Hackathon'
 </div>
 <div id="colors"></div>
 
-<div class="container hackathon-content">
+<div class="container">
   <div class="row">
-    <div class="col-lg-6">
-      <p><b>Are you an entrepreneur or engineer with innovative, market-based ideas for rebuilding Chicago, Detroit or countless other American cities confronted by significant economic and structural challenges?</b></p>
+    <div class="col-md-6 col-lg-6">
 
-      <p>The triple-drop in Chicago’s bond rating in July 2013 was noted as the most significant of a major U.S. city in recent history. The city has the highest unemployment rate in the Midwest.</p>
+      <h1>1st Place: Chi-Text</h1>
+      <p>Providing access to Chicago’s data via text message.</p>
+      <p>Team Members: Kennedy Collins, Graham Troyer-Joy, Brad Osgood, Kurt Rudolph</p>
+      <p>
+        <a href="http://youtu.be/OG_-QPiJs0s" target="_blank">Watch</a>
+      </p>
 
-      <p>This hackathon is open to top innovators, developers and doers who want to build, within 24 hours, creative market-based solutions that promote individualism and to empower citizens to improve their lives, fix problems from the ground up, and positively impact their local community. All teams will have access to awesome mentors, present their applications to a panel of experts judges and three will receive cash prizes.</p>
+      <h1>2nd Place: Park Me Safe</h1>
+      <p>Find safe places to park in th city.</p>
+      <p>Team Members: Tim Gursky, Gie Reklaitis, Alan Livhshin, Dave Aiello</p>
+      <p>
+        <a href="http://youtu.be/XMNdY9JFlyg" target="_blank">Watch</a>
+      </p>
 
-      <p><strong>We Supply:</strong> Free food (breakfast, lunch, and dinner), wifi, access to industry leaders, code samples, APIs, power cords, working space, and lots of caffeine to keep everyone buzzing.</p> 
+      <h1>3rd Place: Swapbot</h1>
+      <p>A tool that allow teachers to curate educational videos and students to find them easily.</p>
+      <p>Team Members: Andrew Chen</p>
+      <p>
+        <a href="http://youtu.be/aaa8UBIsn0s" target="_blank">Watch</a>
+      </p>
 
-      <p><strong>You Bring:</strong> Your laptop, ideas & energy. Whether you are a backend person and code in Ruby/PHP/.NET or are a designer and only work with Illustrator, you are invited to attend this event.</p>
+      <h2>iPictUp</h2>
+      <p></p>
+      <p>Team Members: Trisha</p>
+      <p><a href="http://youtu.be/e2g1KsuMoGM" target="_blank">Watch</a></p>
 
-      <div class="row">
+      <h2>Mobile Tech Recruiter</h2>
+      <p>Mobile app to connect recruiters and coders for job opportunities.</p>
+      <p>Team Members: Taria Tuccio, David Bermejo, Brennan Nichols, Edward Bryant, Andy Martha</p>
+      <p><a href="http://youtu.be/hGAnXggpU0E" target="_blank">Watch</a></p>
 
-        <div class="col-lg-3 sponsor-group">
-          <p class="sponsor-header"><strong>Sponsors</strong></p>
-          <p><a href="http://digital.cityofchicago.org/index.php/developer-resources/" target="_blank"><img class="sponsor" src="/img/ChicagoDigital_125.jpg" alt="Generation Opportunity" /></a></p>
-          <p class="sponsor-desc"></p>
-        </div>
+      <h2>Safe Passage</h2>
+      <p>Map of 2013 Chicago crime; know which neighborhoods are most dangerous.</p>
+      <p>Team Members: Jack Mallers, Garrett Martin, Abdullah Mian</p>
+      <p><a href="http://youtu.be/YJkHQWEXnFQ" target="_blank">Watch</a></p>
 
-      </div>
+      <h2>Slowpoke</h2>
+      <p>Speed limit data with Google maps for mapping routes for people with driving restrictions.</p>
+      <p>Team Members: Beth Binkovitz, Valentina Kibuyaga</p>
+      <p><a href="http://youtu.be/Te88TKr71aU" target="_blank">Watch</a></p>
+
+      <h2>Smalltown Hero</h2>
+      <p>Nominate local heroes for awards.</p>
+      <p>Team Members: Kori Roys, Tara Roys, Bryan Hancock, Zach Olauson</p>
+      <p><a href="http://youtu.be/-je5JXe-SKw" target="_blank">Watch</a></p>
+
     </div>
 
-    <div class="col-lg-6">
-      <p><a class="large" href="https://docs.google.com/a/chrisabrams.com/spreadsheet/ccc?key=0ArkviT3Z38CadDRPSUJXNlA0cEd2eTI1eHVXbDVzYWc" target="_blank">Judging Criteria</a></p>
-
-      <p><strong>Friday</strong></p>
-      
-
-      <p>6:00pm&nbsp;&nbsp;&nbsp;On-site Registration Starts</p>   
-      <p>7:00pm&nbsp;&nbsp;&nbsp;Dinner & Networking</p> 
-      <p>7:20pm&nbsp;&nbsp;&nbsp;Welcome & Speakers</p>
-      <p>7:30pm&nbsp;&nbsp;&nbsp;Pitch Ideas [Pre-determined during registration]</p>
-      <p>8:15pm&nbsp;&nbsp;&nbsp;All Attendees Join a Team and Hacking Begins</p>
-
-      <p>Teams should take an inventory of skills. Be honest and direct about what resources and skills are needed for the 24hr challenge. Teams may stay and work as late as they wish.</p>
-
-      <p><strong>Saturday</strong></p>
-
-
-      <p>9:00am&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arrive, simple breakfast & coffee</p>
-      <p>10:00am&nbsp;&nbsp;&nbsp;Call for help (this is self motivated, so don’t be shy)</p>
-      <p>12:00pm&nbsp;&nbsp;&nbsp;Lunch</p>
-      <p>12:30pm&nbsp;&nbsp;&nbsp;Coaches arrive… ASK QUESTIONS</p>
-      <p>3:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gut check. Start prepping for presentations</p>
-      <p>5:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dinner</p>
-      <p>6:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FINAL PRESENTATIONS</p>
-      <p>7:30pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Judging & awards</p>
-      <p>8:30pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wrapup</p>
-      <p>9:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Go home!</p>
-    </div>
-  </div>
-
-  <div id="judges" class="row">
-    <div class="col-lg-2 center">
-      <img src="/img/bill_driegert.png" alt="Bill Driegert" />
-      <p class="judge-name">Bill Driegert</p>
-      <span class="judge-desc">Chief Innovation Officer of Coyote Logistics</span>
-    </div>
-    <div class="col-lg-2 center">
-      <img src="/img/ethan_austin.png" alt="Ethan Austin" />
-      <p class="judge-name">Ethan Austin</p>
-      <span class="judge-desc">Co-founder of Give Forward</span>
-    </div>
-    <div class="col-lg-2 center">
-      <img src="/img/wayne_boulais.png" alt="Wayne Boulais" />
-      <p class="judge-name">Wayne Boulais</p>
-      <span class="judge-desc">General Partner at Apex Venture Partners</span>
-    </div>
-    <div class="col-lg-2 center">
-      <img src="/img/fred_hoch.png" alt="Fred Hoch" />
-      <p class="judge-name">Fred Hoch</p>
-      <span class="judge-desc">CEO of Illinois Technology Association and Founder of TechNexus</span>
-    </div>
+    <!--<div class="col-md-6 col-lg-6">
+      <h1>Resources</h1>
+      <a href="/hackathons/2013/miami/photos/">View event photos</a>
+    </div>-->
   </div>
 </div>
