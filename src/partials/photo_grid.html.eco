@@ -1,7 +1,19 @@
+<% i = 0 %>
+
 <% for item in @getFilesAtPath(@path).toJSON(): %>
+
+<% if i is 0: %>
+<div class="row">
+<% end %>
 
 <div class="col-sm-3 col-md-3 col-lg-3">
   <a href="<%= item.url %>" target="_blank"><img src="<%= item.url %>" alt="" /></a>
 </div>
+
+<% if i is 3: %>
+</div>
+<% end %>
+
+<% if i < 3 then i++ else i = 0 %>
 
 <% end %>
