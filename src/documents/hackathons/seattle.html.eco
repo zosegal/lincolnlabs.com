@@ -14,6 +14,8 @@ title: 'Seattle Hackathon'
       15255 NE 40th Street, Redmond, WA 98052
       </p>
 
+      <a class="signup-btn" href="https://www.eventbrite.com/e/seattle-hackathon-open-government-tickets-8315322353" target="_blank"><span>Register Now</span></a>
+      <br />
       <a class="gmap-btn" href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=15255+NE+40th+Street,+Redmond,+WA+98052&aq=&sll=40.697488,-73.979681&sspn=0.695508,1.454315&vpsrc=0&ie=UTF8&hq=&hnear=15255+NE+40th+St,+Redmond,+King+County,+Washington+98052&t=m&z=16&iwloc=A" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
     </div>
 
