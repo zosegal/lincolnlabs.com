@@ -16,7 +16,7 @@ title: 'Seattle Hackathon'
 
       <a class="signup-btn" href="https://www.eventbrite.com/e/seattle-hackathon-open-government-tickets-8315322353" target="_blank"><span>Register Now</span></a>
       <br />
-      <a class="gmap-btn" href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=15255+NE+40th+Street,+Redmond,+WA+98052&aq=&sll=40.697488,-73.979681&sspn=0.695508,1.454315&vpsrc=0&ie=UTF8&hq=&hnear=15255+NE+40th+St,+Redmond,+King+County,+Washington+98052&t=m&z=16&iwloc=A" target="_blank"><span class="plmk"></span> <span>View on Google Maps</span></a>
+      <a class="gmap-btn" href="http://www.bing.com/maps/?v=2&cp=47.645988~-122.136963&lvl=15&dir=0&sty=r&sp=Point.ry6wyc4tnqv0_NE%2040th%20St%2C%20Redmond%2C%20WA%2098052_NE%2040th%20St%2C%20Redmond%2C%20WA%2098052___&q=15255%20NE%2040th%20Street%2C%20Redmond%2C%20WA%2098052&form=LMLTCC#Y3A9NDcuNjQ1OTg4fi0xMjIuMTM2OTYzJmx2bD0xNSZzdHk9ciZxPTE1MjU1JTI1MjBORSUyNTIwNDB0aCUyNTIwU3RyZWV0JTI1MkMlMjUyMFJlZG1vbmQlMjUyQyUyNTIwV0ElMjUyMDk4MDUy" target="_blank"><span class="plmk"></span> <span>View on Bing Maps</span></a>
     </div>
 
     <div class="col-lg-6">
