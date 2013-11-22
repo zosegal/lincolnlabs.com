@@ -1,27 +1,27 @@
 ---
 layout: 'default'
-title: 'Miami Hackathon'
+title: 'New York Meetup'
 ---
 
 <div class="banner banner-hackathon banner-miami-full">
-  <div class="container banner-miami">
-    <div class="col-lg-6">
-      <h1>Miami Hackathon</h1>
-      <h2>Reforming Education</h2>
+  <div class="container banner-new-york">
+    <div class="col-lg-12">
+      <h1>New York Meetup</h1>
+      <h2></h2>
 
       <p>
-      October 11th and 12th<br />
-      Hosted at <a href="http://venturehive.co/" target="_blank">VentureHive</a><br />
-      1010 NE 2nd Ave Miami, FL 33132
+      December 2nd<br />
+      Hosted at <a href="http://www.quinnsnyc.com" target="_blank">Quinns</a><br />
+      353 West 44th St, New York, NY 10036
       </p>
 
-      <a class="signup-btn" href="https://reformingeducation.eventbrite.com/" target="_blank"><span>Register Now</span></a>
+      <a class="signup-btn" href="https://lincolnlabs-ny-meetup.eventbrite.com" target="_blank"><span>Register Now</span></a>
       <br />
-      <a class="gmap-btn" href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1010+NE+2nd+Ave+Miami,+FL+33132&aq=&sll=40.742624,-73.987384&sspn=0.010356,0.022724&vpsrc=0&ie=UTF8&hq=&hnear=1010+NE+2nd+Ave,+Miami,+Florida+33132&t=m&z=16&iwloc=A" target="_blank"><span class="plmk"></span> <span>Google Map</span></a>
+      <a class="gmap-btn" href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=353+West+44th+Street,+New+York,+NY&aq=0&oq=353+west+44th+st&sll=40.697488,-73.979681&sspn=0.605967,1.234589&vpsrc=0&ie=UTF8&hq=&hnear=353+W+44th+St,+New+York,+10036&ll=40.760017,-73.991053&spn=0.009459,0.01929&t=m&z=16&iwloc=A" target="_blank"><span class="plmk"></span> <span>Google Map</span></a>
 
     </div>
 
-    <div class="col-lg-6">
+    <!--<div class="col-lg-6">
       <h1>Did you just miss us?</h1>
       <p>Subscribe to get the latest news.</p>
 
@@ -33,7 +33,7 @@ title: 'Miami Hackathon'
         <div></div>
         <input type="submit" value="Get Updates" name="subscribe" id="mc-embedded-subscribe" class="button email-button">
       </form>
-    </div>
+    </div>-->
   </div>
 </div>
 <div id="colors"></div>
@@ -41,53 +41,17 @@ title: 'Miami Hackathon'
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
-      <p><b>Are you an entrepreneur or engineer with creative ideas for increasing the number of students who are college or career ready? If the answer is yes, join us!</b></p>
+      <p><b>Are you a conservative or libetarian who thinks the government's current use of technology is out-dated and mis-informed?</b> If the answer is yes, join us! We'll even cover the bar tab!</p>
 
-      <p>Recent international assessments ranked 15-year-olds in the U.S. 25th out of 30 countries in math performance and 21st in science performance. From 1985 to 2012, the cost of college tuition increased approximately 500%, nearly two and half times faster than inflation.</p>
+      <p>We created Lincoln Labs to promote liberty through technology. This is our first meetup in New York; we've been busy this year putting on hackathons from coast to coast. As we get ready for 2014 we'd love to meet you and talk about what's upcoming this next year!</p>
 
-      <p>This hackathon will provide a diverse group of innovators the opportunity build creative products within 24 hours to address critical challenges facing America's edcuation system. Teams will have access to awesome mentors and a panel of expert judges will award $5000 in cash prizes.</p>
-
-      <p><strong>We Supply:</strong> Free food (breakfast, lunch, and dinner), wifi, access to industry leaders, code samples, APIs, power cords, working space, and lots of caffeine to keep everyone buzzing.</p> 
-
-      <p><strong>You Bring:</strong> Your laptop, ideas & energy. Whether you are a backend person and code in Ruby/PHP/.NET or are a designer and only work with Illustrator, you are invited to attend this event.</p>
+      <p>This event is sponsored by <a href="http://generationopportunity.org/" target="_blank">Generation Opportunity</a>.</p>
     </div>
 
     <div class="col-lg-6">
 
-      <p><strong>Friday</strong></p>
-
-      <p>6:00pm&nbsp;&nbsp;&nbsp;On-site Registration Starts</p>   
-      <p>7:00pm&nbsp;&nbsp;&nbsp;Dinner & Networking</p> 
-      <p>7:20pm&nbsp;&nbsp;&nbsp;Welcome & Speakers</p>
-      <p>7:30pm&nbsp;&nbsp;&nbsp;Pitch Ideas [Pre-determined during registration]</p>
-      <p>8:15pm&nbsp;&nbsp;&nbsp;All Attendees Join a Team and Hacking Begins</p>
-
-      <p>Teams should take an inventory of skills. Be honest and direct about what resources and skills are needed for the 24hr challenge. Teams may stay and work as late as they wish.</p>
-
-      <p><strong>Saturday</strong></p>
-
-      <p>9:00am&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arrive, simple breakfast & coffee</p>
-      <p>10:00am&nbsp;&nbsp;&nbsp;Call for help (this is self motivated, so don’t be shy)</p>
-      <p>12:00pm&nbsp;&nbsp;&nbsp;Lunch</p>
-      <p>12:30pm&nbsp;&nbsp;&nbsp;Coaches arrive… ASK QUESTIONS</p>
-      <p>3:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gut check. Start prepping for presentations</p>
-      <p>5:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dinner</p>
-      <p>6:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FINAL PRESENTATIONS</p>
-      <p>7:30pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Judging & awards</p>
-      <p>8:30pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wrapup</p>
-      <p>9:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Go home!</p>
+      
     </div>
   </div>
 
-  <div id="judges" class="row">
-    <div class="col-lg-12 center">
-      <p class="center">We'll announce the judges soon!</p>
-
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img class="last" src="/img/judge-empty.png" />
-    </div>
-  </div>
 </div>
