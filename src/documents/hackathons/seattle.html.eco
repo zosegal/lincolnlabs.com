@@ -90,5 +90,10 @@ title: 'Seattle Hackathon'
       <p class="judge-name">Rep. Chad Magendanz</p>
       <span class="judge-desc">Washington State House</span>
     </div>
+    <div class="col-lg-2 center">
+      <img src="/img/johnalioto.jpg" alt="John Alioto" />
+      <p class="judge-name">John Alioto</p>
+      <span class="judge-desc">CTO of West Region Developer &amp; Platform Evangelism at Microsoft</span>
+    </div>
   </div>
 </div>
