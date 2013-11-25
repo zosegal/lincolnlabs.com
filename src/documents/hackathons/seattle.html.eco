@@ -85,14 +85,10 @@ title: 'Seattle Hackathon'
   </div>
 
   <div id="judges" class="row">
-    <div class="col-lg-12 center">
-      <p class="center">We'll announce the judges soon!</p>
-
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img src="/img/judge-empty.png" />
-      <img class="last" src="/img/judge-empty.png" />
+    <div class="col-lg-2 center">
+      <img src="/img/magendanz.jpg" alt="Rep. Chad Magendanz" />
+      <p class="judge-name">Rep. Chad Magendanz</p>
+      <span class="judge-desc"></span>
     </div>
   </div>
 </div>
