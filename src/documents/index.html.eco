@@ -78,6 +78,13 @@ title: 'Home'
 
       <div class="row">
         <div class="col-lg-3">
+          <p><strong>Upcoming Meetups:</strong></p>
+          <ul>
+            <li><a href="/meetups/new_york.html">New York</a> Dec. 2nd</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
           <p><strong>Upcoming Hackathons:</strong></p>
           <ul>
             <li><a href="/hackathons/seattle.html">Seattle, WA:</a> December 6th - 7th</li>

@@ -58,7 +58,9 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Meetups <b class="caret"></b></a>
                 <ul class="dropdown-menu">
+                  <li><a href="/meetups/new_york.html">New York</a></li>
                 	<li><a href="/events/the-nsa-vs-individual-privacy.html">San Francisco</a></li>
+
                 <!--	
                   <li><a href="/meetups/dallas.html">Dallas</a></li>
                   <li><a href="/meetups/new_york.html">New York</a></li>
@@ -116,9 +118,9 @@
 
         <div class="col-lg-4">
           <h6>Meetups</h6>
+          <a href="/meetups/new_york.html">New York</a>
           <a href="/events/the-nsa-vs-individual-privacy.html">San Francisco</a>
           <!--<a href="/meetups/dallas.html">Dallas</a>
-          <a href="/meetups/new_york.html">New York</a>
           <a href="/meetups/salt_lake_city.html">Salt Lake City</a>
           -->
         </div>
