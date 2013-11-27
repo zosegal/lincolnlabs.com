@@ -95,5 +95,10 @@ title: 'Seattle Hackathon'
       <p class="judge-name">John Alioto</p>
       <span class="judge-desc">CTO of West Region Developer &amp; Platform Evangelism at Microsoft</span>
     </div>
+    <div class="col-lg-2 center">
+      <img src="/img/wehr.png" alt="John Alioto" />
+      <p class="judge-name">John Wehr</p>
+      <span class="judge-desc">Co-Founder and CTO of Tred</span>
+    </div>
   </div>
 </div>
