@@ -100,5 +100,15 @@ title: 'Seattle Hackathon'
       <p class="judge-name">John Wehr</p>
       <span class="judge-desc">Co-Founder and CTO of Tred</span>
     </div>
+    <div class="col-lg-2 center">
+      <img src="/img/vinh_tang.jpg" alt="Vinh Tang" />
+      <p class="judge-name">Vinh Tang</p>
+      <span class="judge-desc">Chief of Staff for Seattle City Councilmember Bruce A. Harrell<br />Chair of the Public Safety, Civil Rights and Technology Committee</span>
+    </div>
+    <div class="col-lg-2 center">
+      <img src="/img/hc-selfie.png" alt="Hector Cura" />
+      <p class="judge-name">Hector Cura</p>
+      <span class="judge-desc">Software Development Manager, Amazon</span>
+    </div>
   </div>
 </div>
