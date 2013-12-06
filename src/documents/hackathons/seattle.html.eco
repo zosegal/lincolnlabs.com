@@ -10,7 +10,7 @@ title: 'Seattle Hackathon'
       <h2>Open Government</h2>
       <p>
       December 6th and 7th<br />
-      Hosted at <a href="http://campusbuilding.com/b/microsoft-the-commons-mixer/" target="_blank">Microsoft</a><br />
+      Hosted at <a href="http://campusbuilding.com/b/microsoft-the-commons-mixer/" target="_blank">Microsoft (Building 92)</a><br />
       15255 NE 40th Street, Redmond, WA 98052
       </p>
 
@@ -109,6 +109,11 @@ title: 'Seattle Hackathon'
       <img src="/img/hc-selfie.png" alt="Hector Cura" />
       <p class="judge-name">Hector Cura</p>
       <span class="judge-desc">Software Development Manager, Amazon</span>
+    </div>
+    <div class="col-lg-2 center">
+      <img src="/img/cliff_reeves.jpg" alt="Cliff Reeves" />
+      <p class="judge-name">Cliff Reeves</p>
+      <span class="judge-desc">Microsoft Ventures</span>
     </div>
   </div>
 </div>
