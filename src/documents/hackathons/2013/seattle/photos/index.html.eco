@@ -1,0 +1,15 @@
+---
+layout: 'default'
+title: '2013 Seattle Hackathon Photos'
+---
+
+<div class="container photo-collection photo-collection-main">
+  <div class="row">
+    <h1>2013 Seattle Hackathon Photos</h1>
+  </div>
+
+  <div class="row">
+    <%- @partial('photo_main', {link: '/hackathons/2013/seattle/photos/friday.html', path: 'img/2013/seattle/photos/friday', label: 'Friday'}) %>
+    <%- @partial('photo_main', {link: '/hackathons/2013/seattle/photos/saturday.html', path: 'img/2013/seattle/photos/saturday', label: 'Saturday'}) %>
+  </div>
+</div>

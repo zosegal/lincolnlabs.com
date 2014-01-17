@@ -19,19 +19,6 @@ title: 'Seattle Hackathon'
       <a class="gmap-btn" href="http://binged.it/18qTFj5" target="_blank"><span class="plmk"></span> <span>View on Bing Maps</span></a>
     </div>
 
-    <div class="col-lg-6">
-      <h1>Be the first to know!</h1>
-      <p>Subscribe to get the latest news.</p>
-
-      <form action="http://lincolnlabs.us7.list-manage2.com/subscribe/post?u=5a298124dd214a5b4e12dbf7e&amp;id=3e3467b86e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
-        <div></div>
-        <input type="text" value="" name="ZIP" class="zip" id="mce-ZIP" placeholder="Zip Code" />
-        <div></div>
-        <input type="submit" value="Get Updates" name="subscribe" id="mc-embedded-subscribe" class="button email-button">
-      </form>
-    </div>
   </div>
 </div>
 <div id="colors"></div>
@@ -39,82 +26,45 @@ title: 'Seattle Hackathon'
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
+      <h1>1st Place: Safe Seattle</h1>
+      <p>Keeping citizens informed.</p>
+      <p>Team Members: Stuart Gano, Jon Chin, Amyr Haq, Roy Gu, Amol Shanbhag</p>
+      <!--<p><a href="http://youtu.be/OG_-QPiJs0s" target="_blank">Watch</a></p>-->
 
-      <p>
-      <b>Is it depressing that healthcare.gov cost us $1 billion?</b> Shouldn’t we know how our taxpayer money is being spent and how decisions are being made? If you said yes, then join us!
-      </p>
- 
-      <p>
-      Residents of Washington State have a long history of leading on open government efforts. Lincoln Labs will be hosting a hackathon, <b>sponsored by Microsoft</b>, to find solutions to one of the biggest problems facing our Republic: transparency.
-      </p>
- 
-      <p>
-      Whether promoting an open dialogue about legislation or citizen oversight of federal contracts, this hackathon will provide innovators the opportunity build creative products within 24 hours to address critical challenges facing American governance and promote open government.
-      </p>
+      <h1>2nd Place: Candid Candidates</h1>
+      <p>Annotating news articles to help people understand how money influences politics.</p>
+      <p>Team Members: Ian, Griffin, Ronald, Alex, Patrick</p>
+      <!--<p><a href="http://youtu.be/XMNdY9JFlyg" target="_blank">Watch</a></p>-->
 
-      <p><strong>We Supply:</strong> Free food (breakfast, lunch, and dinner), wifi, access to industry leaders, code samples, APIs, power cords, working space, and lots of caffeine to keep everyone buzzing.</p> 
+      <h1>3rd Place: Quetastic</h1>
+      <p>Line management as a service for government offices.</p>
+      <p>Team Members: Vinay Vyas, Kevin Dela Rosa</p>
+      <!--<p><a href="http://youtu.be/aaa8UBIsn0s" target="_blank">Watch</a></p>-->
 
-      <p><strong>You Bring:</strong> Your laptop, ideas & energy. Whether you are a backend person and code in Ruby/PHP/.NET or are a designer and only work with Illustrator, you are invited to attend this event.</p>
+      <h2>Citizen Journal</h2>
+      <p>Crowd sourcing journalism.</p>
+      <p>Team Members: Kristi, Ram, Tim, Matthew, Dana Andrew</p>
+      <!--<p><a href="http://youtu.be/e2g1KsuMoGM" target="_blank">Watch</a></p>-->
+
+      <h2>Conflict of Interest</h2>
+      <p>Mobile app to connect recruiters and coders for job opportunities.</p>
+      <p>Team Members: Taria Tuccio, David Bermejo, Brennan Nichols, Edward Bryant, Andy Martha</p>
+      <!--<p><a href="http://youtu.be/hGAnXggpU0E" target="_blank">Watch</a></p>-->
+
+      <h2>MayDay Call</h2>
+      <p>Map of 2013 Chicago crime; know which neighborhoods are most dangerous.</p>
+      <p>Team Members: Jack Mallers, Garrett Martin, Abdullah Mian</p>
+      <!--<p><a href="http://youtu.be/YJkHQWEXnFQ" target="_blank">Watch</a></p>-->
+
+      <h2>TummyGuard</h2>
+      <p>Location-based app for you to check restaurant inspection score before you eat.</p>
+      <p>Team Members: Tom Dahlstrom, Mei Lu</p>
+      <!--<p><a href="http://youtu.be/Te88TKr71aU" target="_blank">Watch</a></p>-->
     </div>
 
     <div class="col-lg-6">
-      <p><a class="large" href="https://docs.google.com/a/chrisabrams.com/spreadsheet/ccc?key=0ArkviT3Z38CadDRPSUJXNlA0cEd2eTI1eHVXbDVzYWc" target="_blank">Judging Criteria</a></p>
-
-      <p><strong>Friday</strong></p>
-
-      <p>6:00pm&nbsp;&nbsp;&nbsp;On-site Registration Starts</p>   
-      <p>7:00pm&nbsp;&nbsp;&nbsp;Dinner & Networking</p> 
-      <p>7:20pm&nbsp;&nbsp;&nbsp;Welcome & Speakers</p>
-      <p>7:30pm&nbsp;&nbsp;&nbsp;Pitch Ideas [Pre-determined during registration]</p>
-      <p>8:15pm&nbsp;&nbsp;&nbsp;All Attendees Join a Team and Hacking Begins</p>
-
-      <p>Teams should take an inventory of skills. Be honest and direct about what resources and skills are needed for the 24hr challenge. Teams may stay and work as late as they wish.</p>
-
-      <p><strong>Saturday</strong></p>
-
-      <p>9:00am&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arrive, simple breakfast & coffee</p>
-      <p>10:00am&nbsp;&nbsp;&nbsp;Call for help (this is self motivated, so don’t be shy)</p>
-      <p>12:00pm&nbsp;&nbsp;&nbsp;Lunch</p>
-      <p>12:30pm&nbsp;&nbsp;&nbsp;Coaches arrive… ASK QUESTIONS</p>
-      <p>3:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gut check. Start prepping for presentations</p>
-      <p>5:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dinner</p>
-      <p>6:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FINAL PRESENTATIONS</p>
-      <p>7:30pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Judging & awards</p>
-      <p>8:30pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wrapup</p>
-      <p>9:00pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Go home!</p>
-    </div>
+      <h1>Resources</h1>
+      <a href="/hackathons/2013/seattle/photos/">View event photos</a>
   </div>
 
-  <div id="judges" class="row">
-    <div class="col-lg-2 center">
-      <img src="/img/magendanz.jpg" alt="Rep. Chad Magendanz" />
-      <p class="judge-name">Rep. Chad Magendanz</p>
-      <span class="judge-desc">Washington State House</span>
-    </div>
-    <div class="col-lg-2 center">
-      <img src="/img/johnalioto.jpg" alt="John Alioto" />
-      <p class="judge-name">John Alioto</p>
-      <span class="judge-desc">CTO of West Region Developer &amp; Platform Evangelism at Microsoft</span>
-    </div>
-    <div class="col-lg-2 center">
-      <img src="/img/wehr.png" alt="John Alioto" />
-      <p class="judge-name">John Wehr</p>
-      <span class="judge-desc">Co-Founder and CTO of Tred</span>
-    </div>
-    <div class="col-lg-2 center">
-      <img src="/img/vinh_tang.jpg" alt="Vinh Tang" />
-      <p class="judge-name">Vinh Tang</p>
-      <span class="judge-desc">Chief of Staff for Seattle City Councilmember Bruce A. Harrell<br />Chair of the Public Safety, Civil Rights and Technology Committee</span>
-    </div>
-    <div class="col-lg-2 center">
-      <img src="/img/hc-selfie.png" alt="Hector Cura" />
-      <p class="judge-name">Hector Cura</p>
-      <span class="judge-desc">Software Development Manager, Amazon</span>
-    </div>
-    <div class="col-lg-2 center">
-      <img src="/img/cliff_reeves.jpg" alt="Cliff Reeves" />
-      <p class="judge-name">Cliff Reeves</p>
-      <span class="judge-desc">Microsoft Ventures</span>
-    </div>
-  </div>
 </div>

@@ -7,23 +7,23 @@ title: '2013 Hackathon Winners'
   <div class="row">
     <div class="col-lg-6">
 
-      <h1>Chiacgo</h1>
+      <h1>Chicago</h1>
 
-      <h1>1st Place: Chi-Text</h1>
+      <h3>1st Place: Chi-Text</h3>
       <p>Providing access to Chicago’s data via text message.</p>
       <p>Team Members: Kennedy Collins, Graham Troyer-Joy, Brad Osgood, Kurt Rudolph</p>
       <p>
         <a href="http://youtu.be/OG_-QPiJs0s" target="_blank">Watch</a>
       </p>
 
-      <h1>2nd Place: Park Me Safe</h1>
+      <h3>2nd Place: Park Me Safe</h3>
       <p>Find safe places to park in th city.</p>
       <p>Team Members: Tim Gursky, Gie Reklaitis, Alan Livhshin, Dave Aiello</p>
       <p>
         <a href="http://youtu.be/XMNdY9JFlyg" target="_blank">Watch</a>
       </p>
 
-      <h1>3rd Place: Swapbot</h1>
+      <h3>3rd Place: Swapbot</h3>
       <p>A tool that allow teachers to curate educational videos and students to find them easily.</p>
       <p>Team Members: Andrew Chen</p>
       <p>
@@ -52,6 +52,23 @@ title: '2013 Hackathon Winners'
       <p>
         <a href="http://www.youtube.com/watch?v=uf_hrFvm7WM" target="_blank">Watch</a>
       </p>
+
+      <h1>Seattle</h1>
+
+      <h3>1st Place: Safe Seattle</h3>
+      <p>Keeping citizens informed.</p>
+      <p>Team Members: Stuart Gano, Jon Chin, Amyr Haq, Roy Gu, Amol Shanbhag</p>
+      <!--<p><a href="http://youtu.be/OG_-QPiJs0s" target="_blank">Watch</a></p>-->
+
+      <h3>2nd Place: Candid Candidates</h3>
+      <p>Annotating news articles to help people understand how money influences politics.</p>
+      <p>Team Members: Ian, Griffin, Ronald, Alex, Patrick</p>
+      <!--<p><a href="http://youtu.be/XMNdY9JFlyg" target="_blank">Watch</a></p>-->
+
+      <h3>3rd Place: Quetastic</h3>
+      <p>Line management as a service for government offices.</p>
+      <p>Team Members: Vinay Vyas, Kevin Dela Rosa</p>
+      <!--<p><a href="http://youtu.be/aaa8UBIsn0s" target="_blank">Watch</a></p>-->
 
       <h1>Virtual</h1>
 
