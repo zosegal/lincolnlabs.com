@@ -18,3 +18,5 @@ title: 'Contact'
 
   <p><b>Contact Us</b><br /><a href="mailto:about@lincolnlabs.com">about@lincolnlabs.com</a></p>
 </div>
+
+<%- @partial('scripts') %>
