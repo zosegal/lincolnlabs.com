@@ -3,49 +3,48 @@ layout: 'default'
 title: 'Home'
 ---
 
+<div id="bg-body-homepage">
+</div>  
+
 <div class="container">
-  <h3 class="lead text-center">Current Grid Size<br />(Resize Browser Window)</h3>
   <div class="row">
     <div class="col-xs-12 col-ms-12 col-sm-12 col-md-12 col-lg-12">
-      <div class="well">
-        <span class="visible-xs">Extra Small</span>
-        <span class="visible-ms">Medium Small</span>
-        <span class="visible-sm">Small</span>
-        <span class="visible-md">Medium</span>
-        <span class="visible-lg">Large</span>
+      <div id="img-lincoln-labs-logo-full">
+        <h2 id="homepage-h2" class="text-center">where liberty and technology meet.<h2>
       </div>
     </div>
   </div>
-  <br />
-  <hr>
-  <h3 class="lead text-center">Retina Background Test<br />(Test on Retina Device)</h3>
-  <div class="row">
-    <div class="col-xs-12 col-ms-12 col-sm-12 col-md-12 col-lg-12">
-      <div class="well retina-or-not bg-cover"></div>
-    </div>
-  </div>
-  <br />
-  <hr>
-  <h3 class="lead text-center">Device Hide Test<br />(Test on Android and iOS)</h3>
-  <div class="row">
-    <div class="col-xs-12 col-ms-12 col-sm-12 col-md-12 col-lg-12">
-      <span class="well text-center full visible-web hidden-android hidden-ios">Visible Web Only</span>
-      <span class="well text-center full visible-android hidden-ios">Visible Android Only</span>
-      <span class="well text-center full visible-ios hidden-android">Visible iOS Only</span>
-    </div>
-  </div>
+</div>
 
-  <br />
-  <hr>
+<div id="navbar-lincoln-labs-reveal"></div>
 
-  <h3 class="lead text-center">Text Alignemnt for Individual Grid Sets<br />(Resize Browser)</h3>
-  <div class="row">
-    <div class="col-xs-12 col-ms-12 col-sm-12 col-md-12 col-lg-12">
-      <div class="well">
-        <p class="text-center-xs text-right-ms text-left-sm text-center-md text-right-lg">Watch Me Move</p>
+<div id="wrapper-homepage-content">
+  <div class="container" id="container-homepage-content">
+    <div class="row">
+      <div class="col-xs-12 col-ms-12 col-sm-12 col-md-12 col-lg-12">
+        <h3 id="homepage-h3" class="text-center">What we do.<h3>
       </div>
     </div>
   </div>
-</div> <!-- /container -->
+</div>
 
-<%- @partial('test') %>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-ms-12 col-sm-12 col-md-12 col-lg-12">
+    </div>
+  </div>
+</div>
+
+<%- @partial('scripts') %>
+
+<script>
+  $(document).ready( function() {
+      $("#navbar-lincoln-labs").hide(); //hide your div initially
+      var topOfOthDiv = $("#navbar-lincoln-labs-reveal").offset().top;
+      $(window).scroll(function() {
+          if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
+              $("#navbar-lincoln-labs").fadeIn(); //reached the desired point -- show div
+          }
+      });
+  });
+</script>

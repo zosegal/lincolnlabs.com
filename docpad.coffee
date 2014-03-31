@@ -45,6 +45,7 @@ docpadConfig = {
 				'/vendor/log.js'
 				'/vendor/bootstrap.min.js'
 				'/scripts/device-detect.js'
+				'/scripts/script.js'
 			]
 
 
