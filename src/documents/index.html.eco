@@ -1,5 +1,5 @@
 ---
-layout: 'default'
+layout: 'global'
 title: 'Home'
 ---
 
@@ -19,21 +19,121 @@ title: 'Home'
 <div id="navbar-lincoln-labs-reveal"></div>
 
 <div id="wrapper-homepage-content">
-  <div class="container" id="container-homepage-content">
-    <div class="row">
+  <div id="container-homepage-content" class="container">
+    
+    <div class="visible-xs">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 id="panel-updates-h1">$25,000 in cash prizes!</h1>
+          <p>Register for event updates</p>
+        </div>
+      </div>
+      <div class="row">
+        <form action="http://lincolnlabs.us7.list-manage2.com/subscribe/post?u=5a298124dd214a5b4e12dbf7e&amp;id=3e3467b86e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+          <div class="col-ms-5 col-sm-5">
+            <div id="input-email">
+              <div class="input-group">
+                <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="form-control email" placeholder="Email Address" required>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div id="input-zip">
+              <div class="input-group">
+                <input type="text" value="" name="ZIP" id="mce-ZIP" class="form-control zip" placeholder="Zip code" />
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div id="btn-updates-submit">
+              <input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe" class="button email-button">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="row" id="homepage-headline-about">
       <div class="col-xs-12 col-ms-12 col-sm-12 col-md-12 col-lg-12">
         <h3 id="homepage-h3" class="text-center">What we do.<h3>
       </div>
     </div>
-  </div>
-</div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-ms-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="row">
+      <div class="col-xs-12 col-ms-12 col-sm-10 col-sm-offset-1">
+        <div class="row"> <!-- Nesting -->
+          <div class="col-xs-12 col-ms-12 col-sm-4">
+            <h4 class="homepage-h4 text-center">Meetups</h4>
+            <p class="homepage-about-p text-center">Be a part of a community with engineers, designers, product folks, and politicos who believe in freedom.</p>
+          </div>
+          <div class="col-xs-12 col-ms-12 col-sm-4">
+            <h4 class="homepage-h4 text-center">Hackathons</h4>
+            <p class="homepage-about-p text-center">Bring your hacking skills and freedom-advancing ideas to our 24hr hackathons to bring your imagination into a reality.</p>
+          </div>
+          <div class="col-xs-12 col-ms-12 col-sm-4">
+            <h4 class="homepage-h4 text-center">Conference</h4>
+            <p class="homepage-about-p text-center">Be a part of one of the largest gatherings of techies and politicos who believe in promoting liberty with technology.</p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+
+    <div class="row homepage-goal" id="homepage-goal-1">
+      <div class="col-xs-12 col-ms-12 col-sm-10 col-sm-offset-1">
+        <div class="row"> <!-- Nesting -->
+          <div class="col-xs-12 col-ms-12 col-sm-4">
+            <h5 class="homepage-h5 text-left">Organizing for freedom and liberty</h5>
+          </div>
+          <div class="col-xs-12 col-ms-12 col-sm-8">
+            <p class="homepage-goal-p text-left">First and foremost, we are a community of individuals coming under a single banner to promote liberty with technology. We are organizing and investing in people at the local level to build a better future for America.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row homepage-goal" id="homepage-goal-2">
+      <div class="col-xs-12 col-ms-12 col-sm-10 col-sm-offset-1">
+        <div class="row"> <!-- Nesting -->
+          <div class="col-xs-12 col-ms-12 col-sm-4">
+            <h5 class="homepage-h5 text-left">Bridging the gap between policy and technology</h5>
+          </div>
+          <div class="col-xs-12 col-ms-12 col-sm-8">
+            <p class="homepage-goal-p text-left">The generational gap between DC and the technology community is vast. We are building the connection between policy makers and technology shakers to bring about informed and relevant policy.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row homepage-goal" id="homepage-goal-3">
+      <div class="col-xs-12 col-ms-12 col-sm-10 col-sm-offset-1">
+        <div class="row"> <!-- Nesting -->
+          <div class="col-xs-12 col-ms-12 col-sm-4">
+            <h5 class="homepage-h5 text-left">Making an impact in the public square</h5>
+          </div>
+          <div class="col-xs-12 col-ms-12 col-sm-8">
+            <p class="homepage-goal-p text-left">All of us are doers. We take action on problems and iterate our way to success. We will make an impact to protect our rights and advance individual liberty in the public square.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-ms-12 col-sm-12 col-md-12 col-lg-12">
+        <h6 class="text-center homepage-h5" id="homepage-headline-sponsor">Sponsors<h6>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-ms-12 col-sm-6">
+        <h6 class="homepage-h4 text-center" id="sponsor-g-o"><a href="http://www.generationopportunity.org/" target="_blank">Generation Opportunity</a></h6>
+      </div>
+      <div class="col-xs-12 col-ms-12 col-sm-6">
+        <h6 class="homepage-h4 text-center" id="sponsor-microsoft"><a href="http://www.microsoft.com/" target="_blank">Microsoft</a></h6>
+      </div>
+    </div>
+
+  </div> <!-- container-homepage-content -->
+</div> <!-- wrapper-homepage-content -->
 
 <%- @partial('scripts') %>
 

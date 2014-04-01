@@ -2,6 +2,7 @@
 hex-teal        = #039499
 hex-dk-teal     = #006b71
 hex-lght-yellow = #f4b937
+hex-lght-red    = #ed573f
 
 // RGB Colors
 rgb-teal        = 3,148,153
@@ -70,7 +71,7 @@ rgb-teal        = 3,148,153
 // Global Styles
 body
     padding-top 60px
-    background-color #e2e2e2
+    background-color #e2e2e2 !important
     font-family 'Lato', Helvetica, sans-serif
 
 h1, h2, h3, h4, h5, h6, p, a, input, button, select, textarea, span
@@ -300,6 +301,10 @@ h1, h2, h3, h4, h5, h6, p, a, input, button, select, textarea, span
     min-height 1000px
     margin-top -120px
 
+#homepage-headline-about
+    margin-top 15px
+    margin-bottom 30px
+
 #homepage-h2
     padding-top 375px
     font-size 32px
@@ -309,10 +314,156 @@ h1, h2, h3, h4, h5, h6, p, a, input, button, select, textarea, span
 
 #homepage-h3
     margin-top 60px
-    color hex-dk-teal
-    font-size 28px
+    color hex-teal
+    font-size 32px
     text-transform uppercase
     font-weight 400
+
+.homepage-h4
+    margin-bottom 15px
+    color hex-lght-red
+
+.homepage-about-p
+    font-size 16px
+    font-weight 300
+    color hex-dk-teal
+
+.homepage-goal
+    min-height 420px
+
+.homepage-h5,
+.homepage-goal-p
+    margin-top 170px
+
+.homepage-h5
+    font-size 28px
+    font-weight 500
+
+.homepage-goal-p
+    font-size 18px
+    font-weight 300
+    border-left 1px solid #fff
+    padding-left 15px
+
+#homepage-goal-1
+    margin-top 90px
+    color #fff
+    background-color hex-dk-teal
+    
+#homepage-goal-2
+    color hex-teal
+
+#homepage-goal-2 div div div p
+    border-left 1px solid hex-teal
+    padding-left 15px
+
+#homepage-goal-3
+    color #fff
+    background-color hex-dk-teal
+
+#homepage-headline-sponsor
+    color hex-dk-teal
+    margin-top 90px
+
+#sponsor-g-o,
+#sponsor-microsoft
+    margin-bottom 60px
+
+#sponsor-g-o a,
+#sponsor-microsoft a
+    display block
+    width 100%
+    height 100%
+    text-indent -9999px
+    
+#sponsor-microsoft
+    display block
+    width 100%
+    height 120px
+    background-image url(../img/microsoft.jpg)
+    background-repeat no-repeat
+    background-position center center
+    background-size 50%
+
+#sponsor-g-o
+    display block
+    width 100%
+    height 120px
+    background-image url(../img/GenOpp-Logo.png)
+    background-repeat no-repeat
+    background-position center center
+    background-size 25%
+
+// Conferences
+#wrapper-conferences-content
+    width 100%
+    background-color #e2e2e2
+    float left
+    margin-top 240px
+
+#container-conferences-content
+    background-color #fff
+    min-height 1000px
+    margin-top -120px
+
+// About
+#wrapper-about-content
+    width 100%
+    background-color #e2e2e2
+    float left
+    margin-top 240px
+
+#container-about-content
+    background-color #fff
+    min-height 1000px
+    margin-top -120px
+
+// Contact
+#wrapper-contact-content
+    width 100%
+    background-color #e2e2e2
+    float left
+    margin-top 240px
+
+#container-contact-content
+    background-color #fff
+    min-height 1000px
+    margin-top -120px
+
+// footer
+#footer-wrapper
+    float left
+    width 100%
+    min-height 120px
+    background-color #e2e2e2
+
+#footer
+    background-color #e2e2e2
+
+#footer .row
+    margin-top 30px
+    padding-bottom 30px
+
+.footer-headline
+    font-size 16px
+    color hex-lght-red
+    padding-top 5px
+    margin-bottom 15px
+
+.footer-a
+    width 100%
+    display block
+    font-size 16px
+    color hex-dk-teal
+    text-align center
+
+.footer-a:hover
+    color hex-lght-yellow
+    text-decoration none
+
+#footer-middle-div
+    border-left 1px solid hex-dk-teal
+    border-right 1px solid hex-dk-teal
 
 // Extra Small devices (up to 479px)
 @media (max-width: 479px)
@@ -361,7 +512,27 @@ h1, h2, h3, h4, h5, h6, p, a, input, button, select, textarea, span
     // Homepage Content
     #img-lincoln-labs-logo-full
         height 304px
-        background-size 196px 186px
+        background-size 136px 126px
+        background-position center 45px
+
+    #homepage-h2
+        padding-top 190px
+        font-size 22px
+        font-weight 500
+
+    #panel-updates-h1
+        margin-top 30px
+        color hex-dk-teal
+
+    #mc-embedded-subscribe
+        margin-top 15px
+
+    .homepage-goal
+        min-height 450px;
+        
+    .homepage-h5, 
+    .homepage-goal-p
+        margin-top 60px
 
 // Medium Small devices (tablets, 480px and up)
 @media (min-width: 480px) and (max-width: 767px)

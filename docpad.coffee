@@ -37,7 +37,7 @@ docpadConfig = {
 				'/vendor/bootstrap-ms-extension.css'
 				'/vendor/bootstrap-grid-text-alignments.css'
 				'/vendor/bootstrap-grid-text-alignments.css'
-				'/styles/style.css'
+				#'/styles/style.css'
 			]
 
 			# The website's scripts
