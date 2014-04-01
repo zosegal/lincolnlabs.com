@@ -1,9 +1,25 @@
 ---
-layout: 'default'
-title: 'Contact'
+layout: 'global'
+title: 'Home'
 ---
 
-<div class="banner banner-about">
+<div id="bg-body-homepage">
+</div>  
+
+<div id="wrapper-contact-content">
+  <div id="container-contact-content" class="container">
+
+    <div class="row" id="homepage-headline-about">
+      <div class="col-xs-12 col-ms-12 col-sm-12 col-md-12 col-lg-12">
+        <h3 id="homepage-h3" class="text-center">Contact<h3>
+      </div>
+    </div>
+
+  </div> <!-- container-homepage-content -->
+</div> <!-- wrapper-homepage-content -->
+
+<!-- OLD CODE -->
+<!-- <div class="banner banner-about">
   <div class="container">
     <h1>Contact</h1>
     <p>How to reach us</p>
@@ -17,6 +33,6 @@ title: 'Contact'
   <img src="/img/at.png" />
 
   <p><b>Contact Us</b><br /><a href="mailto:about@lincolnlabs.com">about@lincolnlabs.com</a></p>
-</div>
+</div> -->
 
 <%- @partial('scripts') %>
