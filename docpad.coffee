@@ -33,14 +33,19 @@ docpadConfig = {
 			# The website's styles
 			styles: [
 				'/vendor/bootstrap.min.css'
-				'/vendor/bootstrap-theme.css'
-				'/styles/style.css'
+				'/vendor/bootstrap-theme.min.css'
+				'/vendor/bootstrap-ms-extension.css'
+				'/vendor/bootstrap-grid-text-alignments.css'
+				'/vendor/bootstrap-grid-text-alignments.css'
+				#'/styles/style.css'
 			]
 
 			# The website's scripts
 			scripts: [
 				'/vendor/log.js'
 				'/vendor/bootstrap.min.js'
+				'/scripts/device-detect.js'
+				'/scripts/script.js'
 			]
 
 
