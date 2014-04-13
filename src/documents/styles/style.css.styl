@@ -7,40 +7,54 @@ hex-lght-red    = #ed573f
 // RGB Colors
 rgb-teal        = 3,148,153
 
+// Disable docpad fade on change
+html.wait
+    transition none
+
+.center
+    display block
+    text-align center
+
+.underline
+    text-decoration underline
+
 // Color Classes
 .color-white
     color #fff
 
+.color-dk-teal
+    color hex-dk-teal
+
 // Override Classes
 .container
-  padding-left 15px
-  padding-right 15px
+    padding-left 15px
+    padding-right 15px
 
 .well 
-  margin-bottom 0px
-  padding 0px
+    margin-bottom 0px
+    padding 0px
 
 .full
-  display block
-  width 100%
-  height 100%
+    display block
+    width 100%
+    height 100%
 
 .no-style
-  background-color transparent !important
-  background-image none !important
-  border none !important
-  list-style none !important
-  text-decoration none !important
-  border none !important
-  border-radius 0px !important
-  -webkit-box-shadow none !important
-  box-shadow none !important
+    background-color transparent !important
+    background-image none !important
+    border none !important
+    list-style none !important
+    text-decoration none !important
+    border none !important
+    border-radius 0px !important
+    -webkit-box-shadow none !important
+    box-shadow none !important
 
 .no-padding
-  padding 0px !important
+    padding 0px !important
 
 .no-margin
-  margin 0px !important
+    margin 0px !important
 
 .transition-all
     -webkit-transition all 0.4s ease
@@ -309,15 +323,45 @@ h1, h2, h3, h4, h5, h6, p, a, input, button, select, textarea, span
     padding-top 375px
     font-size 32px
     text-transform uppercase
-    font-weight 100
+    font-weight 500
     color #fff
 
-#homepage-h3
-    margin-top 60px
+.homepage-h1
+    margin-top 10px
     color hex-teal
-    font-size 32px
+    font-size 42px
     text-transform uppercase
     font-weight 400
+
+.homepage-h2
+    margin-top 30px
+    color hex-teal
+    font-size 28px
+    text-transform uppercase
+    font-weight 300
+
+.homepage-h3
+    margin-top 30px
+    color hex-teal
+    font-size 24px
+    text-transform uppercase
+    font-weight 100
+
+.homepage-h3 + .homepage-h3
+    margin-top 10px
+
+.homepage-h3-extra
+    margin-top 30px
+    color hex-teal
+    font-size 24px
+    text-transform uppercase
+    font-weight 300
+
+#h3-date
+    font-weight 500
+    
+#h3-location
+    font-weight 300
 
 .homepage-h4
     margin-bottom 15px
@@ -327,6 +371,13 @@ h1, h2, h3, h4, h5, h6, p, a, input, button, select, textarea, span
     font-size 16px
     font-weight 300
     color hex-dk-teal
+
+#alert-reg-link
+    display block
+    font-size 16px
+    margin-top 30px
+    margin-bottom 90px
+    text-align center
 
 .homepage-goal
     min-height 420px
@@ -389,7 +440,7 @@ h1, h2, h3, h4, h5, h6, p, a, input, button, select, textarea, span
     display block
     width 100%
     height 120px
-    background-image url(../img/GenOpp-Logo.png)
+    background-image url(../img/genopp.png)
     background-repeat no-repeat
     background-position center center
     background-size 25%
@@ -971,611 +1022,4 @@ h1, h2, h3, h4, h5, h6, p, a, input, button, select, textarea, span
     100%
         padding-top 60px
 
-// OLD STYLES
-
-// // Blues
-// banner-blue  = #026ec8
-
-// // Greys
-// caret        = #c9c9c9
-// light-grey   = #ededed
-// dark-grey    = #818080
-
-// // Purples
-// light-purple = #3b458f
-// dark-purple  = #252c5d
-
-// // Reds
-// light-red    = #f14743
-// dark-red     = #c43a37
-// maroon       = #75201e
-
-// .large
-//     font-size 24px
-
-// .bg-white
-//     background-color #fff
-
-// .center
-//     text-align center
-
-// .padding-60
-//     padding 60px
-
-// .left
-//     float left
-
-// img.left
-//     margin-bottom 10px
-//     margin-right 10px
-
-// .right
-//     float right
-
-// img.right
-//     margin 10px 0 10px 10px
-
-// .ex
-//     background url('../img/ex.png') no-repeat
-//     display inline-block
-//     height 10px
-//     width 10px
-//     margin-left 10px
-
-// *
-//     -moz-box-sizing border-box
-//     -webkit-box-sizing border-box
-//     box-sizing border-box
-
-// body
-//     background-color #f9f9f9
-//     font-family 'Lato', Helvetica, sans-serif
-//     padding-bottom 20px
-//     padding-top 50px
-//     -webkit-font-smoothing antialiased
-
-// a
-//     color #5594ce
-
-// h1, h2, h3, h4, h5, h6
-//     margin 0
-
-// .navbar
-//     margin-bottom 0
-
-// .navbar-brand
-//     padding 0
-
-// #logo img
-//     height 30px
-//     margin-top 10px
-
-// .nav .caret
-//     border-bottom-color caret
-//     border-top-color caret
-
-// .padd
-//     padding-top 40px
-
-// .banner
-//     background-color banner-blue
-//     background-position center center
-//     background-repeat no-repeat
-//     color #fff
-//     height 171px
-//     overflow hidden
-
-//     h1
-//         font-family 'Lato', sans-serif
-//         font-size 44px
-//         font-weight 300
-//         margin 40px 0 20px
-
-//     p
-//         font-size 24px
-
-//     .container
-//         padding 0
-
-// .banner-hackathon
-//     background-color #2d7798
-//     height 405px
-
-//     a
-//         color #6cb9ff
-
-//     .gmap-btn, .signup-btn
-//         color #fff
-
-//     .col-lg-6
-//         height 405px
-//         padding 60px
-//         text-align center
-
-//     h1
-//         color #86deeb
-//         font-size 30px
-//         font-weight 500
-//         margin-top 0
-//         margin-bottom 4px
-
-//     h2
-//         color #86deeb
-//         font-size 28px
-//         font-weight 300
-//         margin-bottom 20px
-
-//     p
-//         font-size 18px
-
-//     input
-//         border 1px solid #cecece
-//         box-sizing border-box
-//         color #949494
-//         display inline-block
-//         font-size 20px
-//         font-weight 300
-//         height 54px
-//         margin-bottom 20px
-//         padding 16px
-//         vertical-align top
-
-//     #mc-embedded-subscribe
-//         background-color #fff
-//         border-radius 26px
-//         box-shadow 0 1px 1px rgba(0,0,0,0.5)
-//         box-sizing border-box
-//         color #000
-//         font-size 18px
-//         font-weight 300
-//         margin 0
-//         padding 0 20px
-//         width 256px
-
-// .banner-home
-//     background-image url('../img/beach.png')
-
-// .banner-about
-//     background-image url('../img/about.png')
-
-// .banner-miami
-//     background url('../img/miami.png') center center no-repeat
-
-// .banner-virtual
-//     background url('../img/virtual.png') center center no-repeat
-
-// .banner-chicago
-//     background url('../img/chicago.png') center center no-repeat
-
-// .banner-san-francisco
-//     background url('../img/san_francisco.png') top center no-repeat
-
-// .banner-seattle
-//     background url('../img/seattle.png') top center no-repeat
-
-// .banner-new-york
-//     background url('../img/new_york.jpg') center center no-repeat
-//     height 415px
-
-//     .col-lg-12
-//         margin-top 40px
-//         text-align center
-
-// .banner-miami-full
-//     background-image url('../img/miami_full.jpg')
-
-// .banner-hackathon + #colors
-//     margin-bottom 20px
-
-// .banner-short
-//     height 250px
-
-// .gmap-btn
-//     border 2px solid #46c4d6
-//     border-radius 26px
-//     box-sizing border-box
-//     color #fff
-//     display inline-block
-//     height 49px
-//     margin-top 20px
-//     padding 10px
-//     text-align center
-//     width 230px
-
-//     &:hover
-//         color #fff
-//         text-decoration none
-//         border 2px solid white
-
-//     span
-//         height 22px
-//         vertical-align top
-//         font-weight bold
-//         font-size 18px
-
-// .signup-btn
-//     border 2px solid #ffc26c
-//     border-radius 26px
-//     box-sizing border-box
-//     color #fff
-//     display inline-block
-//     height 49px
-//     margin-top 20px
-//     padding 10px
-//     text-align center
-//     width 230px
-
-//     &:hover
-//         color #fff
-//         text-decoration none
-//         border 2px solid white
-
-//     span
-//         height 22px
-//         vertical-align top
-//         font-weight bold
-//         font-size 18px
-//         margin-left 0
-
-// .plmk
-//     background url('../img/plmk.png') center center no-repeat
-//     display inline-block
-//     height 22px
-//     margin-right 10px
-//     width 11px
-
-// #colors
-//     background-image url('../img/colors.jpg')
-//     background-repeat repeat-x
-//     height 6px
-
-// .content-box
-//     background-color #f0f0f0
-//     box-sizing border-box
-//     color #000
-//     padding 60px
-
-//     h3
-//         color #949494
-//         font-size 24px
-//         font-weight 700
-//         margin-bottom 30px
-
-//     p
-//         font-weight 300
-//         line-height 18px
-//         margin 0
-
-// .character
-//     background-color #fff
-//     border-bottom 1px solid #f1f1f1
-//     box-sizing border-box
-//     overflow hidden
-//     padding 60px 60px 100px 60px
-
-//     .left
-//         height 146px
-//         margin-right 53px
-//         width 146px
-
-//     .right
-//         float left
-//         max-width 800px
-
-//     h3
-//         font-family 'Helvetica Neue', Helvetica, sans-serif
-//         font-size 24px
-//         font-weight 700
-//         margin-bottom 34px
-
-//     p
-//         color #595959
-//         font-weight 300
-//         font-size 18px
-//         line-height 24px
-
-//     p.first
-//         font-weight 500
-
-// #home-email-container
-//     background-color #e8e8e8
-//     text-align center
-
-//     form
-//         line-height 54px
-//         margin 75px 0 63px
-
-//     input
-//         border 1px solid #cecece
-//         box-sizing border-box
-//         color #949494
-//         display inline-block
-//         font-size 20px
-//         height 54px
-//         margin-right 19px
-//         padding 16px
-//         vertical-align top
-
-
-//     #mc-embedded-subscribe
-//         background-color #5798d0
-//         border 3px solid #4189c7
-//         border-radius 26px
-//         box-sizing border-box
-//         color #fff
-//         line-height 48px
-//         margin 0
-//         padding 0 20px
-
-//         &:hover
-//             background-color #64a6de
-
-//         &:active
-//             background-color #4e8ec4
-
-// #home-social, #footer-social
-//     background-color #fff
-//     border-bottom 1px solid #ededed
-//     height 96px
-//     text-align center
-
-//     .social-btn
-//         display inline-block
-//         height 33px
-//         margin-right 30px
-//         margin-top 32px
-//         width 33px
-
-//         &.last
-//             margin-right 0
-
-// #footer-social
-//     background-color #f9f9f9
-//     border 0
-
-// #home-content
-//     padding-top 40px
-
-//     .row
-//         font-size 18px
-//         padding 20px 80px 20px 40px
-
-// #home-partners
-//     background-color #fff
-//     text-align center
-    
-//     h3
-//         font-size 24px
-//         font-weight 300
-//         margin-bottom 50px
-//         margin-top 57px
-//         text-align left
-
-//     #partners
-//         display inline-block
-//         max-width 813px
-
-//     .partner-btn
-//         border 1px solid #ececec
-//         display inline-block
-//         height 80px
-//         margin-bottom 34px
-//         margin-right 34px
-//         width 173px
-
-//         &.last
-//             margin-right 0
-
-// #footer-top-border
-//     background-image url('../img/footer_border_top.jpg')
-//     background-position center center
-//     background-repeat no-repeat
-//     height 120px
-//     margin-top 20px
-//     margin-bottom 20px
-
-// footer
-
-//     h6
-//         color #1db6c5
-//         font-size 13px
-//         font-weight 700
-//         margin-bottom 38px
-//         text-transform uppercase
-
-//     a
-//         color #595959
-//         display block
-//         font-weight 300
-//         margin-bottom 4px
-
-// .api-partner
-//     padding 60px 0
-
-//     .img
-//         background-color #fff
-//         border 1px solid #ececec
-//         height 178px
-//         margin-right 80px
-//         width 367px
-
-//     h3
-//         color #000
-//         font-size 26px
-//         font-weight 600
-//         margin-bottom 20px
-
-//     p
-//         font-size 18px
-//         line-height 24px
-//         max-width 500px
-//         font-weight 300
-//         color #3d3d3d
-
-//     a
-//         font-size 18px
-
-// #contact-box
-//     padding 60px
-//     text-align center
-
-//     img
-//         margin-bottom 40px
-//         margin-top 40px
-
-//     p
-//         font-size 24px
-//         font-weight 300
-//         line-height 30px
-
-// .hackathon-winners
-
-//     .col-lg-6.text
-//         height 340px
-//         margin-bottom 40px
-
-//     img
-//         position absolute
-//         right -45px
-//         top -40px
-
-
-// .banner-miami, .banner-virtual, .banner-seattle, .banner-chicago, .banner-san-francisco
-
-//     .col-lg-12
-//         height 406px
-//         padding 42px 60px 60px 60px
-//         text-align center
-
-// #judges
-//     margin-bottom 40px
-//     margin-top 40px
-//     text-align center
-
-//     p
-//         margin-top 10px
-//         margin-bottom 10px
-//         font-weight bold
-//         color #333333
-//         font-size 17px
-
-//     span
-//         color #949494
-//         font-size 12px
-
-//     img
-//         border-radius 63px
-
-//         &.last
-//             margin-right 0
-
-//     .col-lg-2
-//         float none
-//         display inline-block
-//         vertical-align top
-
-// #official-rules
-//     padding-top 40px
-
-//     h1
-//         margin-bottom 20px
-
-// .sponsor-header
-//     margin-top 40px
-
-// .sponsor-desc
-//     font-size 14px
-
-// .sponsor
-//     max-width 240px
-
-// .photo-collection
-//     margin-top 40px
-
-//     h1
-//         margin 0 0 20px 14px
-
-//     img
-//         margin-bottom 20px
-//         max-width 100%
-
-//     &.photo-collection-main
-
-//         img
-//             margin-bottom 10px
-
-//         p
-//             margin 0 0 20px
-
-
-// @media (max-width: 568px)
-
-//     .banner
-//         padding-left 10px
-
-//     .banner-hackathon
-//         background-position top center
-//         height 730px
-
-//         h1
-//             margin-top 0
-
-//         .col-lg-6
-//             padding 30px 6px
-
-//     .banner-miami
-//         background none
-
-//     // Home / Default Layout
-//     #home-email-container form
-
-//         input
-//             display block
-//             margin 0 auto 10px
-
-//     #home-partners .partner-btn
-//         margin-right 0
-
-//     footer h6
-//         margin 20px 0 10px
-
-//     // About
-//     .character
-
-//         .left
-//             margin 0 0 20px 20px
-
-//         h3
-//             margin-bottom 12px
-
-//     // Contact
-
-//     #contact-box a, #contact-box p
-//         font-size 20px
-
-//     // Hackathons
-
-//     // Miami
-//     #judges
-
-//         img
-//             display block
-//             margin 0 auto 0
-
-//             &.last
-//                 margin 0 auto 0
-
-//         .judge-name
-//             font-weight bold
-//             color blue
-
-//         .judge-desc
-//             color red
-
-//     // San Francisco
-
-//     .hackathon-winners .col-lg-6.text.team2
-//         height 470px
-
-//     .hackathon-winners .col-lg-6.img
-//         display none
+@import "/pages/_about"

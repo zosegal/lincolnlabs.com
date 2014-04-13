@@ -24,8 +24,8 @@ title: 'Home'
     <div class="visible-xs">
       <div class="row">
         <div class="col-xs-12">
-          <h1 id="panel-updates-h1">$25,000 in cash prizes!</h1>
-          <p>Register for event updates</p>
+          <h1 id="panel-updates-h1">Stay informed</h1>
+          <p>Subscribe for news and updates from LincolnLabs.</p>
         </div>
       </div>
       <div class="row">
@@ -55,7 +55,13 @@ title: 'Home'
 
     <div class="row" id="homepage-headline-about">
       <div class="col-xs-12 col-ms-12 col-sm-12 col-md-12 col-lg-12">
-        <h3 id="homepage-h3" class="text-center">What we do.<h3>
+        <h1 class="homepage-h1 text-center col-sm-8 col-sm-offset-2">Lincoln Labs Conference 2014: Reboot</h1>
+        <h3 id="h3-date" class="homepage-h3 text-center col-sm-8 col-sm-offset-2">July 18- 20</h3>
+        <h3 id="h3-location" class="homepage-h3 text-center col-sm-8 col-sm-offset-2">San Francisco, California</h3>
+
+        <a id="alert-reg-link" class="col-sm-4 col-sm-offset-4 btn btn-default" href="http://eepurl.com/R9rSz" target="_new">Alert me when registration opens</a>
+
+        <h3 class="homepage-h3-extra text-center col-sm-8 col-sm-offset-2">What we do<h3>
       </div>
     </div>
 
@@ -64,15 +70,15 @@ title: 'Home'
         <div class="row"> <!-- Nesting -->
           <div class="col-xs-12 col-ms-12 col-sm-4">
             <h4 class="homepage-h4 text-center">Meetups</h4>
-            <p class="homepage-about-p text-center">Be a part of a community with engineers, designers, product folks, and politicos who believe in freedom.</p>
+            <p class="homepage-about-p text-center">Be part of a national community with engineers, designers, product folks and politicos who believe in freedom.</p>
           </div>
           <div class="col-xs-12 col-ms-12 col-sm-4">
             <h4 class="homepage-h4 text-center">Hackathons</h4>
-            <p class="homepage-about-p text-center">Bring your hacking skills and freedom-advancing ideas to our 24hr hackathons to bring your imagination into a reality.</p>
+            <p class="homepage-about-p text-center">Bring your hacking skills and freedom-advancing ideas to our 24hr hackathons and transform innovative concepts into functional solutions.</p>
           </div>
           <div class="col-xs-12 col-ms-12 col-sm-4">
             <h4 class="homepage-h4 text-center">Conference</h4>
-            <p class="homepage-about-p text-center">Be a part of one of the largest gatherings of techies and politicos who believe in promoting liberty with technology.</p>
+            <p class="homepage-about-p text-center">Be part of one of the largest gatherings of techies and politicos who believe in promoting liberty with technology.</p>
           </div>
         </div>
       </div>
@@ -85,7 +91,7 @@ title: 'Home'
             <h5 class="homepage-h5 text-left">Organizing for freedom and liberty</h5>
           </div>
           <div class="col-xs-12 col-ms-12 col-sm-8">
-            <p class="homepage-goal-p text-left">First and foremost, we are a community of individuals coming under a single banner to promote liberty with technology. We are organizing and investing in people at the local level to build a better future for America.</p>
+            <p class="homepage-goal-p text-left">Community of individuals working collaboratively to promote liberty with technology. We are mapping and organizing doers across the country to build innovative solutions that impact campaigns, causes and the country.</p>
           </div>
         </div>
       </div>
@@ -98,7 +104,7 @@ title: 'Home'
             <h5 class="homepage-h5 text-left">Bridging the gap between policy and technology</h5>
           </div>
           <div class="col-xs-12 col-ms-12 col-sm-8">
-            <p class="homepage-goal-p text-left">The generational gap between DC and the technology community is vast. We are building the connection between policy makers and technology shakers to bring about informed and relevant policy.</p>
+            <p class="homepage-goal-p text-left">The generational gap between the conservative political community and the technology community is vast. We are building the connection between policy makers and technology shakers to bring about informed and relevant policy.</p>
           </div>
         </div>
       </div>
@@ -111,7 +117,7 @@ title: 'Home'
             <h5 class="homepage-h5 text-left">Making an impact in the public square</h5>
           </div>
           <div class="col-xs-12 col-ms-12 col-sm-8">
-            <p class="homepage-goal-p text-left">All of us are doers. We take action on problems and iterate our way to success. We will make an impact to protect our rights and advance individual liberty in the public square.</p>
+            <p class="homepage-goal-p text-left">We take action on problems and iterate our way to success. We will make an impact to protect our rights and advance individual liberty in the public square.</p>
           </div>
         </div>
       </div>
@@ -124,27 +130,10 @@ title: 'Home'
     </div>
 
     <div class="row">
-      <div class="col-xs-12 col-ms-12 col-sm-6">
+      <div class="col-xs-6 col-ms-6 col-sm-6 col-xs-offset-3 col-sm-offset-3 col-ms-offset-3">
         <h6 class="homepage-h4 text-center" id="sponsor-g-o"><a href="http://www.generationopportunity.org/" target="_blank">Generation Opportunity</a></h6>
-      </div>
-      <div class="col-xs-12 col-ms-12 col-sm-6">
-        <h6 class="homepage-h4 text-center" id="sponsor-microsoft"><a href="http://www.microsoft.com/" target="_blank">Microsoft</a></h6>
       </div>
     </div>
 
   </div> <!-- container-homepage-content -->
 </div> <!-- wrapper-homepage-content -->
-
-<%- @partial('scripts') %>
-
-<script>
-  $(document).ready( function() {
-      $("#navbar-lincoln-labs").hide(); //hide your div initially
-      var topOfOthDiv = $("#navbar-lincoln-labs-reveal").offset().top;
-      $(window).scroll(function() {
-          if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
-              $("#navbar-lincoln-labs").fadeIn(); //reached the desired point -- show div
-          }
-      });
-  });
-</script>

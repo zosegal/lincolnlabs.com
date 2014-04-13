@@ -42,8 +42,8 @@
       <div class="container">
         <div class="row">
           <div class="col-ms-10 col-sm-11">
-            <h1 class="color-white" id="panel-updates-h1">$25,000 in cash prizes!</h1>
-            <p class="color-white">Register for event updates</p>
+            <h1 class="color-white" id="panel-updates-h1">Stay informed</h1>
+            <p class="color-white">Subscribe for news and updates from LincolnLabs.</p>
           </div>
           <div class="col-ms-2 col-sm-1">
             <div id="close-panel-updates">
@@ -52,7 +52,7 @@
           </div>
         </div>
         <div class="row">
-          <form action="http://lincolnlabs.us7.list-manage2.com/subscribe/post?u=5a298124dd214a5b4e12dbf7e&amp;id=3e3467b86e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+          <form action="http://lincolnlabs.us7.list-manage.com/subscribe/post?u=37b038d35f4e6f93a44f0c907&amp;id=b77115f0ae" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
           <div class="col-ms-5 col-sm-5">
             <div id="input-email">
               <div class="input-group">
@@ -92,12 +92,12 @@
             </li>
             -->
             <!-- LINK BELOW SHOULD BE DELETED FOR DROPDOWN ABOVE ONCE DONE -->
-            <li><a href="/conferences">Conferences</a></li>
-            <li><a href="/about">About</a></li>
+            <!--<li><a href="/conferences">Conferences</a></li>
+            <li><a href="/about">About</a></li>-->
             <!-- Once the blog is up we can enable this link.
             <li><a href="#">Blog</a></li>
             -->
-            <li><a href="/contact">Contact</a></li>
+            <!--<li><a href="/contact">Contact</a></li>-->
           </ul>
         </div><!--/.nav-collapse -->
         <div id="container-brand">
@@ -132,10 +132,19 @@
     <div id="footer-wrapper">
       <div id="footer" class="container">
         <div class="row">
+          <div class="col-xs-12 col-ms-12 col-sm-12">
+            <span class="center"><b>Want an interview?</b> <a href="mailto:press@lincolnlabs.com?subject=I would like to inquire...">press@lincolnlabs.com</a></span>
+
+            <span class="center">Have a question? <a href="mailto:about@lincolnlabs.com">about@lincolnlabs.com</a></span>
+          </div>
+        </div>
+        
+
+        <div class="row">
           <div class="col-xs-12 col-ms-12 col-sm-6">
             <h6 class="text-center footer-headline">Lincoln Labs</h6>
             <a class="footer-a" href="/about">About</a>
-            <a class="footer-a" href="/contact">Contacts</a>
+            <!--<a class="footer-a" href="/contact">Contact</a>-->
           </div>
 
           <!--
@@ -155,6 +164,9 @@
         </div>
       </div>
     </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
+    <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
   </body>
 </html>

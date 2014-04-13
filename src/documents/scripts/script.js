@@ -1,6 +1,26 @@
-$(function() {
+$(document).ready( function() {
 
-    $("#btn-get-updates").on("click", function() {
+    if(window.location.pathname.length <= 1) {
+        $("#navbar-lincoln-labs").hide(); //hide your div initially
+
+        var $reveal = $("#navbar-lincoln-labs-reveal")
+
+        if($reveal.length > 0) {
+            var topOfOthDiv = $reveal.offset().top;
+
+            $(window).scroll(function() {
+
+                if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
+                    $("#navbar-lincoln-labs").fadeIn(); //reached the desired point -- show div
+                }
+            });
+        }
+    }
+    
+
+    $("#btn-get-updates, #alert-reg-link").on("click", function(e) {
+        e.preventDefault();
+
     	// Navbar CSS Animations
     	$("#navbar").removeClass("animation-navbar-close");
     	$("#navbar").addClass("animation-navbar-open");
@@ -21,7 +41,9 @@ $(function() {
         $("body").css("padding-top", "240px");
     });
 
-    $("#btn-close-panel-updates").on("click", function() {
+    $("#btn-close-panel-updates").on("click", function(e) {
+        e.preventDefault();
+
     	// Navbar CSS Animations
     	$("#navbar").removeClass("animation-navbar-open");
     	$("#navbar").addClass("animation-navbar-close");
