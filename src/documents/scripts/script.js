@@ -16,7 +16,6 @@ $(document).ready( function() {
             });
         }
     }
-    
 
     $("#btn-get-updates, #alert-reg-link").on("click", function(e) {
         e.preventDefault();
@@ -62,6 +61,21 @@ $(document).ready( function() {
         $("#panel-updates").removeClass("panel-updates-opened");
         $("#panel-updates").addClass("panel-updates-closed");
         $("body").css("padding-top", "60px");
+    });
+
+    map = new GMaps({
+      div: '#map',
+      lat: 37.778879,
+      lng: -122.397416
+    });
+
+    map.addMarker({
+      lat: 37.778879,
+      lng: -122.397416,
+      title: 'Causes.org',
+      click: function(e) {
+        window.open('https://www.causes.com/')
+      }
     });
 
 });
