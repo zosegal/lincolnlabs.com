@@ -45,13 +45,14 @@ docpadConfig = {
 				'/vendor/log.js'
 				'/vendor/bootstrap.min.js'
 				'/scripts/device-detect.js'
-				'/vendor/gmaps.js'
 				'/scripts/script.js'
 			]
 
-
 		# -----------------------------
 		# Helper Functions
+
+		getPageStyles: ->
+			"/styles/#{@document.styleName}.css"
 
 		# Get the prepared site/document title
 		# Often we would like to specify particular formatting to our page's title

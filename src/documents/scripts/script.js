@@ -17,65 +17,103 @@ $(document).ready( function() {
         }
     }
 
-    $("#btn-get-updates, #alert-reg-link").on("click", function(e) {
-        e.preventDefault();
+    var panelOpen = false;
 
-    	// Navbar CSS Animations
-    	$("#navbar").removeClass("animation-navbar-close");
-    	$("#navbar").addClass("animation-navbar-open");
+    function openPanel() {
+        $("#panel-updates").toggle('show')
 
-    	// Panel Updates CSS Animations
-    	$("#panel-updates").removeClass("animation-panel-updates-close");
-    	$("#panel-updates").addClass("animation-panel-updates-open");
+        // Navbar CSS Animations
+        $("#navbar").removeClass("animation-navbar-close");
+        $("#navbar").addClass("animation-navbar-open");
 
-    	// Body CSS Animations
-    	$("body").removeClass("animation-body-close");
-    	$("body").addClass("animation-body-open");
+        // Panel Updates CSS Animations
+        $("#panel-updates").removeClass("animation-panel-updates-close");
+        $("#panel-updates").addClass("animation-panel-updates-open");
 
-    	// Fallback Moving Parts
-    	$("#navbar").removeClass("navbar-fixed-top");
+        // Body CSS Animations
+        $("body").removeClass("animation-body-close");
+        $("body").addClass("animation-body-open");
+
+        // Fallback Moving Parts
+        $("#navbar").removeClass("navbar-fixed-top");
         $("#navbar").addClass("navbar-fixed-top-panel-opened");
         $("#panel-updates").removeClass("panel-updates-closed");
         $("#panel-updates").addClass("panel-updates-opened");
         $("body").css("padding-top", "240px");
-    });
+    }
 
-    $("#btn-close-panel-updates").on("click", function(e) {
-        e.preventDefault();
+    function closePanel() {
+        // Navbar CSS Animations
+        $("#navbar").removeClass("animation-navbar-open");
+        $("#navbar").addClass("animation-navbar-close");
 
-    	// Navbar CSS Animations
-    	$("#navbar").removeClass("animation-navbar-open");
-    	$("#navbar").addClass("animation-navbar-close");
+        // Panel Updates CSS Animations
+        $("#panel-updates").removeClass("animation-panel-updates-open");
+        $("#panel-updates").addClass("animation-panel-updates-close");
 
-    	// Panel Updates CSS Animations
-    	$("#panel-updates").removeClass("animation-panel-updates-open");
-		$("#panel-updates").addClass("animation-panel-updates-close");
+        // Body CSS Animations
+        $("body").removeClass("animation-body-open");
+        $("body").addClass("animation-body-close");
 
-		// Body CSS Animations
-		$("body").removeClass("animation-body-open");
-    	$("body").addClass("animation-body-close");
-
-    	// Fallback Moving Parts
+        // Fallback Moving Parts
         $("#navbar").removeClass("navbar-fixed-top-panel-opened");
         $("#navbar").addClass("navbar-fixed-top");
         $("#panel-updates").removeClass("panel-updates-opened");
         $("#panel-updates").addClass("panel-updates-closed");
         $("body").css("padding-top", "60px");
+    }
+
+    $("#btn-get-updates, #alert-reg-link").on("click", function(e) {
+        e.preventDefault();
+
+        if(panelOpen) {
+            closePanel()
+            panelOpen = false;
+        }
+
+        else {
+            openPanel()
+            panelOpen = true;
+        }
     });
 
-    map = new GMaps({
-      div: '#map',
-      lat: 37.778879,
-      lng: -122.397416
+    $("#btn-close-panel-updates").on("click", function(e) {
+        e.preventDefault();
+
+    	if(panelOpen) {
+            closePanel()
+            panelOpen = false;
+        }
+
+        else {
+            openPanel()
+            panelOpen = true;
+        }
     });
 
-    map.addMarker({
-      lat: 37.778879,
-      lng: -122.397416,
-      title: 'Causes.org',
-      click: function(e) {
-        window.open('https://www.causes.com/')
-      }
+    if(typeof GMaps != 'undefined') {
+        var map = new GMaps({
+          div: '#map',
+          lat: 37.778879,
+          lng: -122.397416
+        });
+
+        map.addMarker({
+          lat: 37.778879,
+          lng: -122.397416,
+          title: 'Causes',
+          click: function(e) {
+            window.open('https://www.causes.com/')
+          }
+        });
+    }
+
+    $('#btn-register').on('click', function(e) {
+        e.preventDefault()
+
+        $('html, body').animate({
+            scrollTop: $(".register").offset().top - 30
+        }, 1000);
     });
 
 });

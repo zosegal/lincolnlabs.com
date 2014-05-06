@@ -1,0 +1,331 @@
+---
+referencesOthers: true
+---
+
+@import '../_global'
+@import '../_panel'
+@import '../_navbar'
+@import '../_footer'
+
+ul
+  list-style none
+  margin 0
+  padding 0
+
+.uppercase
+  text-transform uppercase
+
+.highlight
+  color #17778b
+
+.title
+  width 100%
+  text-align center
+
+.title h1
+  font-size 42px
+  margin-bottom 80px
+
+section
+  position relative
+  padding 30px 0
+
+section:last-child
+  padding-bottom 65px
+
+section:last-child:before
+  display none
+
+.header-main
+  width 100%
+  display inline-block
+  background-color #000000
+  background-image url("../../img/2014/reboot/hackathon/cover-photo.jpg")
+  background-size cover
+  color #ffffff
+
+.header-main:before, .header-main:after
+  content " "
+  display table
+
+.header-main:after
+  clear both
+
+.header-main:before, .header-main:after
+  content " "
+  display table
+
+.header-main:after
+  clear both
+
+.header-main .navbar-default
+  margin: 30px 0 0
+  background none
+  border none
+
+.header-main .masthead
+  padding 60px 0
+
+@media (max-width: 767px)
+
+  .header-main .masthead
+    text-align center
+
+.header-main .headline h1
+  text-transform uppercase
+  margin-top 0
+
+.header-main .headline h2
+  color #cccccc
+  font-size 24px
+  font-weight normal
+  margin-top 0
+
+@media (max-width: 767px)
+
+  .header-main .cta
+    margin-top: 100px
+
+.header-main .cta button
+  width 200px
+  margin-bottom 10px
+  padding 10px 0
+  background none
+  color #ffffff
+  font-size 21px
+  font-weight bold
+  border 3px solid #ffffff
+  border-radius 30px
+  -webkit-transition 0.2s all
+  -o-transition 0.2s all
+  transition 0.2s all
+
+.header-main .cta button:before, .header-main .cta button:after
+  content " "
+  display table
+
+.header-main .cta button:after
+  clear both
+
+.header-main .cta button:before, .header-main .cta button:after
+  content " "
+  display table
+
+.header-main .cta button:after
+  clear both
+
+.header-main .cta button:hover
+  color #999999
+  border-color #999999
+
+.header-main .cta span
+  float none
+  display block
+  width 100%
+  color #cccccc
+  clear both
+
+.intro
+  background #fbfbfb
+
+.intro .prize h1
+  text-align center
+  padding 50px 0
+  font-size 42px
+
+.intro .description
+  padding-left 65px
+
+.more-info .eventbrite
+  padding-right 65px
+
+@media (max-width: 991px)
+
+  .more-info .eventbrite
+    padding-right: 15px
+
+.more-info .eventbrite .widget
+  width 100%
+  height 500px
+  margin 0 auto
+  background #eeeeee
+
+.more-info .details
+  padding-left 65px
+  padding-top 125px
+
+.more-info .details ul li
+  display table-row
+
+.more-info .details ul li:before, .more-info .details ul li:after
+  content " "
+  display table
+
+.more-info .details ul li:after
+  clear both
+
+.more-info .details ul li:before, .more-info .details ul li:after
+  content " "
+  display table
+
+.more-info .details ul li:after
+  clear both
+
+.more-info .details ul li h1
+  display table-cell
+  margin 0 20px 40px 0
+  float left
+  font-size 16px
+  vertical-align bottom
+  text-align right
+  color #17778b
+
+.more-info .details ul li p
+  display table-cell
+  margin 0
+  padding 0
+  vertical-align: top
+
+.judges
+  background #fbfbfb
+  text-align center
+
+.judges ul li
+  display inline-block
+  float left
+  width 20%
+
+@media (max-width: 767px)
+
+  .judges ul li
+    width 100%
+    margin-bottom 50px
+
+.judges ul li img
+  border-radius 50%
+
+.judges ul li h2
+  font-size 16px
+
+#ebform
+  display block
+  height 380px
+
+@media (max-width: 767px)
+
+  #ebform
+    height 440px
+
+@media (max-width: 568px)
+
+  #ebform
+    height 530px
+
+.schedule .row
+  margin-left 0
+  margin-right 0
+
+.schedule .divider
+  position: relative
+
+.schedule .divider:before
+  position absolute
+  display block
+  width 100%
+  height 3px
+  background #eeeeee
+  content ""
+  left 0
+  right 0
+  top 3.5em
+
+@media (max-width: 991px)
+
+  .schedule .divider:before
+    display none
+
+.schedule .day h2
+  width 100%
+  font-size 18px
+  text-align center
+  text-transform uppercase
+
+@media (max-width: 991px)
+
+  .schedule .day h2
+    margin-bottom 1em
+
+  .schedule .day h2:before
+    position absolute
+    display block
+    width 100%
+    height 3px
+    background #eeeeee
+    content ""
+    left 0
+    right 0
+    top 2em
+
+.schedule ul
+  padding-top 50px
+  border-left 3px solid #eeeeee
+  font-size 18px
+
+.schedule ul li
+  position relative
+  padding 15px 0 15px 40px
+
+.schedule ul li:before
+  position absolute
+  display block
+  width 25px
+  height 3px
+  margin-top .5em
+  background #eeeeee
+  content ""
+  left 0px
+
+@media (max-width: 991px)
+
+  .schedule ul li:last-child:after
+    position absolute
+    display block
+    width 3px
+    height 70px
+    margin-top .5em
+    background #eeeeee
+    content ""
+    left: -3px
+
+.headline
+  
+  h2
+    margin-bottom 60px
+
+  .navbar-btn-updates
+    margin 0 0 15px
+    width 200px
+
+@media (max-width: 767px)
+
+  .headline
+    
+    .navbar-btn-updates
+      margin 0 auto 15px
+
+.prize-section
+
+  #prize-amount
+    color white
+    margin-top 0
+
+    span
+      text-transform capitalize
+
+#judges-row
+  
+  span
+    padding 20px
+
+.more-info
+  background #fbfbfb

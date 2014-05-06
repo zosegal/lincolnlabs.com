@@ -14,7 +14,7 @@
     <%- @getBlock('meta').toHTML() %>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic' rel='stylesheet' type='text/css'>
     <%- @getBlock('styles').add(@site.styles).toHTML() %>
-    <link href="/styles/style.css" rel="stylesheet">
+    <link href="<%= @getPageStyles() %>" rel="stylesheet">
 
     <script src="/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
@@ -38,135 +38,16 @@
   </head>
   <body>
 
-    <div id="panel-updates" class="panel-updates-closed">
-      <div class="container">
-        <div class="row">
-          <div class="col-ms-10 col-sm-11">
-            <h1 class="color-white" id="panel-updates-h1">Stay informed</h1>
-            <p class="color-white">Subscribe for news and updates from LincolnLabs.</p>
-          </div>
-          <div class="col-ms-2 col-sm-1">
-            <div id="close-panel-updates">
-              <span class="glyphicon glyphicon-remove" id="btn-close-panel-updates"></span>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <form action="http://lincolnlabs.us7.list-manage.com/subscribe/post?u=37b038d35f4e6f93a44f0c907&amp;id=b77115f0ae" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-          <div class="col-ms-5 col-sm-5">
-            <div id="input-email">
-              <div class="input-group">
-                <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="form-control email" placeholder="Email Address" required>
-              </div>
-            </div>
-          </div>
-          <div class="col-ms-4 col-sm-4">
-            <div id="input-zip">
-              <div class="input-group">
-                <input type="text" value="" name="ZIP" id="mce-ZIP" class="form-control zip" placeholder="Zip code" />
-              </div>
-            </div>
-          </div>
-          <div class="col-ms-3 col-sm-3">
-            <div id="btn-updates-submit">
-              <input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe" class="button email-button">
-            </div>
-          </div>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    <div id="navbar" class="navbar navbar-fixed-top xs-navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="collapse navbar-collapse pull-left" id="container-nav-links">
-          <ul class="nav navbar-nav">
-            <!-- Add once we have pages ready to go
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="/hackathons">Hackathons</a></li>
-                <li><a href="/meetups">Meetups</a></li>
-                <li><a href="/conferences">Conferences</a></li>
-              </ul>
-            </li>
-            -->
-            <!-- LINK BELOW SHOULD BE DELETED FOR DROPDOWN ABOVE ONCE DONE -->
-            <!--<li><a href="/conferences">Conferences</a></li>
-            <li><a href="/about">About</a></li>-->
-            <!-- Once the blog is up we can enable this link.
-            <li><a href="#">Blog</a></li>
-            -->
-            <!--<li><a href="/contact">Contact</a></li>-->
-          </ul>
-        </div><!--/.nav-collapse -->
-        <div id="container-brand">
-          <div class="row">
-            <div class="col-xs-9 col-ms-6 col-sm-4 col-sm-offset-4">
-              <div class="navbar-header">
-                <a class="navbar-brand transition-background" id="navbar-lincoln-labs" href="/">Lincoln Labs</a>
-              </div>
-            </div>
-            <div class="col-xs-3 col-ms-3 col-ms-offset-1 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 hidden-xs">
-              <a class="navbar-btn-updates" href="#" id="btn-get-updates">Get Updates</a>
-            </div>
-            <div class="col-xs-3 col-ms-2 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                  <span class="sr-only">Toggle navigation</span>
-                  <div class="visible-xs">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </div>
-                  <div class="visible-ms color-white">
-                    <span>Menu</span>
-                  </div>
-                </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <%- @partial('panel') %>
+    <%- @partial('navbar') %>
 
     <%- @content %>
-    <div id="footer-wrapper">
-      <div id="footer" class="container">
-        <div class="row">
-          <div class="col-xs-12 col-ms-12 col-sm-12">
-            <span class="center"><b>Want an interview?</b> <a href="mailto:press@lincolnlabs.com?subject=I would like to inquire...">press@lincolnlabs.com</a></span>
 
-            <span class="center">Have a question? <a href="mailto:about@lincolnlabs.com">about@lincolnlabs.com</a></span>
-          </div>
-        </div>
-        
+    <%- @partial('footer') %>
 
-        <div class="row">
-          <div class="col-xs-12 col-ms-12 col-sm-6">
-            <h6 class="text-center footer-headline">Lincoln Labs</h6>
-            <a class="footer-a" href="/about">About</a>
-            <!--<a class="footer-a" href="/contact">Contact</a>-->
-          </div>
-
-          <!--
-          <div class="col-xs-12 col-ms-12 col-sm-4" id="footer-middle-div">
-            <h6 class="text-center footer-headline">Events</h6>
-            <a class="footer-a" href="/hackathon">Hackathons</a>
-            <a class="footer-a" href="/meetups">Meetups</a>
-            <a class="footer-a" href="/conferences">Conferences</a>
-          </div>
-          -->
-
-          <div class="col-xs-12 col-ms-12 col-sm-6">
-            <h6 class="text-center footer-headline">Social Media</h6>
-            <a class="footer-a" href="https://www.facebook.com/pages/Lincoln-Labs/249270781888425" target="_blank">Facebook</a>
-            <a class="footer-a" href="https://twitter.com/lincolnlabs" target="_blank">Twitter</a>
-          </div>
-        </div>
-      </div>
-    </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+
     <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
   </body>
 </html>
