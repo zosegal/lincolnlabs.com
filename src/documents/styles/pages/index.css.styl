@@ -69,18 +69,19 @@ referencesOthers: true
 
 #ebform
   display block
-  height 380px
-  margin 30px 0 60px
+  height 280px
+  margin 30px 0 0px
+  width 100%
 
 @media (max-width: 767px)
 
   #ebform
-    height 530px
+    height 330px
 
 @media (max-width: 568px)
 
   #ebform
-    height 600px
+    height 380px
 
 #homepage-headline-about
     
@@ -136,11 +137,22 @@ referencesOthers: true
   text-align center
 
 .homepage-goal
-  min-height 420px
+  min-height 150px
 
 .homepage-h5,
 .homepage-goal-p
   margin-top 170px
+
+.homepage-goal-p.short
+  margin-top 65px
+
+.homepage-h5.short
+  margin-top 60px
+
+@media (max-width: 568px)
+
+  .homepage-goal-p.short
+    border-left 0
 
 .homepage-h5
   font-size 28px
@@ -153,7 +165,6 @@ referencesOthers: true
   padding-left 15px
 
 #homepage-goal-1
-  margin-top 90px
   color #fff
   background-color hex-dk-teal
     
@@ -247,9 +258,6 @@ referencesOthers: true
     padding-top 190px
     font-size 22px
     font-weight 500
-
-  .homepage-goal
-    min-height 450px;
       
   .homepage-h5, 
   .homepage-goal-p
@@ -261,7 +269,7 @@ referencesOthers: true
 
 .judges ul li
   display inline-block
-  float left
+  vertical-align top
   width 20%
 
 @media (max-width: 767px)
@@ -275,3 +283,15 @@ referencesOthers: true
 
 .judges ul li h2
   font-size 16px
+
+.as-seen-in
+  margin-top 80px
+  
+  a
+    display inline-block
+    padding 5%
+    vertical-align middle
+    width 40%
+
+    img
+      width 100%

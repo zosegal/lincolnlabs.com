@@ -92,20 +92,41 @@ $(document).ready( function() {
     });
 
     if(typeof GMaps != 'undefined') {
-        var map = new GMaps({
-          div: '#map',
-          lat: 37.778879,
-          lng: -122.397416
-        });
+        
+        if(window.location.href.indexOf('hackathon') > 0) {
+            var map = new GMaps({
+              div: '#map',
+              lat: 37.778879,
+              lng: -122.397416
+            });
 
-        map.addMarker({
-          lat: 37.778879,
-          lng: -122.397416,
-          title: 'Causes',
-          click: function(e) {
-            window.open('https://www.causes.com/')
-          }
-        });
+            map.addMarker({
+              lat: 37.778879,
+              lng: -122.397416,
+              title: 'Causes',
+              click: function(e) {
+                window.open('https://www.causes.com')
+              }
+            });
+        }
+
+        else {
+            var map = new GMaps({
+              div: '#map',
+              lat: 37.785357,
+              lng: -122.400421
+            });
+
+            map.addMarker({
+              lat: 37.785357,
+              lng: -122.400421,
+              title: 'W Hotel',
+              click: function(e) {
+                window.open('https://wsanfrancisco.com')
+              }
+            });
+        }
+        
     }
 
     $('#btn-register').on('click', function(e) {
