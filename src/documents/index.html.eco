@@ -40,7 +40,7 @@ title: 'Home'
         <h1 class="homepage-h1">Lincoln Labs Conference 2014: Reboot</h1>
         <h2 id="build-tools" class="homepage-h2">Register Today for the Liberty Tech Conference of the Year</h2>
 
-        <h3 class="homepage-h3">The W Hotel in San Francisco</h3>
+        <h3 class="homepage-h3">W Hotel San Francisco</h3>
         <h3 class="homepage-h3">July 18th - 20th</h3>
 
         <section class="judges">
@@ -88,10 +88,10 @@ title: 'Home'
     <div class="row homepage-goal" id="homepage-goal-2">
       <div class="col-xs-12 col-ms-12 col-sm-10 col-sm-offset-1">
         <div class="row"> <!-- Nesting -->
-          <div class="col-xs-12 col-ms-12 col-sm-4">
+          <div class="col-xs-12 col-ms-12 col-sm-2">
             <h5 class="homepage-h5 text-left">As seen in</h5>
           </div>
-          <div class="col-xs-12 col-ms-12 col-sm-8 as-seen-in">
+          <div class="col-xs-12 col-ms-12 col-sm-10 as-seen-in">
             <a href="http://www.nytimes.com/2014/02/09/technology/republicans-are-wooing-the-wired.html" target="_blank">
               <img src="/img/2014/media/logo_nyt.png" alt="New York Times" />
             </a>
@@ -115,10 +115,10 @@ title: 'Home'
     <div class="row homepage-goal" id="homepage-goal-2">
       <div class="col-xs-12 col-ms-12 col-sm-10 col-sm-offset-1">
         <div class="row"> <!-- Nesting -->
-          <div class="col-xs-12 col-ms-12 col-sm-4">
-            <h5 class="homepage-h5 text-left">Sponsors</h5>
+          <div class="col-xs-12 col-ms-12 col-sm-2">
+            <h5 class="homepage-h5 lower text-left">Sponsors</h5>
           </div>
-          <div class="col-xs-12 col-ms-12 col-sm-8 as-seen-in sponsors">
+          <div class="col-xs-12 col-ms-12 col-sm-10 as-seen-in sponsors">
             <a href="http://www.generationopportunity.org" target="_blank">
               <img src="/img/genopp.png" alt="GenOpp" />
             </a>

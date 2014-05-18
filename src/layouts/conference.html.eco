@@ -43,7 +43,7 @@
       <div class="row masthead">
         <div class="col-sm-6 col-md-6 headline">
           <h1 style="font-size: 26px;">LincolnLabs Conference 2014: Reboot</h1>
-          <h2 style="font-size: 22px;">Rebooting Congress, Campaigns and Causes since 2014</h2>
+          <h2 style="font-size: 22px;">Rebooting Congress, Causes and Campaigns</h2>
 
           <a id="btn-register" class="navbar-btn-updates" href="#">Register</a>
           <span class="uppercase location">July 18-20, 2014 W Hotel San Francisco, CA.</span>
@@ -67,7 +67,7 @@
       <div class="row">
 
         <div class="row title">
-          <h1 class="col-md-12">Keynotes</h1>
+          <h1 class="col-md-12">Keynote Speakers</h1>
         </div>
 
         <ul id="judges-row" class="row">
@@ -155,19 +155,19 @@
         </div>
         <div class="col-xs-7 col-sm-7 col-md-7 event_list july_18">
           <span class="event_time july_18">4:00pm</span>
-          <span class="event_name july_18">Registration opens; StartUp Alley opens</span>
+          <span class="event_name july_18">Registration opens</span>
           <br /> 
           <span class="event_time">6:00pm</span>
-          <span class="event_name july_18">Opening Networking Reception</span>
+          <span class="event_name july_18">Opening Reception</span>
           <br />  
           <span class="event_time july_18">6:30pm</span>
-          <span class="event_name july_18">Hacker Pitches</span>
+          <span class="event_name july_18">Hackathon Pitches, Sponsored by Causes</span>
           <br /> 
           <span class="event_time">7:15pm</span>
-          <span class="event_name july_18">Dinner &amp; Keynote Panel</span>
+          <span class="event_name july_18">Dinner &amp; Keynote</span>
           <br />  
           <span class="event_time">9:00pm</span>
-          <span class="event_name july_18">End of scheduled agenda; drinks at hotel rooftop bar (cash bar)</span>
+          <span class="event_name july_18">Night Cap, Sponsored by GenOpp</span>
         </div>
 
       </div>
@@ -180,38 +180,36 @@
           <span class="text_date july_19">JULY 19th</span>
         </div>
         <div class="col-xs-7 col-sm-7 col-md-7 event_list july_19">
-          <span class="event_time july_19">8:30am</span>
-          <span class="event_name july_19">StartUp Alley opens</span>
-          <br />
+          
           <span class="event_time july_19">9:00am</span>
           <span class="event_name july_19">Breakfast</span>
           <br />  
-          <span class="event_time">9:30am - 11:00am</span>
+          <span class="event_time">9:30am</span>
           <span class="event_name july_19">Opening Keynote Panel</span>
           <br />
-          <span class="event_time">11:00am - 11:45am</span>
-          <span class="event_name july_19">Startup Alley Pitches</span>
+          <span class="event_time july_19">11:00am</span>
+          <span class="event_name july_19">StartUp Alley Pitches</span>
           <br />
-          <span class="event_time">11:45am</span>
-          <span class="event_name july_19">LUNCH served</span>
+          <span class="event_time">12:00pm</span>
+          <span class="event_name july_19">Lunch</span>
           <br />
-          <span class="event_time">12:30pm - 1:15pm</span>
-          <span class="event_name july_19">Panel 1</span>
+          <span class="event_time">12:30pm</span>
+          <span class="event_name july_19">Strategy Panel 1</span>
           <br />
-          <span class="event_time">1:15pm - 2:00pm</span>
-          <span class="event_name july_19">Panel 2</span>
+          <span class="event_time">1:15pm</span>
+          <span class="event_name july_19">Strategy Panel 2</span>
           <br />  
-          <span class="event_time">2:00pm - 5:00pm</span>
-          <span class="event_name july_19">Startup Alley Demos and Visit to Causes/Hackathon Site</span>
+          <span class="event_time">2:00pm</span>
+          <span class="event_name july_19">Unconference - Startup Alley Demos and Hackathon Site Visits</span>
           <br />
           <span class="event_time">6:30pm</span>
           <span class="event_name july_19">Hackathon Presentation &amp; Judging</span>    
           <br /> 
           <span class="event_time">7:30pm</span>
-          <span class="event_name july_19">Cocktails &amp; Dinner with Rand Paul</span>    
+          <span class="event_name july_19">Dinner &amp; Keynote</span>    
           <br />  
           <span class="event_time">9:30pm</span>
-          <span class="event_name july_19">Un-After Party, Fourth Floor Terrace</span>    
+          <span class="event_name july_19">After Party</span>    
         </div>
           
       </div>
@@ -223,11 +221,11 @@
           <span class="text_date july_20">JULY 20th</span>
         </div>
         <div class="col-xs-7 col-sm-6 col-md-6 event_list july_20">
-          <span class="event_time july_20">9:00am - 10:00am</span>
+          <span class="event_time july_20">9:30am</span>
           <span class="event_name july_20">Breakfast</span>
           <br />
           <span class="event_time">10:00am</span>
-          <span class="event_name july_20">Final wrap up and call to action</span>
+          <span class="event_name july_20">2014 Roadmap</span>
         </div>  
           
       </div>
