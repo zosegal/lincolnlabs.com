@@ -16,6 +16,8 @@
     <%- @getBlock('styles').add(@site.styles).toHTML() %>
     <link href="<%= @getPageStyles() %>" rel="stylesheet">
 
+    <link rel="icon" type="image/png" href="/img/icons/favicon.png">
+
     <script src="/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
