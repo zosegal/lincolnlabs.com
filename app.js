@@ -32,12 +32,6 @@
 
   server.use(bodyParser());
 
-  server.get("*", function(req, res) {
-    return res.render("index", {
-      layout: false
-    });
-  });
-
   server.listen(port);
 
   util.log("Express server instance listening on port " + port);
