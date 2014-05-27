@@ -23,7 +23,7 @@ RUN rm node-v0.10.26-linux-x64.tar.gz
 ENV PATH $PATH:/node-v0.10.26-linux-x64/bin
 
 RUN npm install -g coffee-script docpad forever
-ADD .docpad.cson ~/.docpad.cson
+ADD .docpad.cson /root/.docpad.cson
 RUN docpad generate
 
 # Configure NodeJS app --------------------
