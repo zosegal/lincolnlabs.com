@@ -22,15 +22,15 @@ RUN rm node-v0.10.26-linux-x64.tar.gz
 
 ENV PATH $PATH:/node-v0.10.26-linux-x64/bin
 
+ADD app.coffee app.coffee
+ADD package.json package.json
+ADD server.coffee server.coffee
+
 RUN npm install -g coffee-script docpad forever
 ADD .docpad.cson .docpad.cson
 RUN docpad help
 RUN npm install
 RUN docpad generate
-
-ADD app.coffee app.coffee
-ADD package.json package.json
-ADD server.coffee server.coffee
 
 # Configure Nginx -------------------------
 
