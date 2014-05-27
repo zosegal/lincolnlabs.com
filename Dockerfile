@@ -13,6 +13,9 @@ MAINTAINER      Chris Abrams <mail@chrisabrams.com>
 # Install ---------------------------------
 
 RUN apt-get install -y python g++ make nodejs npm nginx supervisor logrotate
+RUN npm install -g coffee-script docpad forever
+
+RUN docpad generate
 
 # Configure NodeJS app --------------------
 
@@ -44,9 +47,6 @@ ADD supervisord.nginx.conf      /etc/supervisord.d/
 ADD supervisord.logrotate.conf  /etc/supervisord.d/
 
 # Run -------------------------------------
-
-RUN npm install -g coffee-script docpad forever
-RUN docpad generate
 
 ENV PORT  4040
 
