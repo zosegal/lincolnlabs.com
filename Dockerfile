@@ -57,6 +57,7 @@ RUN chmod 644               /etc/logrotate.d/nginx && \
 
 ADD supervisord.conf            /etc/supervisord.conf
 ADD supervisord.nginx.conf      /etc/supervisord.d/
+ADD supervisord.nodejs.conf     /etc/supervisord.d/
 ADD supervisord.logrotate.conf  /etc/supervisord.d/
 
 # Run -------------------------------------
