@@ -38,7 +38,14 @@
     "docpad-plugin-partials": "2.9.0",
     "docpad-plugin-stylus": "~2.5.0",
     "docpad-plugin-text": "~2.3.1",
-    "docpad-plugin-ghpages": "2.4.3"
+    "docpad-plugin-ghpages": "2.4.3",
+    "express": "~4.3.1",
+    "hbs": "~2.6.0",
+    "serve-static": "~1.1.0",
+    "serve-index": "~1.0.3",
+    "body-parser": "~1.2.0",
+    "morgan": "~1.1.1",
+    "coffee-script": "~1.7.1"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "2.6.0"
