@@ -12,7 +12,7 @@ MAINTAINER      Chris Abrams <mail@chrisabrams.com>
 
 # Install ---------------------------------
 
-RUN apt-get install -y curl python g++ make nginx supervisor logrotate
+RUN apt-get install -y curl wget python g++ make nginx supervisor logrotate
 
 # Install pre-built Node 0.10.22
 RUN mkdir /opt/node && cd /opt/node
