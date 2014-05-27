@@ -22,7 +22,7 @@ RUN rm node-v0.10.26-linux-x64.tar.gz
 
 RUN echo "export PATH=$PATH:/node-v0.10.26-linux-x64/bin" >> ~/.bashrc
 
-RUN source ~/.bashrc
+RUN ~/.bashrc
 
 RUN npm install -g coffee-script docpad forever
 
