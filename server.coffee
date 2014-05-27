@@ -21,9 +21,13 @@ class Server
           "./app.coffee"
         ]).on "close", =>
 
-          @child.kill() if @child
+          spawn('forever', ['stop', @app]).on 'close', =>
 
-          @start('app.js')
+            @child.kill() if @child
+
+            @start('app.js')
+
+            return
 
           return
 
@@ -35,7 +39,7 @@ class Server
 
     @app = app
 
-    @child = spawn('node', [@app])
+    @child = spawn('forever', ['start', @app])
 
     @child.stdout.setEncoding 'utf8'
 
