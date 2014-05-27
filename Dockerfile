@@ -34,7 +34,7 @@ RUN docpad generate
 
 # Configure Nginx -------------------------
 
-RUN cp /etc/nginx/nginx.conf{,.original}
+RUN mv /etc/nginx/nginx.conf /etc/nginx/nginx.conf.original
 ADD nginx.conf          /etc/nginx/
 
 # Configure logrotate ---------------------
