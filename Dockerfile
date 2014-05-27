@@ -20,7 +20,7 @@ RUN wget http://nodejs.org/dist/v0.10.26/node-v0.10.26-linux-x64.tar.gz
 RUN tar -xvzf node-v0.10.26-linux-x64.tar.gz
 RUN rm node-v0.10.26-linux-x64.tar.gz
 
-RUN echo "export PATH=$PATH:/node-v0.10.26-linux-x64/bin" >> ~/.bashrc
+RUN PATH=$PATH:/node-v0.10.26-linux-x64/bin && echo "export PATH=$PATH" >> ~/.bashrc
 
 RUN . ~/.bashrc
 
