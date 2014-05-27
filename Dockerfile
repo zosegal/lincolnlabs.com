@@ -25,15 +25,12 @@ ENV PATH $PATH:/node-v0.10.26-linux-x64/bin
 RUN npm install -g coffee-script docpad forever
 ADD .docpad.cson .docpad.cson
 RUN docpad help
+RUN npm install
 RUN docpad generate
 
-# Configure NodeJS app --------------------
-
-ADD app.coffee /app/app.coffee
-ADD package.json /app/package.json
-ADD server.coffee /app/server.coffee
-ADD out /app/out
-RUN cd /app && npm install
+ADD app.coffee app.coffee
+ADD package.json package.json
+ADD server.coffee server.coffee
 
 # Configure Nginx -------------------------
 

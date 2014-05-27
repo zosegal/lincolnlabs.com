@@ -32,7 +32,7 @@ Then run:
 
 Build
 
-    docker build -t lincolnlabs/lincolnlabs.com .
+    docker build -t lincolnlabs/lincolnlabs .
 
 Run
 
