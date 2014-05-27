@@ -45,6 +45,9 @@ ADD supervisord.logrotate.conf  /etc/supervisord.d/
 
 # Run -------------------------------------
 
+RUN npm install -g coffee-script docpad forever
+RUN docpad generate
+
 ENV PORT  4040
 
 EXPOSE 80 4040

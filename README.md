@@ -27,3 +27,13 @@ You'll need a plugin to deploy:
 Then run:
 
     docpad deploy-ghpages --env static
+
+## Docker notes
+
+Build
+
+    docker build -t lincolnlabs/lincolnlabs.com .
+
+Run
+
+    docker run -d -p 80:80 -p 4040:4040 -name=nginx-nodejs -h=nginx-nodejs .

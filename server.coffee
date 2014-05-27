@@ -16,16 +16,20 @@ class Server
 
       spawn("npm", ["install"]).on "close", =>
 
-        spawn("coffee", [
-          "-c"
-          "./app.coffee"
-        ]).on "close", =>
+        spawn("docpad", ["generate"]).on "close", =>
 
-          spawn('forever', ['stop', @app]).on 'close', =>
+          spawn("coffee", [
+            "-c"
+            "./app.coffee"
+          ]).on "close", =>
 
-            @child.kill() if @child
+            spawn('forever', ['stop', @app]).on 'close', =>
 
-            @start('app.js')
+              @child.kill() if @child
+
+              @start('app.js')
+
+              return
 
             return
 
