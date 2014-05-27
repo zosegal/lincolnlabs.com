@@ -12,37 +12,28 @@ class Server
 
   restart: ->
 
+    # does this fire the close event?
+    spawn("docpad", ["generate"]).on "close", =>
+      console.log "done: docpad generate"
+
     spawn("git", ["pull"]).on 'close', =>
       console.log "done: git pull"
 
       spawn("npm", ["install"]).on "close", =>
         console.log "done: npm install"
 
-        spawn("docpad", ["generate"]).on "close", =>
-          console.log "done: docpad generate"
+        spawn("coffee", [
+          "-c"
+          "./app.coffee"
+        ]).on "close", =>
+          console.log "done: compile app.coffee"
 
-          spawn("coffee", [
-            "-c"
-            "./app.coffee"
-          ]).on "close", =>
-            console.log "done: compile app.coffee"
+          spawn('forever', ['stop', @app]).on 'close', =>
+            console.log "done: killing old child"
 
-            spawn('forever', ['stop', @app]).on 'close', =>
-              console.log "done: killing old child"
+            @child.kill() if @child
 
-              @child.kill() if @child
-
-              @start('app.js')
-
-              return
-
-            return
-
-          return
-
-        return
-
-      return
+            @start('app.js')
 
   start: (app) ->
     console.log "starting up app..."
