@@ -22,10 +22,15 @@
     Server.prototype.restart = function() {
       var _this = this;
       return spawn("git", ["pull"]).on('close', function() {
+        console.log("done: git pull");
         spawn("npm", ["install"]).on("close", function() {
+          console.log("done: npm install");
           spawn("docpad", ["generate"]).on("close", function() {
+            console.log("done: docpad generate");
             spawn("coffee", ["-c", "./app.coffee"]).on("close", function() {
+              console.log("done: compile app.coffee");
               spawn('forever', ['stop', _this.app]).on('close', function() {
+                console.log("done: killing old child");
                 if (_this.child) {
                   _this.child.kill();
                 }
@@ -38,6 +43,7 @@
     };
 
     Server.prototype.start = function(app) {
+      console.log("starting up app...");
       this.app = app;
       this.child = spawn('forever', ['start', this.app]);
       this.child.stdout.setEncoding('utf8');
