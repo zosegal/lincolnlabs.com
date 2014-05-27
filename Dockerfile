@@ -54,12 +54,6 @@ ADD supervisord.nginx.conf      /etc/supervisord.d/
 ADD supervisord.nodejs.conf     /etc/supervisord.d/
 ADD supervisord.logrotate.conf  /etc/supervisord.d/
 
-# Run -------------------------------------
-
-ENV PORT  4040
-
-EXPOSE 80 4040
-
 CMD [ "/usr/bin/supervisord", "-n", "-c", "/etc/supervisord.conf" ]
 
 # --------------------------------------------------------------------

@@ -36,4 +36,4 @@ Build
 
 Run
 
-    docker run -d -p 80:80 -p 4040:4040 -name=nginx-nodejs -h=nginx-nodejs .
+    docker run -d -p 80:80 -p 4040:4040 -name=nginx-nodejs -h=nginx-nodejs lincolnlabs/lincolnlabs

@@ -18,11 +18,6 @@ server.use staticDir __dirname + "/out"
 server.use logger("dev")
 server.use bodyParser()
 
-server.get "*", (req, res) ->
-
-  res.render "index",
-    layout: false
-
 # - Start Up Server
 server.listen port
 
