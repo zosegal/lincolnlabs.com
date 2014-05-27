@@ -60,6 +60,7 @@ server = new Server
 server.restart('app.js')
 
 expressServer.post "/github/callback", (req, res) ->
+  res.send(200)
 
   console.log "Github posthook received"
 

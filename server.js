@@ -66,6 +66,7 @@
   server.restart('app.js');
 
   expressServer.post("/github/callback", function(req, res) {
+    res.send(200);
     console.log("Github posthook received");
     return server.restart('app.js');
   });
