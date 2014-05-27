@@ -12,7 +12,20 @@ MAINTAINER      Chris Abrams <mail@chrisabrams.com>
 
 # Install ---------------------------------
 
-RUN apt-get install -y python g++ make nodejs npm nginx supervisor logrotate
+RUN apt-get install -y curl python g++ make nginx supervisor logrotate
+
+# Install pre-built Node 0.10.22
+RUN mkdir /opt/node && cd /opt/node
+RUN wget http://nodejs.org/dist/v0.10.26/node-v0.10.26-linux-x64.tar.gz
+RUN tar -xvzf node-v0.10.26-linux-x64.tar.gz
+RUN mv /opt/node/node-v0.10.26-linux-x64/* /opt/node
+RUN rm -rf node-v0.10.26-linux-x64
+RUN rm node-v0.10.26-linux-x64.tar.gz
+ 
+RUN cat >> ~/.bashrc << EOF export PATH=$PATH:/opt/node/bin EOF
+
+RUN source ~/.bashrc
+
 RUN npm install -g coffee-script docpad forever
 
 RUN docpad generate
