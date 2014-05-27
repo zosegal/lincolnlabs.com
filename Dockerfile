@@ -16,13 +16,9 @@ RUN apt-get install -y curl wget python g++ make nginx supervisor logrotate
 
 # Install pre-built Node 0.10.22
 RUN mkdir /opt/node
-RUN wget http://nodejs.org/dist/v0.10.26/node-v0.10.26-linux-x64.tar.gz
-RUN tar -xvzf node-v0.10.26-linux-x64.tar.gz
-RUN mv node-v0.10.26-linux-x64/* /opt/node
-RUN rm -rf node-v0.10.26-linux-x64
-RUN rm node-v0.10.26-linux-x64.tar.gz
+RUN wget http://nodejs.org/dist/v0.10.26/node-v0.10.26-linux-x64.tar.gz | tar -xf- -C /opt
  
-RUN cat >> ~/.bashrc << EOF export PATH=$PATH:/opt/node/bin EOF
+RUN cat >> ~/.bashrc << EOF export PATH=$PATH:/opt/node-v0.10.26-linux-x64/bin EOF
 
 RUN source ~/.bashrc
 
