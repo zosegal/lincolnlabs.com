@@ -23,6 +23,103 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
+	<style >
+	//FOR DESKTOP BROWSERS
+	.mobile {display:none;}
+	.desktop {display:display;}
+	
+	//FOR MOBILE BROWSERS
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	.mobile {display: block; }
+	.desktop { display: none; }
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+	.mobile {display: block; }
+	.desktop { display: none; }
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+	.mobile {display: block; }
+	.desktop { display: none; }
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+	.mobile {display: block; }
+	.desktop { display: none; }
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+	.mobile {display: block; }
+	.desktop { display: none; }
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+	.mobile {display: block; }
+	.desktop { display: none; }
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+	.mobile {display: none; }
+	.desktop { display: block; }
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+	.mobile {display: none; }
+	.desktop { display: block; }
+}
+ 
+/* iPhone 5 (portrait & landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+	.mobile {display: block; }
+	.desktop { display: none; }
+}
+ 
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+	.mobile {display: block; }
+	.desktop { display: none; }
+}
+ 
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+	.mobile {display: block; }
+	.desktop { display: none; }
+}
+
+	
+	
+	</style>
     <script>
      var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-41140288-1']);
@@ -143,7 +240,7 @@
 </div>
 
 
-  <div class="header-main" style="background-image:url(llabout1.jpg)";>
+  <div class="header-main" style="width: 100%; background-image:url(llabout1.jpg)";>
 
     <div class="container">
       <div class="row masthead">
@@ -166,10 +263,12 @@
       <div class="row">
 
         <div class="row title">
-          <h1 class="uppercase">What we do</h1>
+          <h1 class="col-md-12" style="text-transform: uppercase;">What we do</h1>
         </div>
 
-        <div class="row" style="text-align: left; width: 750px; margin-left: auto; margin-right: auto;">
+        <div id="judges-row" class="row">
+		
+		
 <p><span class="uppercase" style="font-size: 18px; color: #039499;">Meetups</span> Be part of a national community with engineers, designers, product folks and politicos who believe in freedom.</p>
 
 <p><span class="uppercase" style="font-size: 18px; color: #039499;">Hackathons</span> Bring your hacking skills and freedom-advancing ideas to our 24hr hackathons and transform innovative concepts into functional solutions.</p>
@@ -193,16 +292,17 @@
       <div class="row">
 
         <div class="row title">
-          <h1 class="uppercase">Lincoln Labs’ History</h1>
+          <h1 class="col-md-12" style="text-transform: uppercase;">Lincoln Labs’ History</h1>
         </div>
 
-        <div class="row" style="text-align: left; width: 750px; margin-left: auto; margin-right: auto;">
+        <div class="row" >
+          <div class="col-md-12">
 <p>Out of the shellacking of 2012, we started LincolnLabs to reach a forgotten community that felt ostracized with no home. Though the media and the Beltway thought the technology community and Silicon Valley were solidly left, we thought differently. We were conservatarian living in Silicon Valley. If we are here, there has to be others!</p>
 
 <p>First, we started with small events in San Francisco and Silicon Valley. We were amazed at the response. Our first events spread like wildfire in the technology community. Hundreds of techies and young professionals came out of the woodwork to connect and build a community. A few weeks later, we were hosting events all around the country to replicate the growing community in Silicon Valley.</p>
 
 <p>In 2013, we reached thousands of people. We touched the east coast, west coast, and the midwest. In 2014, we are stepping up our game to reach more people and build a lasting community that will take action to solve America’s toughest problems through more efficient government, effective policies, and market-minded reforms</p>
-
+          </div>
          </div>
 
       </div>
@@ -210,13 +310,38 @@
 
   </section>
 
-   <section class="judges">
-
+  <section class="judges">
     <div class="container">
       <div class="row">
 
+	<div class="mobile" style="text-align: center;">
+		<img src="/img/aaron.png"><br />
+		<h2 class="highlight">Aaron Ginn</h2>
+	 	   <div style="width: 60%; margin-left:auto; margin-right: auto;">
+			<p>Aaron used to work for Mitt Romney on growth.</p>
+			<p>Now he works at StumbleUpon as growth PM.</p>
+			<p>Currently the Head of Growth at Stumbleupon, Aaron is an expert on user growth and has a passion for public policy and philosophy. He is a published academic and publicly debates philosophy and political issues. He worked on growth for Romney’s 2012 Presidential campaign. Before that, he started a number of companies and worked in the healthcare finance industry.</p>
+	 	   </div>
+		<img src="/img/garrett.png" alt=""> <br />
+		<h2 class="highlight">Garrett Johnson</h2>
+		   <div style="width: 60%; margin-left:auto; margin-right: auto; ">
+			<p>Garrett worked on the Hill, but now much prefers his life in Silicon Valley.</p>
+			<p>He's now a co-founder at SendHub.</p>
+			<p>Co-Founder of SendHub.com, a venture-backed startup based in Silicon Valley that is replacing antiquated land-line business phone systems with elegant, eco-friendly web and mobile apps. Served as professional staff to the Ranking Member of the U.S. Senate Foreign Relations Committee, where oversight portfolio included Afghanistan, Pakistan and Haiti. Originally from (Tampa) Florida, graduated in 2005 from Florida State University and was the 2006 NCAA Indoor and Outdoor Shot Put champion. Read for the degree of Master of Philosophy in Migration Studies at the University of Oxford, England as a Rhodes Scholar.</p>
+		   </div>				  
 
-        <div id="judges-row" class="row" style="height: 409px;">
+		<img src="/img/chris.png" alt="">
+     	<h2 class="highlight">Chris Abrams</h2>
+		   <div style="width: 60%; margin-left:auto; margin-right: auto;">
+			<p>Chris previously worked in Silicon Valley, but is now based in New York City.</p>
+			<p>He's a software engineer for StumbleUpon.</p>
+			<p>Chris is currently building out new architecture & services for StumbleUpon. Previously he lead the reboot of Delicious, which allows millions of users to collaborate on websites they bookmarked. He's also helped many smaller campaigns develop their technical team.</p>
+		   </div>				  
+				  
+	</div>
+
+
+        <div id="judges-row" class="desktop" style="height: 409px;">
 
           <ul class="col-md-12">
 		    <li style="width: 20%;">&nbsp;</li>
@@ -235,7 +360,7 @@
             </li>			
 		    <li style="width: 20%;">&nbsp;</li>
 		   </ul>
-		   <div id="aaron_ginn" style="width: 60%; margin-left:auto; margin-right: auto; visibility: hidden;">
+		   <div id="aaron_ginn" style="width: 60%; margin-left:auto; margin-right: auto; display: none;">
 			<p>Aaron used to work for Mitt Romney on growth.</p>
 			<p>Now he works at StumbleUpon as growth PM.</p>
 			<p>Currently the Head of Growth at Stumbleupon, Aaron is an expert on user growth and has a passion for public policy and philosophy. He is a published academic and publicly debates philosophy and political issues. He worked on growth for Romney’s 2012 Presidential campaign. Before that, he started a number of companies and worked in the healthcare finance industry.</p>
