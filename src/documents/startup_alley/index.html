@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Contact | LincolnLabs</title>
+    <title>Startup Alley | LincolnLabs</title>
     <meta name="description" content="LincolnLabs advocates for the technology and the startup community for the advancement of liberty." />
     <meta name="keywords" content="silicon valley, technology, libertarian, hackers, engineer, hackathon, liberty" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -22,17 +22,11 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
-      <script type="text/javascript">
-         function showRecaptcha(element) {
-           Recaptcha.create("6LcO-uYSAAAAAHGixjAiI0H9YoN8_uKDDjR7dcJY", element, {
-             theme: "red",
-             callback: Recaptcha.focus_response_field});
-         }
-      </script>
+
 	<style >
 	//FOR DESKTOP BROWSERS
-
+	.mobile {display:none;}
+	.desktop {display:display;}
 	
 	//FOR MOBILE BROWSERS
 /* Smartphones (portrait and landscape) ----------- */
@@ -137,7 +131,21 @@ and (orientation : portrait) {
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
     </script>
-
+	
+	<script>
+	function show_aaron_ginn()
+		{ document.getElementById("aaron_ginn").style.visibility="visible"; document.getElementById("aaron_ginn").style.display="block";}
+	function hide_aaron_ginn()
+		{ document.getElementById("aaron_ginn").style.display="none"; }
+	function show_garret_johnson()
+		{ document.getElementById("garret_johnson").style.visibility="visible"; document.getElementById("garret_johnson").style.display="block";}
+	function hide_garret_johnson()
+		{ document.getElementById("garret_johnson").style.display="none"; }
+	function show_chris_abrams()
+		{ document.getElementById("chris_abrams").style.visibility="visible"; document.getElementById("chris_abrams").style.display="block";}
+	function hide_chris_abrams()
+		{ document.getElementById("chris_abrams").style.display="none"; }
+	</script>
 </head>
 
 <body>
@@ -192,6 +200,7 @@ and (orientation : portrait) {
             <li><a href="/hackathons">Hackathons</a></li>
             <li><a href="/meetups">Meetups</a></li>
             <li><a href="/conferences">Conferences</a></li>
+			<li><a href="/contact">Contact</a></li>
           </ul>
         </li>
         -->
@@ -234,16 +243,19 @@ and (orientation : portrait) {
 </div>
 
 
-  <div class="header-main" style="width: 100%; background-image:url(llcontact1.jpg)";>
+  <div class="header-main" style="width: 100%; background-image:url(llstartup_alley.jpg)";>
 
     <div class="container">
       <div class="row masthead">
         <div class="col-sm-6 col-md-6 headline">
-          <h1 style="color: #CCCCCC; font-size: 26px;">Get In Touch</h1>
-          <h2 style="font-size: 22px; color: #333333;">Send Us Your Thoughts Below</h2>
+          <h1 style="color: #FFFFFF; font-size: 26px;">Microsoft Startup Alley</h1>
+          <h2 style="font-size: 22px; color: #CCCCCC;">Demo the right tools</h2>
         </div>
         <div class="col-sm-6 col-md-6 prize-section">
-		&nbsp;
+
+		<p style="font-size: 22px; color: #CCCCCC;">During our conference, we will be hosting the Microsoft Startup Alley. This will be full of startups showing off their technology and creativity. You'll definitely want to make sure to stop and check it out!
+</p>
+          
         </div>
       </div>
     </div>
@@ -253,57 +265,134 @@ and (orientation : portrait) {
     <div class="container">
       <div class="row">
         <div class="row title">
-          <h1 class="col-md-12" >Contact</h1>
+          <h1 class="col-md-12" >Sponsored By</h1>
         </div>	  
+	<div class="mobile" style="text-align: center;">
+		<img src="../img/logos/logo_microsoft.jpg" width=146/>
+    </div>
+	
+	<div id="judges-row" class="desktop" >
+		<img src="../img/logos/logo_microsoft.jpg" />
+    </div>
 
-        <div id="judges-row" style="height: 275px;">
 
-        <div style="width: 45%; display: block; float: left; " >
-		<form method=POST style="margin-top: 0px;">
-		<div style="width: 50%; float: left; text-align: right; height: 52px; padding-right: 5px; vertical-align:text-top;">Name:</div>
-		<div style="width: 50%; float: right; text-align: left;"><input class="form-control" type=text name="name" style="width: 240px; "></div>
-		<div style="width: 50%; float: left; margin-top: 20px; text-align: right; height: 52px; padding-right: 5px; vertical-align:text-top;">Email:</div>
-		<div style="width: 50%; float: right; margin-top: 20px; text-align: left;"><input class="form-control" type=text name="email" style="width: 240px; "></div>
-		<div style="width: 50%; float: left; margin-top: 20px; text-align: right; height: 60px; padding-right: 5px; vertical-align:text-top;">Message:</div>
-		<div style="width: 50%; float: right; margin-top: 20px; text-align: left;"><textarea class="form-control" name=message style="width: 240px; height: 60px;"></textarea></div>		
- 
-		<div style="width: 50%; float: left; margin-top: 20px;">&nbsp; </div>
-		<div style="width: 50%; float: left; margin-top: 20px; text-align: left;"><input type=submit value="submit" /></div>
-
-		</form>
-		</div>
-		
-		<div class="desktop" style="width: 45%; float: right; text-align: left; vertical-align:text-top;" >
-		<p>Media Contact <br />
-		<a href="mailto:press@lincolnlabs.com">press@lincolnlabs.com</a></p>
-		<p>General Inquiries<br />
-		<a href="mailto:about@lincolnlabs.com">about@lincolnlabs.com</a></p>
-		<p>VIP Registrations and Sponsorships<br />
-		<a href="mailto:pasha@lincolnlabs.com">pasha@lincolnlabs.com</a></p>
-
-		</div>
-
-        </div>
-				   <div class="mobile" style="width:100%;">
-		<p>Media Contact <br />
-		<a href="mailto:press@lincolnlabs.com">press@lincolnlabs.com</a></p>
-		<p>General Inquiries<br />
-		<a href="mailto:about@lincolnlabs.com">about@lincolnlabs.com</a></p>
-		<p>VIP Registrations and Sponsorships<br />
-		<a href="mailto:pasha@lincolnlabs.com">pasha@lincolnlabs.com</a></p>		   
-		   
-		   </div>
       </div>
     </div>
   </section>  
   
   
 
+  <section class="Register">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="row title">
+          <h1 class="col-md-12" >Register</h1>
+        </div>
+
+        <div class="row" >
+          <div class="col-md-12" style="text-align: left;">
+		
+		<iframe  src="https://www.eventbrite.com/tickets-external?eid=11181914407&ref=etckt" frameborder="0" height="306" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+ 	</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="Sponsors" style="background: #FFFFFF;">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="row title">
+          <h1 class="col-md-12" >Brought to you By</h1>
+        </div>
+
+        <div class="row" >
+          <div class="col-md-12">
+
+	<div class="mobile" style="text-align: center;">
+		<img src="../img/logos/logo_crowdtilt.png"  width=146><br />
+		<h2 class="highlight"></h2>
+
+		<img src="../img/logos/logo_nationbuilder.png" alt="" width=146> <br />
+		<h2 class="highlight"></h2>
+				  
+		<img src="../img/logos/logo_sendhub.png" alt="" width=146>
+     	<h2 class="highlight"></h2>
+		
+		<img src="../img/logos/logo_brigade.png"  width=146><br />
+		<h2 class="highlight"></h2>
+
+		<img src="../img/logos/logo_genopp.png" alt="" width=146><br />
+		<h2 class="highlight"></h2>
+				  
+		<img src="../img/logos/logo_i360.png" alt="" width=146>
+     	<h2 class="highlight"></h2>				  
+				  
+	</div>
+
+
+        <div id="judges-row" class="desktop" >
+
+          <ul class="col-md-12" style="display: block; float: left; width: 1170px; ">
+		    <li style="width: 20%; float: left; vertical-align: middle;">&nbsp;</li>
+            <li style="width: 20%; float: left; display: block; float: left;  vertical-align: middle;" >
+              <img src="../img/logos/logo_crowdtilt.png"  width=146>
+              <h2 class="highlight"></h2>
+            </li>
+            <li style="width: 20%; float: left; display: block; vertical-align: middle;">
+              <img src="../img/logos/logo_nationbuilder.png" alt="" width=146>
+              <h2 class="highlight"></h2>
+            </li>
+            <li style="width: 20%; float: left; display: block; vertical-align: middle;">
+              <img src="../img/logos/logo_sendhub.png" alt="" width=146>
+              <h2 class="highlight"></h2>
+            </li>			
+		    <li style="width: 20%; float: left; ">&nbsp;</li>
+		   </ul>
+<p>&nbsp;</p>		   
+          <ul class="col-md-12">
+		    <li style="width: 20%; float: left; ">&nbsp;</li>
+            <li style="width: 20%; float: left; display: block; vertical-align: middle;">
+              <img src="../img/logos/logo_brigade.png"  width=146>
+              <h2 class="highlight"></h2>
+            </li>
+            <li style="width: 20%; float: left; display: block; vertical-align: middle;">
+              <img src="../img/logos/logo_genopp.png" alt="" width=146>
+              <h2 class="highlight"></h2>
+            </li>
+            <li style="width: 20%; float: left; display: block; vertical-align: middle;">
+              <img src="../img/logos/logo_i360.png" alt="" width=146>
+              <h2 class="highlight"></h2>
+            </li>			
+		    <li style="width: 20%; float: left; ">&nbsp;</li>
+		   </ul>
+
+		   
+        </div>
+
+
+
+
+          </div>
+         </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+
   <div id="footer-wrapper">
   <div id="footer" class="container">
     <div class="row">
       <div class="col-xs-12 col-ms-12 col-sm-12">
-        <span class="center"><b><p style="color: #000000; font-size: 26px;">Thank you for your interest in Lincoln Labs</p></span>	  
+        <span class="center"><b>For questions regarding VIP registrations and sponsorships, please contact Pasha Moore via <a href="mailto:pasha@lincolnlabs.com">Pasha@lincolnlabs.com</a> </span>	  
         <span class="center"><b>Want an interview?</b> <a href="mailto:press@lincolnlabs.com?subject=I would like to inquire...">press@lincolnlabs.com</a></span>
 
         <span class="center">Have a question? <a href="mailto:about@lincolnlabs.com">about@lincolnlabs.com</a></span>
