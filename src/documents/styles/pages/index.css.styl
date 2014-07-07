@@ -1,0 +1,349 @@
+---
+referencesOthers: true
+---
+
+@import '../_global'
+@import '../_panel'
+@import '../_navbar'
+@import '../_footer'
+
+// Homepage Content
+#bg-body-homepage
+  width 100%
+  height 675px
+  float left
+  position fixed
+  top 0
+  z-index -1
+  background-image url(../../img/bg-body-homepage.jpg)
+  background-size cover
+  background-repeat no-repeat
+  background-position center center
+
+#img-lincoln-labs-logo-full
+  width 100%
+  height 494px
+  background-image url(../../img/logo-lincoln-labs-full.png)
+  background-repeat no-repeat
+  background-position center 60px
+  background-size 269px 255px
+
+#wrapper-homepage-content
+  width 100%
+  background-color #e2e2e2
+  float left
+  margin-top 120px
+
+#container-homepage-content
+  background-color #fff
+  min-height 1000px
+  margin-top -120px
+
+#homepage-headline-about
+  margin-top 15px
+  margin-bottom 30px
+
+#homepage-h2
+  padding-top 375px
+  font-size 32px
+  text-transform uppercase
+  font-weight 500
+  color #fff
+
+.homepage-h1
+  margin-top 10px
+  color hex-teal
+  font-size 42px
+  text-transform uppercase
+  font-weight 400
+
+.homepage-h2
+  margin-top 30px
+  color hex-teal
+  font-size 28px
+  text-transform uppercase
+  font-weight 300
+
+#build-tools
+  margin-top 15px
+
+#ebform
+  display block
+  height 280px
+  margin 30px 0 0px
+  width 100%
+
+@media (max-width: 767px)
+
+  #ebform
+    height 330px
+
+@media (max-width: 568px)
+
+  #ebform
+    height 380px
+
+#homepage-headline-about
+    
+  .homepage-h1, .homepage-h2, .homepage-h3
+    text-align center
+
+.homepage-h3
+  margin-top 30px
+  color hex-teal
+  font-size 24px
+  text-transform uppercase
+  font-weight 100
+
+.homepage-h3.bold
+  font-weight 500
+
+.homepage-h3.prize-money
+  font-size 38px
+
+.homepage-h3 + .homepage-h3
+  margin-top 10px
+
+.homepage-h3-extra
+  margin-top 30px
+  color hex-teal
+  font-size 24px
+  text-transform uppercase
+  font-weight 300
+
+#h3-date
+  font-weight 500
+    
+#h3-location
+  font-weight 300
+
+.homepage-h4
+  margin-bottom 15px
+  color hex-lght-red
+
+#stay-tuned
+  margin-bottom 45px
+
+.homepage-about-p
+  font-size 16px
+  font-weight 300
+  color hex-dk-teal
+
+#alert-reg-link
+  display block
+  font-size 16px
+  margin-top 30px
+  margin-bottom 90px
+  text-align center
+
+.homepage-goal
+  min-height 150px
+
+.homepage-h5,
+.homepage-goal-p
+  margin-top 170px
+
+.homepage-goal-p.short
+  margin-top 65px
+
+.homepage-h5.short
+  margin-top 60px
+
+@media (max-width: 568px)
+
+  .homepage-goal-p.short
+    border-left 0
+
+.homepage-h5
+  font-size 22px
+  font-weight 500
+
+.homepage-goal-p
+  font-size 18px
+  font-weight 300
+  border-left 1px solid #fff
+  padding-left 15px
+
+#homepage-goal-1
+  color #fff
+  background-color hex-dk-teal
+    
+#homepage-goal-2
+  color hex-teal
+
+#homepage-goal-2 div div div p
+  border-left 1px solid hex-teal
+  padding-left 15px
+
+#homepage-goal-3
+  color #fff
+  background-color hex-dk-teal
+
+#homepage-headline-sponsor
+  color hex-dk-teal
+  margin-top 90px
+
+#sponsor-g-o,
+#sponsor-microsoft
+  margin-bottom 60px
+
+#sponsor-g-o a,
+#sponsor-microsoft a
+  display block
+  width 100%
+  height 100%
+  text-indent -9999px
+    
+#sponsor-microsoft
+  display block
+  width 100%
+  height 120px
+  background-image url(../../img/microsoft.jpg)
+  background-repeat no-repeat
+  background-position center center
+  background-size 50%
+
+#sponsor-g-o
+  display block
+  width 100%
+  height 120px
+  background-image url(../../img/genopp.png)
+  background-repeat no-repeat
+  background-position center center
+  background-size 25%
+
+#sponsor-causes
+  display block
+  width 100%
+  height 120px
+  background-image url('//cp-main.caudn.com/assets/logos/full-d6b1c7872810a98d2580293b3738c109.svg')
+  background-repeat no-repeat
+  background-position center center
+  background-size 40%
+
+// Conferences
+#wrapper-conferences-content
+  width 100%
+  background-color #e2e2e2
+  float left
+  margin-top 240px
+
+#container-conferences-content
+  background-color #fff
+  min-height 1000px
+  margin-top -120px
+
+// Contact
+#wrapper-contact-content
+  width 100%
+  background-color #e2e2e2
+  float left
+  margin-top 240px
+
+#container-contact-content
+  background-color #fff
+  min-height 1000px
+  margin-top -120px
+
+// Extra Small devices (up to 479px)
+@media (max-width: 479px)
+
+  // Homepage Content
+  #img-lincoln-labs-logo-full
+    height 304px
+    background-size 136px 126px
+    background-position center 45px
+
+  #homepage-h2
+    padding-top 190px
+    font-size 22px
+    font-weight 500
+      
+  .homepage-h5, 
+  .homepage-goal-p
+    margin-top 60px
+
+@media (max-width: 568px)
+
+  .homepage-goal-p.short
+    margin-top 0
+
+.judges
+  margin 30px 0
+  text-align center
+
+.judges ul li
+  display inline-block
+  vertical-align top
+  width 20%
+
+@media (max-width: 767px)
+
+  .judges ul li
+    width 100%
+    margin-bottom 50px
+
+.judges ul li img
+  border-radius 50%
+
+.judges ul li h2
+  font-size 16px
+
+@media (min-width 579px)
+
+  .homepage-goal
+    
+    .homepage-h5
+      margin-top 110px
+    
+    .homepage-h5.lower
+      margin-top 150px
+
+.as-seen-in
+  margin-top 70px
+  
+  a
+    display inline-block
+    padding 2%
+    vertical-align middle
+    width 24%
+
+    img
+      width 100%
+
+@media (max-width: 1023px)
+
+  .homepage-goal
+      
+    .homepage-h5
+      font-size 18px
+      margin-top 50px
+
+    .homepage-h5.short
+      margin-top 60px
+
+  .as-seen-in
+    margin-top 0
+
+@media (min-width: 1024px) and (max-width: 1200px)
+
+  .homepage-goal
+      
+    .homepage-h5
+      margin-top 103px
+
+    .homepage-h5.short
+      margin-top 60px
+
+@media (min-width: 1201px)
+
+  .homepage-goal
+      
+    .homepage-h5
+      margin-top 113px
+
+    .homepage-h5.short
+      margin-top 60px
+
+    .homepage-h5.lower
+      margin-top 150px
